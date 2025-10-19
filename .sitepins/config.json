@@ -11,19 +11,16 @@
   },
   "themeConfig": [
     "config",
-    "astro.config.mjs",
     "tsconfig.json",
-    ".sitepins",
     ".sitepins/config.json",
     "public/sitepins-manifest.json",
-    "scripts/jsonGenerator.js",
     "src/config",
     "src/config/config.json",
     "src/config/menu.json",
     "src/config/social.json",
     "src/config/theme.json",
-    "src/content.config.ts",
-    "src/layouts"
+    "package.json",
+    "src/hooks"
   ],
   "arrangement": [],
   "showCommitModal": true
