@@ -2,11 +2,11 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#121212",
-        "body": "#fff",
-        "border": "#eaeaea",
-        "light": "#f6f6f6",
-        "dark": "#040404"
+        "primary": "#015c4a",
+        "body": "#f6f8fa",
+        "border": "#dde5e0",
+        "light": "#ffffff",
+        "dark": "#0d1b16"
       },
       "text_color": {
         "text": "#444444",
@@ -29,7 +29,6 @@
       }
     }
   },
-
   "fonts": {
     "font_family": {
       "primary": "The Future",
@@ -41,5 +40,5 @@
       "base": "17",
       "scale": "1.25"
     }
-  } 
+  }
 }
