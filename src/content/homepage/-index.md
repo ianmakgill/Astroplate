@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: Get Started For Free
-    link: https://github.com/zeon-studio/astroplate
+    link: https://app.openopps.com/
 features:
   - title: What's Included in Astroplate
     image: /images/service-1.png
@@ -59,4 +59,5 @@ features:
       enable: false
       label: ''
       link: ''
+draft: false
 ---
