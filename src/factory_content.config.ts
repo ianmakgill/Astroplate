@@ -180,8 +180,8 @@ const researchCollection = defineCollection({
 });
 
 // Product pages
-const productsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/products" }),
+const productCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/product" }),
   schema: z.object({
     ...commonFields,
     icon: z.string().optional(),
@@ -216,9 +216,9 @@ const testimonialsCollection = defineCollection({
   }),
 });
 
-// Employees (team profiles)
-const employeesCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/employees" }),
+// Team (team profiles)
+const teamCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/team" }),
   schema: z.object({
     name: z.string(),
     title: z.string().optional(),
@@ -259,9 +259,9 @@ export const collections = {
   updates: updatesCollection,
   guides: guidesCollection,
   research: researchCollection,
-  products: productsCollection,
+  products: productCollection,
   help: helpCollection,
   testimonials: testimonialsCollection,
-  employees: employeesCollection,
+  team: teamCollection,
   insights: insightsCollection,
 };
