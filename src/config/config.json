@@ -4,12 +4,12 @@
     "base_url": "https://astroplate.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "favicon": "media/public/images/dark_green_owl.png",
+    "logo": "media/public/images/Owl_logo_web_p.svg",
+    "logo_darkmode": "media/public/images/Owl-white-on-green_p_050926.svg",
     "logo_width": "150",
     "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_text": "Open Opportunities"
   },
   "settings": {
     "search": true,
@@ -42,5 +42,6 @@
     "meta_author": "zeon.studio",
     "meta_image": "/images/og-image.png",
     "meta_description": "astro and tailwind boilerplate"
-  }
+  },
+  "draft": false
 }
