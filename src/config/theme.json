@@ -9,9 +9,9 @@
         "dark": "#0d1b16"
       },
       "text_color": {
-        "text": "#444444",
-        "text_dark": "#040404",
-        "text_light": "#717171"
+        "text": "#1e2420",
+        "text_dark": "#0d1b16",
+        "text_light": "#1e2420"
       }
     },
     "darkmode": {
@@ -40,5 +40,6 @@
       "base": "17",
       "scale": "1.25"
     }
-  }
+  },
+  "draft": false
 }
