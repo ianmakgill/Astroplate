@@ -4,9 +4,9 @@
     "base_url": "https://astroplate.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "media/public/images/dark_green_owl.png",
-    "logo": "media/public/images/Owl_logo_web_p.svg",
-    "logo_darkmode": "media/public/images/Owl-white-on-green_p_050926.svg",
+    "favicon": "/images/dark_green_owl.png",
+    "logo": "/images/Owl_logo_web_p.svg",
+    "logo_darkmode": "/images/Owl-white-on-green_p_050926.svg",
     "logo_width": "150",
     "logo_height": "30",
     "logo_text": "Open Opportunities"
