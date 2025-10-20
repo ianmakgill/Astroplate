@@ -82,6 +82,7 @@ const homepageCollection = defineCollection({
         enable: z.boolean(),
         label: z.string(),
         link: z.string(),
+        subtitle: z.string(),
       }),
     }),
     features: z.array(

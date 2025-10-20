@@ -1,12 +1,13 @@
 ---
 banner:
   title: Save time on government sales
-  content: Save 4 hours a week, every week
+  content: Save 4 hours a week, every week.
   image: /images/banner.png
   button:
     enable: true
     label: Get Started For Free
     link: https://app.openopps.com/
+    subtitle: No credit card required.
 features:
   - title: What's Included in Astroplate
     image: /images/service-1.png

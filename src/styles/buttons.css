@@ -13,3 +13,8 @@
 .btn-outline-primary {
   @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
 }
+
+/* Large size variant (matches your existing .btn-sm pattern) */
+.btn-lg {
+  @apply px-8 py-4 text-lg;
+}
