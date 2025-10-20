@@ -22,12 +22,17 @@
   },
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Designed and developed by Open Opportunities."
   },
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "label": "Login",
+    "link": "https://app.openopps.com"
+  },
+  "navigation_button_secondary": {
+    "enable": true,
+    "label": "Try for free",
+    "link": "https://app.openopps.com/onboarding"
   },
   "google_tag_manager": {
     "enable": true,
@@ -39,9 +44,9 @@
     "settings": {}
   },
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "Open Opportunities",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "The #1 ranked contract opportunitie alert service in the world"
   },
   "draft": false
 }

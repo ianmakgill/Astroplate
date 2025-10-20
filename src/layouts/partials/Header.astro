@@ -146,6 +146,15 @@ const { pathname } = Astro.url;
           </a>
         )
       }
+      {
+        config.navigation_button_secondary?.enable && (
+        <a
+          class="btn btn-primary btn-sm hidden lg:inline-block ml-3"
+          href={config.navigation_button_secondary.link}
+        >
+          {config.navigation_button_secondary.label}
+        </a>
+      )}
     </div>
   </nav>
 </header>
