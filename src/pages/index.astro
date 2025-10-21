@@ -67,13 +67,13 @@ console.log("Banner data:", banner);
       <section class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
         <div class="container">
           <div class="row items-center justify-between">
-            <div
-              class={`mb:md-0 mb-6 md:col-5 ${index % 2 !== 0 && "md:order-2"}`}
+            <div 
+              class={`mb:md-0 mb-6 md:col-5 ${feature.image_side === "right" && "md:order-2"}`}
             >
               <ImageMod
                 src={feature.image}
-                height={480}
-                width={520}
+                height={500}
+                width={600}
                 alt={feature.title}
                 format="webp"
               />

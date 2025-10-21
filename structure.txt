@@ -1,0 +1,132 @@
+src
+├── assets
+│   └── fonts
+│       ├── the-future-bold-italic.woff2
+│       ├── the-future-bold.woff2
+│       ├── the-future-italic.woff2
+│       ├── the-future-light-italic.woff2
+│       ├── the-future-light.woff2
+│       ├── the-future-medium-italic.woff2
+│       ├── the-future-medium.woff2
+│       └── the-future-regular.woff2
+├── config
+│   ├── config.json
+│   ├── menu.json
+│   ├── social.json
+│   └── theme.json
+├── content
+│   ├── about
+│   │   └── -index.md
+│   ├── authors
+│   │   ├── -index.md
+│   │   ├── john-doe.md
+│   │   ├── sam-wilson.md
+│   │   └── william-jacob.md
+│   ├── blog
+│   │   ├── -index.md
+│   │   ├── post-1.md
+│   │   ├── post-2.md
+│   │   ├── post-3.md
+│   │   └── post-4.md
+│   ├── contact
+│   │   └── -index.md
+│   ├── guides
+│   ├── homepage
+│   │   └── -index.md
+│   ├── insights
+│   ├── pages
+│   │   ├── elements.mdx
+│   │   └── privacy-policy.md
+│   ├── product
+│   ├── research
+│   │   └── test-research.md
+│   ├── sections
+│   │   ├── call-to-action.md
+│   │   └── testimonial.md
+│   ├── team
+│   ├── testimonial
+│   └── updates
+├── content.config.ts
+├── factory_content.config.ts
+├── hooks
+│   └── useTheme.ts
+├── layouts
+│   ├── Base.astro
+│   ├── components
+│   │   ├── AuthorCard.astro
+│   │   ├── BlogCard.astro
+│   │   ├── Breadcrumbs.astro
+│   │   ├── ImageMod.astro
+│   │   ├── Logo.astro
+│   │   ├── Pagination.astro
+│   │   ├── Share.astro
+│   │   ├── Social.astro
+│   │   ├── ThemeSwitcher.astro
+│   │   └── TwSizeIndicator.astro
+│   ├── helpers
+│   │   ├── Disqus.tsx
+│   │   ├── DynamicIcon.tsx
+│   │   ├── SearchModal.tsx
+│   │   └── SearchResult.tsx
+│   ├── partials
+│   │   ├── CallToAction.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── PageHeader.astro
+│   │   ├── PostSidebar.astro
+│   │   └── Testimonial.astro
+│   ├── PostSingle.astro
+│   └── shortcodes
+│       ├── Accordion.tsx
+│       ├── Button.tsx
+│       ├── Notice.tsx
+│       ├── Tab.tsx
+│       ├── Tabs.tsx
+│       ├── Video.tsx
+│       └── Youtube.tsx
+├── lib
+│   ├── contentParser.astro
+│   ├── taxonomyParser.astro
+│   └── utils
+│       ├── bgImageMod.ts
+│       ├── dateFormat.ts
+│       ├── readingTime.ts
+│       ├── similarItems.ts
+│       ├── sortFunctions.ts
+│       ├── taxonomyFilter.ts
+│       └── textConverter.ts
+├── pages
+│   ├── [regular].astro
+│   ├── 404.astro
+│   ├── about.astro
+│   ├── authors
+│   │   ├── [single].astro
+│   │   └── index.astro
+│   ├── blog
+│   │   ├── [single].astro
+│   │   ├── index.astro
+│   │   └── page
+│   ├── categories
+│   │   ├── [category].astro
+│   │   └── index.astro
+│   ├── contact.astro
+│   ├── index.astro
+│   └── tags
+│       ├── [tag].astro
+│       └── index.astro
+├── styles
+│   ├── base.css
+│   ├── buttons.css
+│   ├── components.css
+│   ├── main.css
+│   ├── navigation.css
+│   ├── safe.css
+│   ├── search.css
+│   └── utilities.css
+├── tailwind-plugin
+│   ├── tw-bs-grid.js
+│   └── tw-theme.js
+└── types
+    └── index.d.ts
+
+36 directories, 94 files

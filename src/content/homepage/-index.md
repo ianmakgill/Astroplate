@@ -1,15 +1,17 @@
 ---
 banner:
   title: Save time on government sales
-  content: Save 4 hours a week, every week
+  content: Save 4 hours a week, every week.
   image: /images/banner.png
   button:
     enable: true
     label: Get Started For Free
     link: https://app.openopps.com/
+    subtitle: No credit card required
 features:
   - title: Instantly search across 800 sources
-    image: media/public/images/portal-maze.png
+    image: /images/portal-maze.png
+    image_side: right
     content: >-
       Astroplate is a comprehensive starter template that includes everything
       you need to get started with your Astro project. What's Included in
@@ -26,7 +28,8 @@ features:
       label: Get Started Now
       link: '#'
   - title: Narrow your search to your location
-    image: media/public/images/countries.png
+    image: /images/countries.png
+    image_side: right
     content: >-
       Astro is an all-in-one web framework for building fast, content-focused
       websites. It offers a range of exciting features for developers and
@@ -40,7 +43,8 @@ features:
       label: Get Started Now
       link: https://github.com/zeon-studio/astroplate
   - title: Download specification documents with Open Opportunities
-    image: media/public/images/attachments2.png
+    image: /images/attachments2.png
+    image_side: right
     content: >-
       With Astro, you can build modern and content-focused websites without
       sacrificing performance or ease of use.
@@ -60,14 +64,16 @@ features:
       label: ''
       link: ''
   - title: Get daily alerts right to your inbox
-    image: media/public/images/email-alert.png
+    image: /images/email-alert.png
+    image_side: right
     content: ''
     bulletpoints: []
     button:
       label: ''
       link: ''
   - title: We've classified every document for you
-    image: media/public/images/categories.png
+    image: /images/categories.png
+    image_side: right
     content: ''
     bulletpoints: []
     button:
