@@ -10,7 +10,7 @@ banner:
     subtitle: No credit card required
 features:
   - title: Instantly search across 800 sources
-    image: /front_page_portal_maze.png
+    image: /images/front_page_portal_maze.png
     image_side: right
     content: >-
       Astroplate is a comprehensive starter template that includes everything
@@ -28,7 +28,7 @@ features:
       label: Get Started Now
       link: '#'
   - title: Use keywords to find the right opportunities
-    image: /front_page_keyword.png
+    image: /images/front_page_keyword.png
     image_side: right
     content: Finding opportunities across hundreds of different portals.
     bulletpoints: []
@@ -36,7 +36,7 @@ features:
       label: ''
       link: ''
   - title: Narrow your search to your location
-    image: /front_page_countries.png
+    image: /images/front_page_countries.png
     image_side: right
     content: >-
       Astro is an all-in-one web framework for building fast, content-focused
@@ -51,7 +51,7 @@ features:
       label: Get Started Now
       link: https://github.com/zeon-studio/astroplate
   - title: Download specification documents with Open Opportunities
-    image: /front_page_attachments2.png
+    image: /images/front_page_attachments2.png
     image_side: right
     content: >-
       With Astro, you can build modern and content-focused websites without
@@ -72,7 +72,7 @@ features:
       label: ''
       link: ''
   - title: Get daily alerts right to your inbox
-    image: /front_page_email_alert.png
+    image: /images/front_page_email_alert.png
     image_side: right
     content: ''
     bulletpoints: []
@@ -80,7 +80,7 @@ features:
       label: ''
       link: ''
   - title: We've classified every document for you
-    image: /front_page_categories.png
+    image: /images/front_page_categories.png
     image_side: right
     content: ''
     bulletpoints: []

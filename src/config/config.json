@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Open Opportunities",
-    "base_url": "https://astroplate.netlify.app",
+    "base_url": "https://openopps.com/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/logos/dark_green_owl.png",
@@ -39,7 +39,7 @@
     "gtm_id": "GTM-XXXXXX"
   },
   "disqus": {
-    "enable": true,
+    "enable": false,
     "shortname": "themefisher-template",
     "settings": {}
   },
