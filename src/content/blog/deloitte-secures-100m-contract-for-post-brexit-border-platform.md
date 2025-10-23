@@ -7,7 +7,7 @@ categories:
 tags: 
   - "consulting"
   - "export"
-coverImage: "imak___container_with_asian_ornament_deep_green_color_034737_th_fd37a4f0-4e60-45a4-8acb-776a1f566649.png"
+image: "/images/imak___container_with_asian_ornament_deep_green_color_034737_th_fd37a4f0-4e60-45a4-8acb-776a1f566649.png"
 ---
 
 In August 2023, HMRC [awarded](https://www.contractsfinder.service.gov.uk/notice/da844e84-d4b4-46fa-8f40-df5a87866626?origin=SearchResults&p=1) consulting giant Deloitte a contract worth up to £100 million to support post-Brexit trade operations. Under this deal, Deloitte will design, build, operate, and maintain a new digital platform enabling UK businesses to submit trade data required by government agencies.

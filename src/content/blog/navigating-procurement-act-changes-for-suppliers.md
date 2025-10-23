@@ -6,7 +6,7 @@ categories:
 tags: 
   - "procurement-act-2023"
   - "uk-procurement-thresholds-2024"
-coverImage: "imak___modern_open_space_office_with_green_plants_wall_focus_on_aa62a70e-0189-4094-9b80-ea7b6b638b9b.png"
+image: "/images/imak___modern_open_space_office_with_green_plants_wall_focus_on_aa62a70e-0189-4094-9b80-ea7b6b638b9b.png"
 ---
 
 Sales and bid managers must stay abreast of potential regulatory changes in the dynamic procurement landscape. While [the proposed amendments to the UK procurement law regime](https://bills.parliament.uk/bills/3159#timeline "the proposed amendments to the UK procurement law regime") have significant implications, particularly concerning contract values. Understanding these changes and strategising accordingly is paramount for effective sales and bid management.

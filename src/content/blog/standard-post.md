@@ -7,7 +7,7 @@ categories:
 tags: 
   - "creative"
   - "enterprise"
-coverImage: "background15.png"
+image: "/images/background15.png"
 ---
 
 In the rapidly evolving landscape of global trade, government suppliers are turning to cutting-edge technologies to enhance efficiency and competitiveness. Artificial Intelligence (AI) emerges as a pivotal force, reshaping the dynamics of digital exports. This article delves into the multifaceted role of AI in empowering government suppliers to navigate the complexities of international trade.

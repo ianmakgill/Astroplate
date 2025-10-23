@@ -15,7 +15,7 @@ tags:
   - "unfpa-equalizer-challenge"
   - "women-led-healthcare-enterprises"
   - "womens-health-innovation"
-coverImage: "image-12.png"
+image: "/images/image-12.png"
 ---
 
 The United Nations Population Fund (UNFPA) has launched [**The Equalizer Challenge: Scaling Women’s Health Innovations**](https://www.unfpa.org/equalizer-challenge-scaling-womens-health-innovations), providing catalytic funding alongside a six-month development programme specifically for women-led healthcare enterprises.
@@ -30,7 +30,7 @@ Our [Global Medical & Healthcare Supply Chain Analysis](https://www.openopps.com
 
 <figure>
 
-![](images/image.png)
+![](/images/image.png)
 
 <figcaption>
 

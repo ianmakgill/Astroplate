@@ -6,7 +6,7 @@ categories:
 tags: 
   - "eu-policy"
   - "sustainable-procurement"
-coverImage: "imak___futuristic_business_centre_with_trees_inside_without_any_bd3bf22c-2bea-4b7b-9170-939162ae74ad.png"
+image: "/images/imak___futuristic_business_centre_with_trees_inside_without_any_bd3bf22c-2bea-4b7b-9170-939162ae74ad.png"
 ---
 
 The European Union has significantly increased its support for green initiatives and state aid, exemplified by flagship programs [EU Green Deal and REPowerEU](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal/repowereu-affordable-secure-and-sustainable-energy-europe_en). This surge in funding aimed at sustainability presents lucrative opportunities for sales and bid managers targeting EU public sector contracts, but it also introduces new complexities.
@@ -35,7 +35,7 @@ The shift toward greener subsidies in the EU underscores the importance for bid 
 
 **Are you looking for new contract opportunities in EU countries?**
 
-![](images/giphy.gif)
+![](/images/giphy.gif)
 
 If you're looking for government contracts in EU countries, try our new platform OpenOpportunities. Spend Network has developed this new tool to allow easy access to global opportunities to sell to governments.
 

@@ -6,7 +6,7 @@ categories:
 tags: 
   - "customer-journey"
   - "sales-strategy"
-coverImage: "imak___office_with_a_green_plant_wall_team_chatting_in_the_far__f620adbb-96d3-43e7-a7d6-8555969fd7a6.png"
+image: "/images/imak___office_with_a_green_plant_wall_team_chatting_in_the_far__f620adbb-96d3-43e7-a7d6-8555969fd7a6.png"
 ---
 
 Business-to-business (B2B) sales entail a more complicated customer journey than business-to-consumer scenarios. As a sales or bid manager, you must navigate a web of stakeholder interests and influencers. Recent [research](https://www.researchgate.net/publication/333104181_Using_customer_journey_mapping_to_improve_industrial_sales_and_customer_experience) by Østerlund, West, Stoll and Kowalkowski indicates that traditional customer journey mapping techniques need adaptation to uncover insights in convoluted B2B environments.

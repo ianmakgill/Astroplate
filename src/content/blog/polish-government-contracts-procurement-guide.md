@@ -11,7 +11,7 @@ tags:
   - "polish-government-contracts"
   - "polish-public-tenders"
   - "public-contracts-poland"
-coverImage: "Presidential-Palace-Warsaw.webp"
+image: "/images/Presidential-Palace-Warsaw.webp"
 ---
 
 [](https://www.openopps.com/polish-government-contracts-procurement-guide/)

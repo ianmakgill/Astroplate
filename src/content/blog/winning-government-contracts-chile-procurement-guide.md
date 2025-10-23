@@ -8,7 +8,7 @@ tags:
   - "chilean-public-procurement"
   - "mercado-publico"
   - "public-tenders-chile"
-coverImage: "moneda-palace-santiago-chile-18168844.webp"
+image: "/images/moneda-palace-santiago-chile-18168844.webp"
 ---
 
 ### Comprehensive Guide to Securing Government Contracts in Chile: Legal Frameworks, Trade Policies, and Procedural Requirements

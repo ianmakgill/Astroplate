@@ -3,7 +3,7 @@ title: "New user interface feature: Country collections"
 date: 2025-10-06
 categories: 
   - "releases"
-coverImage: "Screenshot-2025-10-06-at-141406.png"
+image: "/images/Screenshot-2025-10-06-at-141406.png"
 ---
 
 Users can now create their own groups of countries in Open Opportunities.  

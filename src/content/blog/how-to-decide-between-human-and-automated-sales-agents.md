@@ -7,7 +7,7 @@ categories:
 tags: 
   - "sales-agents"
   - "sales-process"
-coverImage: "imak___one_human_like_robot_waves_without_any_other_object_deep_16c3d242-2378-4d8c-90fc-fac0298730e9.webp"
+image: "/images/imak___one_human_like_robot_waves_without_any_other_object_deep_16c3d242-2378-4d8c-90fc-fac0298730e9.webp"
 ---
 
 Companies increasingly use automated sales agents (ASAs), such as chatbots, to complement or replace human sales agents (HSAs), however, research finds that customer responses to ASAs versus HSAs change across the sales process stages.
@@ -46,7 +46,7 @@ The shifting responses show companies should align the sales agent to the custom
 
 Carefully matching the sales agent type to the customer’s needs and priorities at each decision point will optimise conversion rates throughout the sales funnel.
 
-![](images/giphy.gif)
+![](/images/giphy.gif)
 
 Want a preview of our new Open Opportunities platform tracking global government spending? Spend Network has developed a new tool, to allow easy access to global opportunities to sell to governments. Open Opportunities is the most comprehensive tool on the market for government spending worldwide.[Sign up now](https://www.openopportunities.co/early-access/)!
 

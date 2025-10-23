@@ -7,7 +7,7 @@ tags:
   - "b2g-contracts"
   - "consulting-services"
   - "sustainable-energy"
-coverImage: "OO-website-4.png"
+image: "/images/OO-website-4.png"
 ---
 
 September brings a wealth of opportunities across various sectors and countries, showcasing the diverse needs for expert advice and services globally. High-profile projects like the high-speed rail between Quebec City and Toronto and Sint Maarten's digital government transformation highlight the increasing demand for specialised knowledge in both developed and developing markets.

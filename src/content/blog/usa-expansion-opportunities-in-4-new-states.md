@@ -3,7 +3,7 @@ title: "USA Expansion: Opportunities in 4 new states."
 date: 2025-10-09
 categories: 
   - "releases"
-coverImage: "Screenshot-2025-10-09-at-111247.png"
+image: "/images/Screenshot-2025-10-09-at-111247.png"
 ---
 
 We've just added four new states to our USA opportunity data. Welcome to the Open Opportunities family Montana, New Mexico, Iowa and Delaware. Users can now search for contract and tender opportunities across all of these states with more data on the way.

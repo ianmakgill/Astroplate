@@ -6,7 +6,7 @@ categories:
 tags: 
   - "policy"
   - "sustainable-procurement"
-coverImage: "imak___sustainable_planet_earth_with_green_continent_and_blur_o_82d9110f-a497-4560-a062-5e851a91b34f.png"
+image: "/images/imak___sustainable_planet_earth_with_green_continent_and_blur_o_82d9110f-a497-4560-a062-5e851a91b34f.png"
 ---
 
 The Office of Government Procurement [recently published](https://www.gov.ie/en/press-release/6ce4e-minister-of-state-smyth-welcomes-sustainable-public-procurement-publication-from-the-ogp/) a comprehensive reference guide on Sustainable Public Procurement (SPP) in Ireland. This invaluable resource provides critical information for businesses bidding on public contracts in Ireland.
@@ -27,7 +27,7 @@ This new SPP reference is an indispensable guide for businesses bidding on publi
 
 ### Are you looking for new contract opportunities in Ireland?
 
-![](images/gfEzDarNuTOnbFeUuE-file.gif)
+![](/images/gfEzDarNuTOnbFeUuE-file.gif)
 
 If you're looking for government contracts in Ireland, you should try our new platform OpenOpportunities. Spend Network has developed this new tool to allow easy access to global opportunities to sell to governments.
 

@@ -8,7 +8,7 @@ tags:
   - "norway-healthcare"
   - "norway-tenders"
   - "sell-to-norway"
-coverImage: "Norway-Hospital.png"
+image: "/images/Norway-Hospital.png"
 ---
 
 ## Record Healthcare Spending in Norway's 2025 Budget
@@ -23,7 +23,7 @@ The substantial NOK 5.5 billion increase for hospital operations signals Norway'
 
 <figure>
 
-![Global Healthcare Spending Trends (2022-2024)](images/Screenshot-2025-02-26-at-121230.png)
+![Global Healthcare Spending Trends (2022-2024)](/images/Screenshot-2025-02-26-at-121230.png)
 
 <figcaption>
 

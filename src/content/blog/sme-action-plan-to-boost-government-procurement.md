@@ -7,7 +7,7 @@ tags:
   - "enterprise"
   - "policy"
   - "sme"
-coverImage: "imak___small_shops_at_night_with_a_perfect_green_circle_project_1cd399a4-f5b3-4b1b-874a-57fda27864b9.png"
+image: "/images/imak___small_shops_at_night_with_a_perfect_green_circle_project_1cd399a4-f5b3-4b1b-874a-57fda27864b9.png"
 ---
 
 The Crown Commercial Service (CCS) has announced an [SME Action Plan](https://www.gov.uk/government/publications/crown-commercial-service-sme-and-vcse-action-plans/crown-commercial-service-small-and-medium-enterprises-sme-action-plan) to create a more level playing field for small and medium-sized enterprises (SMEs) in government procurement. As a sales or bid manager targeting public sector contracts, it's essential to understand how this plan can open up opportunities for your business.
@@ -28,7 +28,7 @@ For sales and bid managers in SMEs, this plan means focusing on removing barrier
 
 As the CCS evolves its approach, this action plan represents the government's commitment to fostering an inclusive, diverse supply chain. There will be increased opportunities to demonstrate how your SME can deliver innovation and social value through procurement.
 
-![](images/giphy.gif)
+![](/images/giphy.gif)
 
 Want a preview of our new Open Opportunities platform tracking global government spending? Spend Network has developed a new tool, to allow easy access to global opportunities to sell to governments. Open Opportunities is the most comprehensive tool on the market for government spending worldwide.[Sign up now](https://www.openopportunities.co/early-access/)!
 

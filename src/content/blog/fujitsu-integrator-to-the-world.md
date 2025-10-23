@@ -7,7 +7,7 @@ tags:
   - "fujitsu"
   - "global-procurement-data"
   - "government-contract"
-coverImage: "Fujitsu_green.png"
+image: "/images/Fujitsu_green.png"
 ---
 
 There have been some excellent comments about the problems that the Post Office Horizon project has given Fujitsu. I found the articles published by [Dai Vaughan](https://dafyddvaughan.uk/blog/2024/horizon-it-scandal-repeating-patterns/) and [Mike Braken](https://public.digital/2024/01/12/avoiding-another-horizon), both of [Public.digital](http://Public.digital), to be useful. Both articles argue that there is a systemic problem with the way government engages technology firms.
@@ -20,7 +20,7 @@ The question facing Fujitsu and others is not just whether their existing projec
 
 This one will run and run.
 
-![](images/giphy.gif)
+![](/images/giphy.gif)
 
 Want a preview of our new Open Opportunities platform tracking global government spending? Spend Network has developed a new tool, to allow easy access to global opportunities to sell to governments. Open Opportunities is the most comprehensive tool on the market for government spending worldwide.[Sign up now](https://www.openopportunities.co/early-access/)!
 

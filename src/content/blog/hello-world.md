@@ -3,7 +3,7 @@ title: "The Future of Digital Exports: Predictions and Trends"
 date: 2023-12-23
 categories: 
   - "export"
-coverImage: "background2.png"
+image: "/images/background2.png"
 ---
 
 In the dynamic landscape of global trade, the future of digital exports is poised for transformative shifts. This article explores key predictions and trends shaping the trajectory of digital exports, offering insights for businesses and policymakers alike.

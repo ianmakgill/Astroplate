@@ -11,7 +11,7 @@ tags:
   - "german-cloud-infrastructure"
   - "german-coalition-agreement-2025"
   - "tech-procurement-europe"
-coverImage: "image-11.png"
+image: "/images/image-11.png"
 ---
 
 Germany's coalition government has [announced](https://themunicheye.com/implications-coalition-agreement-digital-policy-17220) plans to establish a Federal Ministry for Digital Affairs, signalling a fundamental restructuring of the country's digital policy framework.
@@ -34,7 +34,7 @@ According to our [Digital Tech Procurement Trends report](https://www.openopps.c
 
 <figure>
 
-![German Tech Market](images/Screenshot-2025-04-16-at-130610.png)
+![German Tech Market](/images/Screenshot-2025-04-16-at-130610.png)
 
 <figcaption>
 

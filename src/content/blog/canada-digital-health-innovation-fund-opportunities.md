@@ -13,7 +13,7 @@ tags:
   - "neurology-research"
   - "oncology-research"
   - "sme-partnerships"
-coverImage: "image-19.png"
+image: "/images/image-19.png"
 ---
 
 ## How to Access Canadian Healthcare Funds
@@ -30,7 +30,7 @@ European healthcare organisations increasingly prefer framework agreements for 7
 
 **Average contract duration, 2024**
 
-![](images/Average-contract-duration-2024.png)
+![](/images/Average-contract-duration-2024.png)
 
 Ready to explore over 10,000 worldwide healthcare procurement opportunities and position your medical devices or digital health solutions for the Canadian market?
 

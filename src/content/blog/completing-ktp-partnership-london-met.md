@@ -9,7 +9,7 @@ tags:
   - "london-metropolitan-university"
   - "procurement-intelligence-research"
   - "university-partnership"
-coverImage: "Black-and-White-X-Letter-Digital-Company-Logo.png"
+image: "/images/Black-and-White-X-Letter-Digital-Company-Logo.png"
 ---
 
 As we mark the completion of our two-year Knowledge Transfer Partnership with London Metropolitan University today, we're taking time to reflect on what has been a rewarding journey of academic-industry collaboration.

@@ -6,7 +6,7 @@ categories:
 tags: 
   - "finance"
   - "policy"
-coverImage: "imak___Toronto_CN_tower_at_night_with_a_perfect_green_circle_839ea323-bf44-4e61-970c-bf8587b41f8f.webp"
+image: "/images/imak___Toronto_CN_tower_at_night_with_a_perfect_green_circle_839ea323-bf44-4e61-970c-bf8587b41f8f.webp"
 ---
 
 [The Federal Prompt Payment for Construction Work Act](https://laws.justice.gc.ca/eng/acts/F-7.7/FullText.html) comes into force, which impacts payment timelines for construction projects. This Act applies to federal building contracts across Canada.

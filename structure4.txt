@@ -1,0 +1,209 @@
+src
+├── assets
+│   └── fonts
+│       ├── the-future-bold-italic.woff2
+│       ├── the-future-bold.woff2
+│       ├── the-future-italic.woff2
+│       ├── the-future-light-italic.woff2
+│       ├── the-future-light.woff2
+│       ├── the-future-medium-italic.woff2
+│       ├── the-future-medium.woff2
+│       └── the-future-regular.woff2
+├── config
+│   ├── config.json
+│   ├── menu.json
+│   ├── social.json
+│   └── theme.json
+├── content
+│   ├── about
+│   │   └── -index.md
+│   ├── authors
+│   │   ├── -index.md
+│   │   ├── john-doe.md
+│   │   ├── sam-wilson.md
+│   │   └── william-jacob.md
+│   ├── blog
+│   │   ├── -index.md
+│   │   ├── 3000-new-opportunities-in-argentina-now-available.md
+│   │   ├── 30000-opportunities-to-sell-new-tender-data-from-china.md
+│   │   ├── a-flurry-of-new-sources.md
+│   │   ├── asia-pacific-tech-market-2025.md
+│   │   ├── asian-governments-spent-big-in-june-heres-what-exporters-need-to-know.md
+│   │   ├── audio-post.md
+│   │   ├── best-time-to-bid-5-59bn-government-software-market-analysis.md
+│   │   ├── better-context-for-users-adding-lozenges-to-your-searches.md
+│   │   ├── canada-digital-health-innovation-fund-opportunities.md
+│   │   ├── canadian-government-contracts-procurement-guide.md
+│   │   ├── chinese-train-firm-subject-to-first-eu-probe-for-foreign-subsidies.md
+│   │   ├── classic-post.md
+│   │   ├── colombia-tech-hub-government-sales-opportunities.md
+│   │   ├── completing-ktp-partnership-london-met.md
+│   │   ├── contracts-sealed-for-england-scotland-electricity-superhighway.md
+│   │   ├── cybersecurity-funding-canada-tech-opportunities-2025.md
+│   │   ├── deloitte-secures-100m-contract-for-post-brexit-border-platform.md
+│   │   ├── dont-miss-out-digital-transformation-tenders-opportunities.md
+│   │   ├── download-attachments-within-openopps.md
+│   │   ├── eus-e1-3b-digital-investment-new-software-opportunities.md
+│   │   ├── ev-charging-in-europe-a-booming-market-for-business.md
+│   │   ├── fujitsu-integrator-to-the-world.md
+│   │   ├── gallery-post.md
+│   │   ├── german-digital-ministry-tech-vendor-opportunities-2025.md
+│   │   ├── germany-tech-policy-priorities-sales-opportunities.md
+│   │   ├── getting-the-most-from-mobile-crm.md
+│   │   ├── global-consultancy-opportunities-septembers-hottest-tenders.md
+│   │   ├── healthcare-ai-policy-roadmap-global-sales-opportunities.md
+│   │   ├── hello-world.md
+│   │   ├── how-eu-green-subsidies-are-changing-the-game-for-bid-managers.md
+│   │   ├── how-to-decide-between-human-and-automated-sales-agents.md
+│   │   ├── how-to-find-government-tenders-in-colombia.md
+│   │   ├── how-to-motivate-your-sales-team-for-peak-performance.md
+│   │   ├── how-to-win-government-contracts-and-tenders-in-france.md
+│   │   ├── how-to-win-government-contracts-and-tenders-in-us.md
+│   │   ├── icheme-blue-book-the-advantages-of-epcm-contracting.md
+│   │   ├── international-tender-opportunities-global-procurement-guide.md
+│   │   ├── kazakhstan-government-contracts-procurement-guide.md
+│   │   ├── leveraging-ai-to-enhance-sales-funnels.md
+│   │   ├── leveraging-customer-journey-mapping-for-better-b2b-sales.md
+│   │   ├── modern-post.md
+│   │   ├── navigating-procurement-act-changes-for-suppliers.md
+│   │   ├── navigating-sustainable-public-procurement-in-ireland.md
+│   │   ├── new-nhs-framework-accreditation-what-suppliers-need-to-know.md
+│   │   ├── new-provider-selection-regime-a-guide-for-healthcare-bid-managers.md
+│   │   ├── new-saudi-arabian-opportunities-now-on-open-opportunities.md
+│   │   ├── new-us-federal-ai-rules-a-guide-for-government-suppliers.md
+│   │   ├── new-user-interface-feature-country-collections.md
+│   │   ├── norway-healthcare-spending-2025.md
+│   │   ├── open-opportunities-at-the-european-big-data-value-forum.md
+│   │   ├── polish-government-contracts-procurement-guide.md
+│   │   ├── post-1.md
+│   │   ├── post-2.md
+│   │   ├── post-3.md
+│   │   ├── post-4.md
+│   │   ├── read-buying-signals-before-rfp.md
+│   │   ├── recent-biggest-uk-consultancy-contract-awards.md
+│   │   ├── sell-in-the-usa-unlocking-new-opportunities-with-illinois-data.md
+│   │   ├── sme-action-plan-to-boost-government-procurement.md
+│   │   ├── standard-post.md
+│   │   ├── tapping-procurement-intelligence-to-boost-government-marketing-wins.md
+│   │   ├── tech-contracts-augusts-biggest-wins-in-uk-and-eu-markets.md
+│   │   ├── the-impact-of-value-driven-marketing-for-sales-leaders.md
+│   │   ├── the-power-of-key-account-management-in-sales.md
+│   │   ├── tips-for-navigating-government-procurement-global-consulting.md
+│   │   ├── turning-government-data-into-strategic-tech-opportunities.md
+│   │   ├── uk-cyber-security-investment-100m-contractors-2025.md
+│   │   ├── uk-defence-innovation-fund-400m-military-tech-suppliers-2025.md
+│   │   ├── uks-88m-investment-in-advanced-chemical-threat-detection.md
+│   │   ├── unfpa-equalizer-challenge-womens-health-innovation-funding.md
+│   │   ├── unlock-floridas-market-new-contract-opportunities-await.md
+│   │   ├── us-procurement-expansion-300-monthly-tenders-may-2025.md
+│   │   ├── usa-expansion-opportunities-in-4-new-states.md
+│   │   ├── usa-tender-opportunities.md
+│   │   ├── video-post.md
+│   │   ├── what-sales-managers-need-to-know-about-canadas-new-prompt-payment-act.md
+│   │   ├── win-government-tenders-germany.md
+│   │   ├── win-spanish-government-contracts-procurement-guide.md
+│   │   ├── winning-government-contracts-chile-procurement-guide.md
+│   │   └── winning-government-contracts-in-the-eus-booming-digital-sector.md
+│   ├── contact
+│   │   └── -index.md
+│   ├── guides
+│   ├── homepage
+│   │   └── -index.md
+│   ├── insights
+│   ├── pages
+│   │   ├── elements.mdx
+│   │   └── privacy-policy.md
+│   ├── product
+│   ├── research
+│   │   └── test-research.md
+│   ├── sections
+│   │   ├── call-to-action.md
+│   │   └── testimonial.md
+│   ├── team
+│   ├── testimonial
+│   └── updates
+├── content.config.ts
+├── factory_content.config.ts
+├── hooks
+│   └── useTheme.ts
+├── layouts
+│   ├── Base.astro
+│   ├── components
+│   │   ├── AuthorCard.astro
+│   │   ├── BlogCard.astro
+│   │   ├── Breadcrumbs.astro
+│   │   ├── ImageMod.astro
+│   │   ├── Logo.astro
+│   │   ├── Pagination.astro
+│   │   ├── Share.astro
+│   │   ├── Social.astro
+│   │   ├── ThemeSwitcher.astro
+│   │   └── TwSizeIndicator.astro
+│   ├── helpers
+│   │   ├── Disqus.tsx
+│   │   ├── DynamicIcon.tsx
+│   │   ├── SearchModal.tsx
+│   │   └── SearchResult.tsx
+│   ├── partials
+│   │   ├── CallToAction.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── PageHeader.astro
+│   │   ├── PostSidebar.astro
+│   │   └── Testimonial.astro
+│   ├── PostSingle.astro
+│   └── shortcodes
+│       ├── Accordion.tsx
+│       ├── Button.tsx
+│       ├── Notice.tsx
+│       ├── Tab.tsx
+│       ├── Tabs.tsx
+│       ├── Video.tsx
+│       └── Youtube.tsx
+├── lib
+│   ├── contentParser.astro
+│   ├── taxonomyParser.astro
+│   └── utils
+│       ├── bgImageMod.ts
+│       ├── dateFormat.ts
+│       ├── readingTime.ts
+│       ├── similarItems.ts
+│       ├── sortFunctions.ts
+│       ├── taxonomyFilter.ts
+│       └── textConverter.ts
+├── pages
+│   ├── [regular].astro
+│   ├── 404.astro
+│   ├── about.astro
+│   ├── authors
+│   │   ├── [single].astro
+│   │   └── index.astro
+│   ├── blog
+│   │   ├── [single].astro
+│   │   ├── index.astro
+│   │   └── page
+│   │       └── [slug].astro
+│   ├── categories
+│   │   ├── [category].astro
+│   │   └── index.astro
+│   ├── contact.astro
+│   ├── index.astro
+│   └── tags
+│       ├── [tag].astro
+│       └── index.astro
+├── styles
+│   ├── base.css
+│   ├── buttons.css
+│   ├── components.css
+│   ├── main.css
+│   ├── navigation.css
+│   ├── safe.css
+│   ├── search.css
+│   └── utilities.css
+├── tailwind-plugin
+│   ├── tw-bs-grid.js
+│   └── tw-theme.js
+└── types
+    └── index.d.ts
+
+36 directories, 171 files

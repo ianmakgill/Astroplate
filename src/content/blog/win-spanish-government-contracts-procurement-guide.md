@@ -10,7 +10,7 @@ tags:
   - "spanish-government-contracts"
   - "spanish-public-sector"
   - "spanish-tenders"
-coverImage: "Spain-1.jpg"
+image: "/images/Spain-1.jpg"
 ---
 
 ## Navigating Government Contract Procurement in Spain: A Comprehensive Guide

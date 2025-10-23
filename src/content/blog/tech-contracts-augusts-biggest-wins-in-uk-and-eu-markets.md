@@ -8,7 +8,7 @@ tags:
   - "healthcare-tech"
   - "public-sector-it"
   - "tech-contracts"
-coverImage: "OO-website-3.png"
+image: "/images/OO-website-3.png"
 ---
 
 As a supplier or business development professional in the tech sector, staying informed about recent contract awards is crucial for identifying new opportunities and potential clients. Let's look at some of the most significant tech contracts awarded recently in the UK and EU.

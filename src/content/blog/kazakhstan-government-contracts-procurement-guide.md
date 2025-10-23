@@ -11,7 +11,7 @@ tags:
   - "kazakhstan-public-procurement"
   - "public-bidding-kazakhstan"
   - "tender-process-kazakhstan"
-coverImage: "Kazakhstan-public-procurement.jpg"
+image: "/images/Kazakhstan-public-procurement.jpg"
 ---
 
 ## Strategies for Securing Government Contracts in Kazakhstan: A Comprehensive Guide

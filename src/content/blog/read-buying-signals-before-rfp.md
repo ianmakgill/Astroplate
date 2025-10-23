@@ -3,7 +3,7 @@ title: "How to Read Government Buying Signals 6 Months Before RFP Release"
 date: 2025-09-18
 categories: 
   - "insights"
-coverImage: "WP-blog-3.png"
+image: "/images/WP-blog-3.png"
 ---
 
 Government buyers across jurisdictions don't wake up one morning and decide to issue a tender. International procurement cycles follow predictable patterns, and the public procurement data exists to decode them - if you know where to look.
@@ -44,7 +44,7 @@ Let's examine how contract monitoring works in practice. A technology team searc
 
 The search reveals the **Opnet Blue Tech Refresh** contract with the Ministry of Defence, awarded to Centerprise International Limited. This IT Hardware contract, valued at £1,750,255.00, runs from 15th November 2024 to 14th November 2025 at 11:59 PM - a perfect example of a one-year contract with high renewal probability.
 
-![Open Opportunities platform showing Ministry of Defence IT contract worth £1,750,255 expiring November 2025 - example of contract intelligence for procurement professionals" src="contract-example.jpg](images/image-21.png)
+![Open Opportunities platform showing Ministry of Defence IT contract worth £1,750,255 expiring November 2025 - example of contract intelligence for procurement professionals" src="contract-example.jpg](/images/image-21.png)
 
 **Key Intelligence Indicators:**
 

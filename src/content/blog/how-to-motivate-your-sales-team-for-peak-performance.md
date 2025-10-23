@@ -6,7 +6,7 @@ categories:
 tags: 
   - "sales"
   - "team-management"
-coverImage: "imak___office_with_a_green_plant_wall_team_chatting_in_the_far__071376bd-50ce-4385-bbe9-738ad147dffe.png"
+image: "/images/imak___office_with_a_green_plant_wall_team_chatting_in_the_far__071376bd-50ce-4385-bbe9-738ad147dffe.png"
 ---
 
 What drives your sales team to go above and beyond their quotas each month? As a sales manager, you know motivation is critical, but pinpointing the magic formula can be tricky.

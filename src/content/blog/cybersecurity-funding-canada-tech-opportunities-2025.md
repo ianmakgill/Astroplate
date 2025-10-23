@@ -13,7 +13,7 @@ tags:
   - "cybersecurity-innovation"
   - "government-funding-2025"
   - "tech-company-funding"
-coverImage: "WP-blog-4.png"
+image: "/images/WP-blog-4.png"
 ---
 
 **Canada's cybersecurity funding program [offers](https://www.mechatronicscanada.ca/changing-scenes/canada-cyber-security/) $10.3 million for tech companies developing cybersecurity innovation.**

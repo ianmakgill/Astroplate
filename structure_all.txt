@@ -1,0 +1,212 @@
+.
+├── allfiles.txt
+├── astro.config.mjs
+├── config
+│   └── nginx
+│       └── nginx.conf
+├── Dockerfile
+├── LICENSE
+├── netlify.toml
+├── package.json
+├── public
+│   ├── images
+│   │   ├── 1280px-NCAA_Football_Western_Illinois_at_Iowa_State_8024335908.jpg
+│   │   ├── 1728033003196-1024x473.jpeg
+│   │   ├── 1728033003196.jpeg
+│   │   ├── 1728033003702-1024x473.jpeg
+│   │   ├── 1728033003702.jpeg
+│   │   ├── Account-Management.png
+│   │   ├── Asia.webp
+│   │   ├── attachments2.png
+│   │   ├── avatar-sm.png
+│   │   ├── avatar.png
+│   │   ├── Average-contract-duration-2024.png
+│   │   ├── background12.png
+│   │   ├── background13.png
+│   │   ├── background14.png
+│   │   ├── background15.png
+│   │   ├── background2.png
+│   │   ├── banner.png
+│   │   ├── berlin-plenary-chamber-dome-government-district-tour-3455045.webp
+│   │   ├── Biz-ev-charger-1242853588.webp
+│   │   ├── Black-and-White-X-Letter-Digital-Company-Logo.png
+│   │   ├── blog-post-1.jpg
+│   │   ├── blog-post-2.jpg
+│   │   ├── blog-post-3.jpg
+│   │   ├── blog-post-4.jpg
+│   │   ├── blog-post-5.jpg
+│   │   ├── blog-post-6.jpg
+│   │   ├── call-to-action.png
+│   │   ├── Carousel-1.png
+│   │   ├── categories.png
+│   │   ├── Columbia-tech-office.jpg
+│   │   ├── Columbia.jpg
+│   │   ├── Contract-duration-2024-defence.png
+│   │   ├── countries.png
+│   │   ├── electric-car-charging-home-clean-energy-filling-technology-scaled.jpg
+│   │   ├── elysee-palais-palace-paris-france-president-1-1.jpg
+│   │   ├── email-alert.png
+│   │   ├── favicon.png
+│   │   ├── freepik__upload__48371-e1754912660188.png
+│   │   ├── Fujitsu_green.png
+│   │   ├── Fujitsu-Global.png
+│   │   ├── gfEzDarNuTOnbFeUuE-file.gif
+│   │   ├── giphy.gif
+│   │   ├── Global-tech-government-spending.png
+│   │   ├── Header-Banner-for-Blog-2.png
+│   │   ├── Header-Banner-for-Blog.png
+│   │   ├── hong-kong-skyline-with-boats-scaled.jpg
+│   │   ├── image-11.png
+│   │   ├── image-12.png
+│   │   ├── image-14.png
+│   │   ├── image-15.png
+│   │   ├── image-18.png
+│   │   ├── image-19.png
+│   │   ├── image-21.png
+│   │   ├── image-22.png
+│   │   ├── image-placeholder.png
+│   │   ├── image.png
+│   │   ├── imak___binocular_the_colours_only_white_grey_deep_green_color_0_c683117f-16b0-4626-8b0e-1fdb5208ff3e.png
+│   │   ├── imak___business_centre_at_night_with_a_perfect_green_circle_as__47491bb2-3e36-4b41-b71d-ffbc83da95ff.webp
+│   │   ├── imak___busy_train_station_with_consultancy_people_in_suits_with_727478b5-d01e-45de-9f94-8a32a18ae73f.png
+│   │   ├── imak___clinic_hall_with_a_green_plant_wall_8efa0edb-fc58-455e-8e5b-960e6c96e40c.png
+│   │   ├── imak___container_with_asian_ornament_deep_green_color_034737_th_fd37a4f0-4e60-45a4-8acb-776a1f566649.png
+│   │   ├── imak___electricity_highway_view_on_financial_district_colours_d_5097c3da-5708-484a-b678-011131995d21.png
+│   │   ├── imak___futuristic_business_centre_with_trees_inside_without_any_bd3bf22c-2bea-4b7b-9170-939162ae74ad.png
+│   │   ├── imak___futuristic_meeting_room_with_deep_green_colours_element__c30630fe-7bb5-4d5f-8da5-899b1830b2fc.png
+│   │   ├── imak___horn_speaker_deep_green_color_034737_the_colours_only_wh_8b35f787-658b-404c-b4e3-53cd0c45dfd3.png
+│   │   ├── imak___key_with_digital_ornaments_the_colours_only_white_grey_d_5b2bc28d-ab84-4151-9e9b-00d90b5856d7.png
+│   │   ├── imak___modern_clinic_receiption_with_green_plants_wall_Captured_6be83c1f-dd4f-4157-95e9-879a94732b70.png
+│   │   ├── imak___modern_open_space_office_with_green_plants_wall_focus_on_aa62a70e-0189-4094-9b80-ea7b6b638b9b.png
+│   │   ├── imak___NYC_Chrysler_building_at_night_with_a_bright_green_light_a567d717-cfd1-42ef-a573-ad5ba2728cb1.png
+│   │   ├── imak___office_with_a_green_plant_wall_team_chatting_in_the_far__071376bd-50ce-4385-bbe9-738ad147dffe.png
+│   │   ├── imak___office_with_a_green_plant_wall_team_chatting_in_the_far__f620adbb-96d3-43e7-a7d6-8555969fd7a6-e1734518027489.png
+│   │   ├── imak___office_with_a_green_plant_wall_team_chatting_in_the_far__f620adbb-96d3-43e7-a7d6-8555969fd7a6.png
+│   │   ├── imak___one_human_like_robot_waves_without_any_other_object_deep_16c3d242-2378-4d8c-90fc-fac0298730e9.webp
+│   │   ├── imak___small_shops_at_night_with_a_perfect_green_circle_project_1cd399a4-f5b3-4b1b-874a-57fda27864b9.png
+│   │   ├── imak___smartphone_in_a_distance_in_business_hall_with_a_green_p_5077fdfb-df77-4ee8-83ad-5dffa13cd420.png
+│   │   ├── imak___sustainable_planet_earth_with_green_continent_and_blur_o_82d9110f-a497-4560-a062-5e851a91b34f.png
+│   │   ├── imak___tech_business_centre_with_EU_flag_with_12_gold_stars_wit_19ea9e80-d648-43da-bf54-ed113676471b.png
+│   │   ├── imak___tech_lab_with_a_green_plant_254ed861-2e97-4c02-a64f-c5f71bda2b24.png
+│   │   ├── imak___Toronto_CN_tower_at_night_with_a_perfect_green_circle_839ea323-bf44-4e61-970c-bf8587b41f8f.webp
+│   │   ├── imak___two_construction_workers_in_a_distance_view_on_financial_9a610174-777f-43f9-ab05-d38120761c40.png
+│   │   ├── IMG_8185.jpg
+│   │   ├── istockphoto-1368242984-612x612-1.jpg
+│   │   ├── Kazakhstan-public-procurement.jpg
+│   │   ├── Kazakhstan-tenders.jpeg
+│   │   ├── logos
+│   │   ├── marketing-blog-1.jpg
+│   │   ├── marketing-blog-2.jpg
+│   │   ├── marketing-blog-3.jpg
+│   │   ├── moneda-palace-santiago-chile-18168844.webp
+│   │   ├── New-York-Stock-Exchange.webp
+│   │   ├── Norway-Hospital.png
+│   │   ├── Number-of-global-public-procurement-opportunities-in-the-5-top-categories-2022-2024.png
+│   │   ├── og-image.png
+│   │   ├── OO-website-1.png
+│   │   ├── OO-website-2.png
+│   │   ├── OO-website-3.png
+│   │   ├── OO-website-4.png
+│   │   ├── OO-website-5.png
+│   │   ├── OO-website-6.png
+│   │   ├── OO-website.png
+│   │   ├── Photo_2-London-Met-blog-about-the-project-scaled.jpg
+│   │   ├── portal-maze.png
+│   │   ├── Presidential-Palace-Warsaw.webp
+│   │   ├── reichstag-glass-dome-parliament-berlin-bundestag-german-flag-view-roof-right-side-51770112.webp
+│   │   ├── Screenshot-2024-05-31-at-164314.png
+│   │   ├── Screenshot-2024-07-15-at-112213.png
+│   │   ├── Screenshot-2025-02-26-at-121230.png
+│   │   ├── Screenshot-2025-04-16-at-125243.png
+│   │   ├── Screenshot-2025-04-16-at-130610.png
+│   │   ├── Screenshot-2025-10-06-at-141406.png
+│   │   ├── Screenshot-2025-10-07-at-084823.png
+│   │   ├── Screenshot-2025-10-09-at-111247.png
+│   │   ├── Screenshot-2025-10-12-at-111503.png
+│   │   ├── Security-software.png
+│   │   ├── service-1.png
+│   │   ├── service-2.png
+│   │   ├── service-3.png
+│   │   ├── small-flag-germany-blurred-city.jpg
+│   │   ├── Spain-1.jpg
+│   │   ├── thumbnail
+│   │   ├── US-public-tenders.jpg
+│   │   ├── WP-blog-3.png
+│   │   ├── WP-blog-4.png
+│   │   ├── WP-blog-5.png
+│   │   └── WP-blog-6.png
+│   ├── robots.txt
+│   └── sitepins-manifest.json
+├── readme.md
+├── scripts
+│   ├── jsonGenerator.js
+│   └── removeDarkmode.js
+├── src
+│   ├── assets
+│   │   └── fonts
+│   ├── config
+│   │   ├── config.json
+│   │   ├── menu.json
+│   │   ├── social.json
+│   │   └── theme.json
+│   ├── content
+│   │   ├── about
+│   │   ├── authors
+│   │   ├── blog
+│   │   ├── contact
+│   │   ├── guides
+│   │   ├── homepage
+│   │   ├── insights
+│   │   ├── pages
+│   │   ├── product
+│   │   ├── research
+│   │   ├── sections
+│   │   ├── team
+│   │   ├── testimonial
+│   │   └── updates
+│   ├── content.config.ts
+│   ├── factory_content.config.ts
+│   ├── hooks
+│   │   └── useTheme.ts
+│   ├── layouts
+│   │   ├── Base.astro
+│   │   ├── components
+│   │   ├── helpers
+│   │   ├── partials
+│   │   ├── PostSingle.astro
+│   │   └── shortcodes
+│   ├── lib
+│   │   ├── contentParser.astro
+│   │   ├── taxonomyParser.astro
+│   │   └── utils
+│   ├── pages
+│   │   ├── [regular].astro
+│   │   ├── 404.astro
+│   │   ├── about.astro
+│   │   ├── authors
+│   │   ├── blog
+│   │   ├── categories
+│   │   ├── contact.astro
+│   │   ├── index.astro
+│   │   └── tags
+│   ├── styles
+│   │   ├── base.css
+│   │   ├── buttons.css
+│   │   ├── components.css
+│   │   ├── main.css
+│   │   ├── navigation.css
+│   │   ├── safe.css
+│   │   ├── search.css
+│   │   └── utilities.css
+│   ├── tailwind-plugin
+│   │   ├── tw-bs-grid.js
+│   │   └── tw-theme.js
+│   └── types
+│       └── index.d.ts
+├── structure_all.txt
+├── structure.txt
+├── structure4.txt
+├── tsconfig.json
+└── yarn.lock
+
+42 directories, 168 files

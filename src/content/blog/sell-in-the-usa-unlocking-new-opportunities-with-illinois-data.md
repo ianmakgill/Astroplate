@@ -7,7 +7,7 @@ categories:
 tags: 
   - "sell-to-usa"
   - "us-tenders"
-coverImage: "OO-website-1.png"
+image: "/images/OO-website-1.png"
 ---
 
 Breaking into the American market is a goal for many businesses, and we've got exciting news that could help you achieve just that. We've recently added a new data source from Illinois, opening up more opportunities in the US market.

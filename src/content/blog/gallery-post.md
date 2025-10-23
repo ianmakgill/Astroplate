@@ -6,10 +6,10 @@ categories:
 tags: 
   - "internet"
   - "mobile"
-coverImage: "background12.png"
+image: "/images/background12.png"
 ---
 
-In the realm of government procurement, the winds of change are blowing, and at the core of this transformation is digitisation. Traditional procurement processes are evolving, and embracing digital technologies has become imperative for government entities worldwide. This article serves as a comprehensive guide to navigating the landscape of digital transformation in government procurement.
+Traditional procurement processes are evolving, and embracing digital technologies has become imperative for government entities worldwide. This article serves as a comprehensive guide to navigating the landscape of digital transformation in government procurement.
 
 Digital transformation involves a holistic shift from manual, paper-based processes to automated, technology-driven solutions. One of the key strategies in this transformation is the adoption of advanced technologies that facilitate efficiency, transparency, and accountability. Automating procurement workflows, from requisition to payment, reduces manual errors, accelerates processes, and enhances overall operational efficiency.
 

@@ -15,7 +15,7 @@ tags:
   - "medicaldevicesales"
   - "medicaltechnology"
   - "medtechsales"
-coverImage: "image-14.png"
+image: "/images/image-14.png"
 ---
 
 [AdvaMed has released](https://repertoiremag.com/advamed-releases-ai-policy-roadmap-to-guide-congress-and-federal-agencies.html) its "AI Policy Roadmap" to guide US lawmakers on regulating AI-enabled medical technologies. This development signals substantial commercial opportunities for global healthcare technology sales teams, as regulatory clarity in the US market typically catalyses adoption patterns worldwide.

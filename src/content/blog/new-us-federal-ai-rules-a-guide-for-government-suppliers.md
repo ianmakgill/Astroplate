@@ -4,7 +4,7 @@ date: 2024-04-09
 categories: 
   - "digital"
   - "technology"
-coverImage: "imak___tech_lab_with_a_green_plant_254ed861-2e97-4c02-a64f-c5f71bda2b24.png"
+image: "/images/imak___tech_lab_with_a_green_plant_254ed861-2e97-4c02-a64f-c5f71bda2b24.png"
 ---
 
 [The new Office of Management and Budget (OMB) memorandum](https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf) introduces two key classifications for AI systems: "rights-impacting AI" and "safety-impacting AI." These classifications determine the minimum practices that agencies must follow when deploying AI solutions. If you'll supply to the US government, it is crucial to understand how your AI offering aligns with these definitions and be prepared to make your case during agency assessments.

@@ -14,7 +14,7 @@ tags:
   - "government-tech-procurement"
   - "software-vendor-opportunities"
   - "tech-sales-pipeline-germany"
-coverImage: "small-flag-germany-blurred-city.jpg"
+image: "/images/small-flag-germany-blurred-city.jpg"
 ---
 
 Germany's new Federal Ministry for Digital and State Modernisation (BMDS) [has launched](https://datainnovation.org/2025/06/germanys-new-digital-ministry-will-make-or-break-the-governments-ai-ambitions/) with clear AI policy priorities, consolidating digital procurement across six government departments.
@@ -47,7 +47,7 @@ Enterprise technology evolution shows information systems procurement grew 43.7%
 
 European digital policy leadership demonstrates the market opportunity: European public sector organisations created 49,409 total tech procurement opportunities, including 18,474 high-value enterprise technology contracts.
 
-![Number of global public procurement opportunities in the 5 top categories 2022 & 2024](images/Number-of-global-public-procurement-opportunities-in-the-5-top-categories-2022-2024.png)
+![Number of global public procurement opportunities in the 5 top categories 2022 & 2024](/images/Number-of-global-public-procurement-opportunities-in-the-5-top-categories-2022-2024.png)
 
 _Number of global public procurement opportunities in the 5 top categories 2022 & 2024_
 

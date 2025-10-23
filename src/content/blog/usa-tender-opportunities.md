@@ -10,7 +10,7 @@ tags:
   - "b2b-sales-opportunities-usa"
   - "tender-alerts-usa"
   - "us-government-buyers"
-coverImage: "New-York-Stock-Exchange.webp"
+image: "/images/New-York-Stock-Exchange.webp"
 ---
 
 Breaking into the American market is a goal for many businesses, and we’ve got exciting news that could help you achieve just that. We’ve recently added 126 new data sources, opening up more opportunities in the US market.

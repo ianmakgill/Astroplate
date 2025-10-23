@@ -10,7 +10,7 @@ tags:
   - "asian-pacific-tech"
   - "sale-to-apac"
   - "tech-procurement"
-coverImage: "Asia.webp"
+image: "/images/Asia.webp"
 ---
 
 The APAC tech market is where the money's flowing in 2025. The region will drive more than half of a 1.7ppt nominal growth acceleration in global US$-measured tech spending in 2025 based on [research by](https://www.oxfordeconomics.com/resource/asia-pacific-region-enterprise-tech-spending-led-by-semiconductor-players/) [Oxford Economics](https://www.oxfordeconomics.com/resource/asia-pacific-region-enterprise-tech-spending-led-by-semiconductor-players/). Yes, growth is cooling to 7.6% (down from 10.2% in 2024), but that's still miles ahead of Europe's sluggish 4.3% and the Americas' modest 5.1%. For tech sellers, this is where you want to be focusing your sales efforts.

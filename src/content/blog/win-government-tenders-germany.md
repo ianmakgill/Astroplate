@@ -10,7 +10,7 @@ tags:
   - "german-tenders"
   - "giz-contracts"
   - "public-sector-germany"
-coverImage: "berlin-plenary-chamber-dome-government-district-tour-3455045.webp"
+image: "/images/berlin-plenary-chamber-dome-government-district-tour-3455045.webp"
 ---
 
 ## Understanding Germany's €500 Billion Public Procurement System

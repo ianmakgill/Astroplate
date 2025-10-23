@@ -7,7 +7,7 @@ categories:
 tags: 
   - "digital"
   - "eu-policy"
-coverImage: "imak___tech_business_centre_with_EU_flag_with_12_gold_stars_wit_19ea9e80-d648-43da-bf54-ed113676471b.png"
+image: "/images/imak___tech_business_centre_with_EU_flag_with_12_gold_stars_wit_19ea9e80-d648-43da-bf54-ed113676471b.png"
 ---
 
 Staying ahead of the curve is paramount for technology companies vying for lucrative government contracts in the European Union's burgeoning digital infrastructure market. In their insightful report ["Unlocking Digital Infrastructure: European Market Drivers and Trends,"](https://www.lw.com/admin/upload/SiteAttachments/Unlocking-Digital-Infrastructure-European-Market-Drivers-and-Trends.pdf) authors Alexander "Stefan" Rieger, Tobias Larisch, and Johannes Groß from Latham & Watkins shed light on key trends and considerations that tech firms must master to secure these coveted opportunities.

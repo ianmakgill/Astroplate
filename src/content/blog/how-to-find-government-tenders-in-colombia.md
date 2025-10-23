@@ -13,7 +13,7 @@ tags:
   - "public-tenders-columbia"
   - "secop-colombia"
   - "tender-process-colombia"
-coverImage: "Columbia.jpg"
+image: "/images/Columbia.jpg"
 ---
 
 ## Comprehensive Guide to Securing Government Contracts in Colombia: Trade Frameworks and Regulatory Requirements

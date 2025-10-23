@@ -12,7 +12,7 @@ tags:
   - "merx"
   - "pspc"
   - "security-clearance-canada"
-coverImage: "istockphoto-1368242984-612x612-1.jpg"
+image: "/images/istockphoto-1368242984-612x612-1.jpg"
 ---
 
 ### Comprehensive Guide to Securing Government Contracts in Canada

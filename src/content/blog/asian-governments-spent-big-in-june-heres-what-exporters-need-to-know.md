@@ -10,7 +10,7 @@ tags:
   - "asian-procurement-data"
   - "export-to-asia"
   - "singapore-tenders"
-coverImage: "images/blog/hong-kong-skyline-with-boats-scaled.jpg"
+image: "/images/images/blog/hong-kong-skyline-with-boats-scaled.jpg"
 ---
 
 **The numbers are staggering.** We've analysed the June tenders in Asian government spending to give exporters and sales teams the intelligence they need to win more contracts.

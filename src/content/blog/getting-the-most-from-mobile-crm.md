@@ -6,7 +6,7 @@ categories:
 tags: 
   - "crm"
   - "customer-management"
-coverImage: "imak___smartphone_in_a_distance_in_business_hall_with_a_green_p_5077fdfb-df77-4ee8-83ad-5dffa13cd420.png"
+image: "/images/imak___smartphone_in_a_distance_in_business_hall_with_a_green_p_5077fdfb-df77-4ee8-83ad-5dffa13cd420.png"
 ---
 
 [The research](https://link.springer.com/article/10.1057/s41270-020-00087-3) by Rodriguez and Boyer emphasises first having well-defined sales processes before implementing mobile Customer Relationship Management (mCRM). Companies with established processes see the most remarkable improvements in collaboration and performance from mCRM use. The technology should support existing ways of selling rather than redefine processes. When starting an mCRM initiative, clearly outline the current sales processes and how mobile capabilities will align with and enhance those processes. This internal alignment ensures sales teams understand and can maximise the benefits of mCRM.

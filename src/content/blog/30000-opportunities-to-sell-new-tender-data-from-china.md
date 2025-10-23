@@ -6,7 +6,7 @@ categories:
 tags: 
   - "chinese-tenders"
   - "tender-data"
-coverImage: "Header-Banner-for-Blog.png"
+image: "/images/Header-Banner-for-Blog.png"
 ---
 
 In a groundbreaking development for international business, we are thrilled to announce the addition of a vast array of new tenders from China to our **[Open Opportunities platform](https://www.openopps.com/).** This influx of data presents an unprecedented chance for bid managers, sales executives, and business development professionals to tap into one of the world's most dynamic and rapidly expanding markets.
@@ -29,7 +29,7 @@ This translates to over 100 new potential deals emerging daily, spanning various
 
 - Software purchases from sensors to modelling and more.
 
-![OpenOpportunities Platform: Shanghai University Tender Notice Preview](images/Screenshot-2024-07-15-at-112213.png)
+![OpenOpportunities Platform: Shanghai University Tender Notice Preview](/images/Screenshot-2024-07-15-at-112213.png)
 
 See the table below for more details.
 

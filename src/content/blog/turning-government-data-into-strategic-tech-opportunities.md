@@ -7,7 +7,7 @@ categories:
 tags: 
   - "data"
   - "strategy"
-coverImage: "imak___key_with_digital_ornaments_the_colours_only_white_grey_d_5b2bc28d-ab84-4151-9e9b-00d90b5856d7.png"
+image: "/images/imak___key_with_digital_ornaments_the_colours_only_white_grey_d_5b2bc28d-ab84-4151-9e9b-00d90b5856d7.png"
 ---
 
 By analysing historical data on public sector spending and contracts awarded, tech companies can identify specific technology categories receiving investment. Tracking spending fluctuations over time reveals changing priorities and emerging demands of buyers.

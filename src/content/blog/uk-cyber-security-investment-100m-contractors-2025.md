@@ -33,7 +33,7 @@ tags:
   - "uk-government-tenders"
   - "uk-intelligence-spending"
   - "uk-spending-review-2025"
-coverImage: "WP-blog-6.png"
+image: "/images/WP-blog-6.png"
 ---
 
 [The UK announces](https://ukc3.co.uk/spending-review-2025-a-strong-signal-for-cyber-innovation/) a £100 million cybersecurity investment for national security institutions in the 2025 Spending Review - creating immediate cybersecurity investment opportunities for contractors and technology suppliers.

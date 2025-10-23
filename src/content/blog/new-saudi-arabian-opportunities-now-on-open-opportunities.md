@@ -7,7 +7,7 @@ categories:
 tags: 
   - "export-to-saudi-arabia"
   - "sell-to-saudi-arabia"
-coverImage: "OO-website.png"
+image: "/images/OO-website.png"
 ---
 
 We're thrilled to announce a significant update to our [Open Opportunities](https://www.openopps.com/) platform: the addition of 40,000 new opportunities per year from Saudi Arabia. This expansion gives our users unprecedented access to one of the world's most dynamic and rapidly growing markets.

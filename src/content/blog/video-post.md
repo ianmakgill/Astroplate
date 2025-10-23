@@ -7,7 +7,7 @@ categories:
 tags: 
   - "enterprise"
   - "internet"
-coverImage: "background13.png"
+image: "/images/background13.png"
 ---
 
 In global trade, digital export strategies have become indispensable for government suppliers seeking to expand their reach and enhance competitiveness. This article delves into the key considerations and strategies essential for government suppliers embracing the digital realm to facilitate international trade.

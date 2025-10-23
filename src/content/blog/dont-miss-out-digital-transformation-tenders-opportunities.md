@@ -7,7 +7,7 @@ tags:
   - "digital-transformation"
   - "global-projects"
   - "military-technology"
-coverImage: "OO-website-5.png"
+image: "/images/OO-website-5.png"
 ---
 
 September's digital transformation landscape is positively bustling with high-value opportunities across diverse markets and industries. We're seeing projects from Africa to North America, signalling a global push for digital innovation. Whether it's revolutionising government cybersecurity or overhauling naval IT systems, these tenders are where the big moves are happening.

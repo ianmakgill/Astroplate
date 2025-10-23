@@ -6,7 +6,7 @@ categories:
 tags: 
   - "government-contract"
   - "sales-strategy"
-coverImage: "imak___electricity_highway_view_on_financial_district_colours_d_5097c3da-5708-484a-b678-011131995d21.png"
+image: "/images/imak___electricity_highway_view_on_financial_district_colours_d_5097c3da-5708-484a-b678-011131995d21.png"
 ---
 
 **A Landmark Achievement for the UK's Energy Transition**

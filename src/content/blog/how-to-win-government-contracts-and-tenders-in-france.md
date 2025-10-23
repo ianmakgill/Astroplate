@@ -10,7 +10,7 @@ tags:
   - "government-contracts-france"
   - "public-procurement-regulations-france"
   - "tender-process-france"
-coverImage: "elysee-palais-palace-paris-france-president-1-1.jpg"
+image: "/images/elysee-palais-palace-paris-france-president-1-1.jpg"
 ---
 
 ## A Comprehensive Guide to Securing Government Contracts in France: Trade Policies, Registration Requirements and Documentation

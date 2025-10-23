@@ -7,7 +7,7 @@ tags:
   - "healthcare-services"
   - "nhs-procurement"
   - "provider-selection-regime"
-coverImage: "imak___modern_clinic_receiption_with_green_plants_wall_Captured_6be83c1f-dd4f-4157-95e9-879a94732b70.png"
+image: "/images/imak___modern_clinic_receiption_with_green_plants_wall_Captured_6be83c1f-dd4f-4157-95e9-879a94732b70.png"
 ---
 
 [The Provider Selection Regime (PSR)](https://www.legislation.gov.uk/ukdsi/2023/9780348252613/schedule/1) introduces five distinct routes for procuring healthcare services in England. While the Competitive Process remains an option, the regime emphasizes streamlined procedures, including Direct Award Processes A, B, and C and the Most Suitable Provider Process. Bid managers must familiarize themselves with these routes to effectively position their organizations for new opportunities.

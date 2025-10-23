@@ -7,7 +7,7 @@ tags:
   - "eu"
   - "ev"
   - "ev-charging"
-coverImage: "electric-car-charging-home-clean-energy-filling-technology-scaled.jpg"
+image: "/images/electric-car-charging-home-clean-energy-filling-technology-scaled.jpg"
 ---
 
 According to a recent report by the European Automobile Manufacturers' Association, ["Charging ahead: accelerating the roll-out of EU electric vehicle charging infrastructure"](https://www.acea.auto/publication/automotive-insights-charging-ahead-accelerating-the-rollout-of-eu-electric-vehicle-charging-infrastructure/#:~:text=There%20were%20632%2C423%20public%20charging,public%20charging%20points%20were%20installed.\)) (April 2024), the European electric vehicle (EV) charging market is experiencing rapid expansion and presents significant opportunities for businesses worldwide.

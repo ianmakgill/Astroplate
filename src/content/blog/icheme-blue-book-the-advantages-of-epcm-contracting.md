@@ -8,7 +8,7 @@ tags:
   - "construction"
   - "epcm"
   - "government-contract"
-coverImage: "imak___two_construction_workers_in_a_distance_view_on_financial_9a610174-777f-43f9-ab05-d38120761c40.png"
+image: "/images/imak___two_construction_workers_in_a_distance_view_on_financial_9a610174-777f-43f9-ab05-d38120761c40.png"
 ---
 
 Last year, [the Institute of Chemical Engineers](https://www.icheme.org/) (IChemE) published [the Blue Book](https://www.icheme.org/media/24926/985986bluebook.pdf), which marks a significant milestone for sales and bid managers in the construction industry. As the first standard form contract designed for EPCM (Engineering, Procurement, and Construction Management) contracting, the Blue Book addresses a long-standing challenge: the need to amend professional services contracts or rely on bespoke forms, often leading to legal complexities and increased risks. With a standardised and comprehensive contract tailored to the unique requirements of EPCM projects, sales and bid managers can now streamline the contracting process, reducing ambiguities and facilitating more efficient negotiations.

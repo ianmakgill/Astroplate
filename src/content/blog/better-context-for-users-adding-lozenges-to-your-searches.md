@@ -5,7 +5,7 @@ categories:
   - "releases"
 tags: 
   - "usability"
-coverImage: "Screenshot-2025-10-07-at-084823.png"
+image: "/images/Screenshot-2025-10-07-at-084823.png"
 ---
 
 We've added new context for customers typing into our search boxes. A long list of search terms can be hard for users to make sense of. We also wanted to add extra search context for our customers. Using lozenges provides that context, as well as making it easier to dismiss a search term. You no longer have to find the text, select it and delete it from the search field, instead you can simply click on the 'x' decal to the right of the lozenge.

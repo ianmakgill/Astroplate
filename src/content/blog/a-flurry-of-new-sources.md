@@ -5,7 +5,7 @@ categories:
   - "releases"
 tags: 
   - "sources"
-coverImage: "1280px-NCAA_Football_Western_Illinois_at_Iowa_State_8024335908.jpg"
+image: "/images/1280px-NCAA_Football_Western_Illinois_at_Iowa_State_8024335908.jpg"
 ---
 
 We're adding new sources at a gallop.

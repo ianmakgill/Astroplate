@@ -6,7 +6,7 @@ categories:
 tags: 
   - "eu-policy"
   - "government-contract"
-coverImage: "imak___busy_train_station_with_consultancy_people_in_suits_with_727478b5-d01e-45de-9f94-8a32a18ae73f.png"
+image: "/images/imak___busy_train_station_with_consultancy_people_in_suits_with_727478b5-d01e-45de-9f94-8a32a18ae73f.png"
 ---
 
 Adopted in December 2022, the [EU Foreign Subsidies Regulation](https://competition-policy.ec.europa.eu/foreign-subsidies-regulation/legislation_en#implementing-regulation) (FSR) addresses the European Union (EU) internal market distortion caused by foreign subsidies. The notification obligations under the updated FSR came into force on 12 October 2023. Learn more about the impact on EU suppliers in our previous blog, ["EU Foreign Subsidies Regulation Go Live: Impact on Public Procurement Bidding"](https://www.spendnetwork.com/eu-foreign-subsidies-regulation-go-live-impact-on-public-procurement-bidding/).

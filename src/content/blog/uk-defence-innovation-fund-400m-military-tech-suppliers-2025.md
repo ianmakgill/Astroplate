@@ -12,7 +12,7 @@ tags:
   - "mod-innovation-fund"
   - "uk-defence-procurement"
   - "ukdi-funding"
-coverImage: "freepik__upload__48371-e1754912660188.png"
+image: "/images/freepik__upload__48371-e1754912660188.png"
 ---
 
 The UK has formally [launched UK Defence Innovation (UKDI)](https://www.gov.uk/government/news/launch-of-new-body-to-harness-innovative-tech-for-the-uks-armed-forces) with £400 million ringfenced within the Ministry of Defence (MOD) budget, designed to streamline the delivery of innovative technology to Armed Forces personnel.
@@ -33,7 +33,7 @@ Our comprehensive [Defence and Security Procurement Trends: Global Analysis 2025
 
 <figure>
 
-![Bar chart - Defence contract durations by category in the UK.](images/Contract-duration-2024-defence.png)
+![Bar chart - Defence contract durations by category in the UK.](/images/Contract-duration-2024-defence.png)
 
 <figcaption>
 

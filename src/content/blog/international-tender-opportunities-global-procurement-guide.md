@@ -14,7 +14,7 @@ tags:
   - "overseas-government-procurement"
   - "un-tenders"
   - "world-health-organization-contracts"
-coverImage: "WP-blog-5.png"
+image: "/images/WP-blog-5.png"
 ---
 
 If you’re using local tender portals, you’re missing a crucial piece of the puzzle.
@@ -51,7 +51,7 @@ Here's how to systematically identify international buyers seeking suppliers fro
 
 <figure>
 
-![Tender search results displaying British High Commission Nairobi CCTV contract and British Forces Cyprus transport services contract as examples of UK organisations tendering internationally](images/image-22.png "Real examples of UK organizations procuring services internationally")
+![Tender search results displaying British High Commission Nairobi CCTV contract and British Forces Cyprus transport services contract as examples of UK organisations tendering internationally](/images/image-22.png "Real examples of UK organizations procuring services internationally")
 
 <figcaption>
 

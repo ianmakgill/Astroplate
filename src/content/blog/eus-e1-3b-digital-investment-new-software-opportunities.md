@@ -12,7 +12,7 @@ tags:
   - "government-contracts"
   - "software-vendors"
   - "tech-market-trends"
-coverImage: "image-18.png"
+image: "/images/image-18.png"
 ---
 
 The EU Commission has allocated [€1.3 billion](https://www.techerati.com/news-hub/european-commission-invests-e1-3-billion-in-ai-cybersecurity-and-digital-skills/) for critical technology deployment across Europe, creating contract opportunities for software and digital service providers.
@@ -29,7 +29,7 @@ Funding will support the expansion of European Digital Innovation Hubs that prov
 
 Our [Global Digital Tech Procurement Analysis 2025](https://www.openopps.com/global-digital-tech-procurement-trends-2025/) reveals perfect alignment with these EU priorities. Cybersecurity software shows the strongest growth trajectory (49.7% increase since 2022), while enterprise infrastructure investments have grown 9.4%.
 
-![](images/Security-software.png)
+![](/images/Security-software.png)
 
 ```
       Number of Government Software Tender Opportunities (2022-2024)

@@ -7,7 +7,7 @@ categories:
 tags: 
   - "popular"
   - "startup"
-coverImage: "blog-post-5.jpg"
+image: "/images/blog-post-5.jpg"
 ---
 
 Embarking on a rebranding journey for your business is an exciting yet challenging endeavor. A successful rebrand can breathe new life into your company, helping you connect with your target audience in a fresh and meaningful way.

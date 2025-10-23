@@ -10,7 +10,7 @@ tags:
   - "engineering-contracts"
   - "security-tenders"
   - "us-procurement"
-coverImage: "image-15.png"
+image: "/images/image-15.png"
 ---
 
 Building on our March announcement of [126 new data sources](https://www.openopps.com/usa-tender-opportunities/), we're excited to unveil our latest expansion of US procurement coverage.

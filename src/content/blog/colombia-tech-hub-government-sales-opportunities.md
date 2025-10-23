@@ -9,7 +9,7 @@ tags:
   - "colombia-tech-market"
   - "government-it-sales"
   - "latin-america-digital-transformation"
-coverImage: "Columbia-tech-office.jpg"
+image: "/images/Columbia-tech-office.jpg"
 ---
 
 The 2025 Colombian technology landscape represents Latin America's most promising tech hub, creating opportunities for strategic sales professionals.
@@ -24,7 +24,7 @@ The tech startup ecosystem has grown at a remarkable [28% annually between 2019-
 
 <figure>
 
-![Global tech government government spending 2022-2024](images/Global-tech-government-spending.png)
+![Global tech government government spending 2022-2024](/images/Global-tech-government-spending.png)
 
 <figcaption>
 

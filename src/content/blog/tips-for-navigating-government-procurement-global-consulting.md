@@ -7,7 +7,7 @@ categories:
 tags: 
   - "enterprise"
   - "tips"
-coverImage: "imak___binocular_the_colours_only_white_grey_deep_green_color_0_c683117f-16b0-4626-8b0e-1fdb5208ff3e.png"
+image: "/images/imak___binocular_the_colours_only_white_grey_deep_green_color_0_c683117f-16b0-4626-8b0e-1fdb5208ff3e.png"
 ---
 
 Consultancies can unlock tremendous value by tapping into the wealth of worldwide government procurement data. This article explores key tips for effectively accessing and analysing government procurement data to drive international expansion.

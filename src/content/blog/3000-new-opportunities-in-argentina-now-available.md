@@ -8,7 +8,7 @@ tags:
   - "argentina-tenders"
   - "latin-america-tenders"
   - "sell-to-argentina"
-coverImage: "OO-website-6.png"
+image: "/images/OO-website-6.png"
 ---
 
 We're thrilled to announce a significant update to our [Open Opportunities](https://www.openopps.com/book-a-call-for-the-best-chance-to-win-bids/) platform: the addition of nearly 3,000 new opportunities per year from Argentina. This expansion gives our users unprecedented access to one of the world's most dynamic and rapidly growing markets.

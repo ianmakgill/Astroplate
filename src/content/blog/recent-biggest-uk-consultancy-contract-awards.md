@@ -6,7 +6,7 @@ categories:
 tags: 
   - "sell-to-uk-gov"
   - "uk-consultancy-contract"
-coverImage: "OO-website-2.png"
+image: "/images/OO-website-2.png"
 ---
 
 As a supplier or business development professional in the consultancy sector, staying informed about recent contract awards is crucial for identifying new opportunities and potential clients.

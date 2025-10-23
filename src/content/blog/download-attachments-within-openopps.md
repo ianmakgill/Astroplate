@@ -5,7 +5,7 @@ categories:
   - "releases"
 tags: 
   - "features"
-coverImage: "Screenshot-2025-10-12-at-111503.png"
+image: "/images/Screenshot-2025-10-12-at-111503.png"
 ---
 
 How much do you hate the digital obstacle course that is part of qualifying bids? The real data that bidders need is hidden in the specification docs but these can't be found without visiting multiple sites which you also have to register for. Today we're starting to bring that to an end. Today we've started adding attachments to as many opportunities as we can.

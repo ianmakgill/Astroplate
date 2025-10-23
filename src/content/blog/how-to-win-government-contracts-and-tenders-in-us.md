@@ -15,7 +15,7 @@ tags:
   - "uei-registration"
   - "us-government-contracts"
   - "wto-government-procurement"
-coverImage: "US-public-tenders.jpg"
+image: "/images/US-public-tenders.jpg"
 ---
 
 ## Strategies for Securing U.S. Government Contracts: Registration, Compliance, and International Trade Considerations

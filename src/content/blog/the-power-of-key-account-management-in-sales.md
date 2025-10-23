@@ -6,7 +6,7 @@ categories:
 tags: 
   - "account-management"
   - "sales-process"
-coverImage: "Account-Management.png"
+image: "/images/Account-Management.png"
 ---
 
 Key account management (KAM) has become a fundamental part of sales strategy for many B2B companies. But what makes this approach so effective? Let's explore three key benefits of KAM for driving sales growth and strengthening customer relationships.

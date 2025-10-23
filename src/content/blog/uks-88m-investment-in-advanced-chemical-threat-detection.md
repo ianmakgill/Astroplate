@@ -6,7 +6,7 @@ categories:
 tags: 
   - "chemical-threat-detection"
   - "uk-ministry-of-defence"
-coverImage: "Screenshot-2024-05-31-at-164314.png"
+image: "/images/Screenshot-2024-05-31-at-164314.png"
 ---
 
 The UK Ministry of Defence's (MOD) [£88 million investment](https://www.gov.uk/government/news/new-88-million-sensing-equipment-to-protect-uk-armed-forces) in advanced chemical threat detection technology presents a lucrative supplier opportunity to contribute their expertise and components. Smiths Detection, awarded this significant contract, is set to source components and services from numerous UK suppliers, bolstering the domestic manufacturing industry and fostering innovation.

@@ -3,7 +3,7 @@ title: "Best Time to Bid: £5.59bn Government Software Market Analysis"
 date: 2024-12-18
 categories: 
   - "export"
-coverImage: "imak___office_with_a_green_plant_wall_team_chatting_in_the_far__f620adbb-96d3-43e7-a7d6-8555969fd7a6-e1734518027489.png"
+image: "/images/imak___office_with_a_green_plant_wall_team_chatting_in_the_far__f620adbb-96d3-43e7-a7d6-8555969fd7a6-e1734518027489.png"
 ---
 
 While [Gartner](https://www.gartner.com/en/newsroom/press-releases/2024-10-23-gartner-forecasts-worldwide-it-spending-to-grow-nine-point-three-percent-in-2025) forecasts worldwide IT spending to grow 9.3% in 2025, understanding when governments release these budgets is crucial for suppliers' success.
@@ -18,13 +18,13 @@ This comprehensive study, drawing on our unique dataset from 2022 to early 2024,
 
 The interactive Graph 1: Market by month allows you to select specific software categories (Communication software package, Database systems, Networking software package, Operating systems, Programming services, Software-related services, System and support services, or System storage and content management) to view their individual spending patterns across months.
 
-![chart visualization](images/thumbnail)
+![chart visualization](/images/thumbnail)
 
 Graph _1: Market by month_
 
 Analysing trends across all categories, we observe three major peaks in tender activity: March-April 2023, June-July 2023, and November-December 2023. These consistent peaks across categories represent the optimal times for suppliers to target their bidding efforts, with both opportunity counts and values showing marked increases during these periods.
 
-![slope visualization](images/thumbnail)
+![slope visualization](/images/thumbnail)
 
 _Graph 2: Total value of opportunities_
 

@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ai"
   - "sales-process"
-coverImage: "imak___futuristic_meeting_room_with_deep_green_colours_element__c30630fe-7bb5-4d5f-8da5-899b1830b2fc.png"
+image: "/images/imak___futuristic_meeting_room_with_deep_green_colours_element__c30630fe-7bb5-4d5f-8da5-899b1830b2fc.png"
 ---
 
 Artificial intelligence (AI) is transforming the business sales process. A recent [study by Paschen, Wilson, and Ferreira (2020)](https://www.sciencedirect.com/science/article/pii/S0007681320300033) reviewed how sales managers can leverage AI to enhance performance at each sales funnel stage.
@@ -33,7 +33,7 @@ The authors emphasise that AI should enhance rather than replace the sales proce
 
 **Are you looking for global tender opportunities?**
 
-![](images/giphy.gif)
+![](/images/giphy.gif)
 
 Spend Network has developed a new tool, to allow easy access to global opportunities to sell to governments. Open Opportunities is the most comprehensive tool on the market for government spending worldwide.[Sign up now](https://www.openopportunities.co/early-access/)!
 

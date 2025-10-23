@@ -9,7 +9,7 @@ categories:
 tags: 
   - "mobile"
   - "popular"
-coverImage: "background14.png"
+image: "/images/background14.png"
 ---
 
 In the realm of government exports, the adoption of data-driven decision-making processes has become an indispensable component for fostering strategic advantage and informed choices. This article explores the significance of leveraging analytics to enhance government export strategies, driving efficiency and precision in the global market.

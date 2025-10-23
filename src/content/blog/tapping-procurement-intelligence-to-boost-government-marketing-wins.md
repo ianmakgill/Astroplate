@@ -7,7 +7,7 @@ tags:
   - "data"
   - "marketing"
   - "strategy"
-coverImage: "imak___horn_speaker_deep_green_color_034737_the_colours_only_wh_8b35f787-658b-404c-b4e3-53cd0c45dfd3.png"
+image: "/images/imak___horn_speaker_deep_green_color_034737_the_colours_only_wh_8b35f787-658b-404c-b4e3-53cd0c45dfd3.png"
 ---
 
 With public sector entities representing a major opportunity, integrating procurement data insights into your procurement strategy is invaluable for marketing agencies seeking new government business. But competition is often fierce, and the stakes are high.

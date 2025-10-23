@@ -6,7 +6,7 @@ categories:
 tags: 
   - "florida"
   - "government-contract"
-coverImage: "Header-Banner-for-Blog-2.png"
+image: "/images/Header-Banner-for-Blog-2.png"
 ---
 
 Florida's economy is surging, with [over 5%](https://www.visualcapitalist.com/top-10-states-by-real-gdp-growth-in-2023/) growth last year and [the second-fastest growing population in the USA.](https://www.pewtrusts.org/en/research-and-analysis/articles/2024/05/07/population-growth-in-most-states-lags-long-term-trends#) This vibrant business landscape presents lucrative opportunities for savvy entrepreneurs and companies. At [Open Opportunities](https://www.openopps.com/), we're excited to announce the addition of thousands of new tenders from Florida State to our users.
