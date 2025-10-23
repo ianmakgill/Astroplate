@@ -29,8 +29,8 @@ features:
       link: '#'
   - title: Use keywords to find the right opportunities
     image: /front_page_keyword.png
-    image_side: ''
-    content: ''
+    image_side: right
+    content: Finding opportunities across hundreds of different portals.
     bulletpoints: []
     button:
       label: ''
