@@ -146,6 +146,37 @@
   @apply absolute right-3 top-3 h-8 w-8 rounded-full bg-light text-center leading-8 text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark;
 }
 
+/* scroll animation styles */
+.feature-scroll-section {
+  scroll-margin-top: 0;
+  position: relative;
+}
+
+.feature-image {
+  will-change: opacity;
+}
+
+.feature-text-container {
+  position: relative;
+  height: 100%;
+  min-height: 120vh;
+}
+
+.feature-text-wrapper {
+  position: sticky;
+  top: 50vh;
+  transform: translateY(-50%);
+  will-change: opacity;
+  z-index: 10;
+  /* Prevent any scrolling */
+  pointer-events: auto;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
 /* content style */
 .content {
   @apply prose max-w-none;
