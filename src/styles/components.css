@@ -159,16 +159,36 @@
 .feature-text-container {
   position: relative;
   height: 100%;
-  min-height: 140vh;
+  min-height: 100vh;
 }
 
 .feature-text-wrapper {
-  position: sticky;
-  top: 50vh;
+  position: fixed;
+  top: 50%;
   transform: translateY(-50%);
   will-change: opacity;
   z-index: 10;
   pointer-events: auto;
+  width: 40%;
+  max-width: 600px;
+}
+
+.feature-text-wrapper.text-on-left {
+  left: 5%;
+}
+
+.feature-text-wrapper.text-on-right {
+  right: 5%;
+}
+
+@media (max-width: 768px) {
+  .feature-text-wrapper {
+    position: sticky;
+    width: 100%;
+    left: auto;
+    right: auto;
+    top: 50vh;
+  }
 }
 
 /* Smooth scroll behavior */
