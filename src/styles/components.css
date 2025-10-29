@@ -182,12 +182,30 @@
 }
 
 @media (max-width: 768px) {
+  .feature-scroll-section {
+    min-height: auto !important;
+  }
+
+  .feature-text-container {
+    min-height: auto !important;
+  }
+
   .feature-text-wrapper {
-    position: sticky;
+    position: relative !important;
     width: 100%;
-    left: auto;
-    right: auto;
-    top: 50vh;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    transform: none !important;
+    opacity: 1 !important;
+    margin-top: 2rem;
+  }
+
+  .feature-image {
+    position: relative !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
 

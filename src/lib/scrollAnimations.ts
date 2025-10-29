@@ -5,6 +5,9 @@ export function initFeatureScrollAnimations() {
     return;
   }
 
+  // Check if mobile - skip animations on mobile devices
+  const isMobile = () => window.innerWidth <= 768;
+
   featureSections.forEach((section) => {
     const image = section.querySelector('.feature-image') as HTMLElement;
     const textWrapper = section.querySelector('.feature-text-wrapper') as HTMLElement;
@@ -13,12 +16,24 @@ export function initFeatureScrollAnimations() {
       return;
     }
 
-    // Set initial states
+    // On mobile, keep everything visible - no animations
+    if (isMobile()) {
+      image.style.opacity = '1';
+      textWrapper.style.opacity = '1';
+      return;
+    }
+
+    // Set initial states for desktop
     image.style.opacity = '0';
     textWrapper.style.opacity = '0';
   });
 
   function updateAnimations() {
+    // Skip animations on mobile
+    if (isMobile()) {
+      return;
+    }
+
     const windowHeight = window.innerHeight;
     const scrollY = window.scrollY;
 
@@ -85,6 +100,27 @@ export function initFeatureScrollAnimations() {
       });
       ticking = true;
     }
+  });
+
+  // Handle resize events to toggle between mobile and desktop modes
+  window.addEventListener('resize', () => {
+    featureSections.forEach((section) => {
+      const image = section.querySelector('.feature-image') as HTMLElement;
+      const textWrapper = section.querySelector('.feature-text-wrapper') as HTMLElement;
+
+      if (!image || !textWrapper) {
+        return;
+      }
+
+      if (isMobile()) {
+        // Mobile: everything visible
+        image.style.opacity = '1';
+        textWrapper.style.opacity = '1';
+      } else {
+        // Desktop: reset and let scroll animation handle it
+        updateAnimations();
+      }
+    });
   });
 
   // Initial update
