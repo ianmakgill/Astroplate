@@ -85,11 +85,21 @@ features:
     button:
       label: ''
       link: ''
-  - title: We've classified every document for you
+  - title: We've categorized every document for you
     image: /images/front_page_categories.png
     image_side: right
-    content: ''
-    bulletpoints: []
+    content: >-
+      Sometimes keywords aren't enough, combining keywords and category filters
+      gives you precisely the opportunities you need
+    bulletpoints:
+      - We've used AI to categorize every opportunity in our database.
+      - >-
+        It doesn't matter where the opportunity came from, we've added
+        categories to every record
+      - So you can filter records across every continent and every country
+      - >-
+        Our powerful filters give you the precision and confidence to find
+        exactly what you need
     button:
       label: ''
       link: ''
