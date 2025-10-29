@@ -159,7 +159,7 @@
 .feature-text-container {
   position: relative;
   height: 100%;
-  min-height: 120vh;
+  min-height: 140vh;
 }
 
 .feature-text-wrapper {
@@ -168,7 +168,6 @@
   transform: translateY(-50%);
   will-change: opacity;
   z-index: 10;
-  /* Prevent any scrolling */
   pointer-events: auto;
 }
 

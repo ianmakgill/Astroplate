@@ -51,21 +51,21 @@ export function initFeatureScrollAnimations() {
         imageOpacity = 1 - ((clampedProgress - 0.8) / 0.2);
       }
 
-      // Text fades in when image is around halfway (0.35 to 0.45)
-      // Text stays STICKY and visible (0.45 to 0.5)
-      // Text fades out EARLY before container bottom catches up (0.5 to 0.6)
+      // Text fades in (0.35 to 0.42)
+      // Text stays visible (0.42 to 0.48)
+      // Text fades out (0.48 to 0.55) - must be invisible before sticky runs out of space
       let textOpacity = 0;
       if (clampedProgress < 0.35) {
         textOpacity = 0;
-      } else if (clampedProgress >= 0.35 && clampedProgress < 0.45) {
-        // Fade in
-        textOpacity = (clampedProgress - 0.35) / 0.1;
-      } else if (clampedProgress >= 0.45 && clampedProgress < 0.5) {
-        // Fully visible and STICKY
+      } else if (clampedProgress >= 0.35 && clampedProgress < 0.42) {
+        // Fade in - starts later to avoid overlap with previous section
+        textOpacity = (clampedProgress - 0.35) / 0.07;
+      } else if (clampedProgress >= 0.42 && clampedProgress < 0.48) {
+        // Fully visible
         textOpacity = 1;
-      } else if (clampedProgress >= 0.5 && clampedProgress < 0.6) {
-        // Fade out EARLY
-        textOpacity = 1 - ((clampedProgress - 0.5) / 0.1);
+      } else if (clampedProgress >= 0.48 && clampedProgress < 0.55) {
+        // Fade out - invisible before container forces upward movement
+        textOpacity = 1 - ((clampedProgress - 0.48) / 0.07);
       } else {
         textOpacity = 0;
       }
