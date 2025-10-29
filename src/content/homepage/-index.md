@@ -9,20 +9,16 @@ banner:
     link: https://app.openopps.com/
     subtitle: No credit card required
 features:
-  - title: Instantly search across 800 sources
+  - title: Instantly search across 800+ sources every day.
     image: /images/front_page_portal_maze.png
     image_side: right
-    content: >-
-      Astroplate is a comprehensive starter template that includes everything
-      you need to get started with your Astro project. What's Included in
-      Astroplate
+    content: The only service that offers...
     bulletpoints:
-      - 10+ Pre-build pages
-      - 95+ Google Pagespeed Score
-      - Build with Astro and TailwindCSS for easy and customizable styling
-      - Fully responsive on all devices
-      - SEO-optimized for better search engine rankings
-      - '**Open-source and free** for personal and commercial use'
+      - Global coverage
+      - 100% categorisation
+      - 10k opportunities a day
+      - Downloadable attachments
+      - A full guarantee
     button:
       enable: false
       label: Get Started Now
