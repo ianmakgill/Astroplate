@@ -42,13 +42,12 @@ features:
     image: /images/front_page_countries.png
     image_side: right
     content: >-
-      Astro is an all-in-one web framework for building fast, content-focused
-      websites. It offers a range of exciting features for developers and
-      website creators. Some of the key features are:
+      Search by continent, country or groups of country to search your specific
+      market.
     bulletpoints:
-      - 'Zero JS, by default: No JavaScript runtime overhead to slow you down.'
-      - 'Customizable: Tailwind, MDX, and 100+ other integrations to choose from.'
-      - 'UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more.'
+      - Standard country names for every document in our database
+      - 'Predefined market groupings: EMEA, AsiaPac, Nordics and more'
+      - Configure your own groupings to make market searches easier than ever
     button:
       enable: true
       label: Get Started Now
