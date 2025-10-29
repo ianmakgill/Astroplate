@@ -52,7 +52,7 @@ features:
       enable: true
       label: Get Started Now
       link: https://github.com/zeon-studio/astroplate
-  - title: Download specification documents within Open Opportunities
+  - title: Download specifications in Open Opportunities
     image: /images/front_page_attachments2.png
     image_side: right
     content: 'Adding '
