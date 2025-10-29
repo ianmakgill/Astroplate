@@ -55,7 +55,9 @@ features:
   - title: Download specifications in Open Opportunities
     image: /images/front_page_attachments2.png
     image_side: right
-    content: 'Adding '
+    content: >-
+      Making bid, no bid decisions instantly because you have easy access to the
+      data you need.
     bulletpoints:
       - Download documents from your browser
       - >-
@@ -67,11 +69,19 @@ features:
       enable: false
       label: Try for free
       link: ''
-  - title: Get daily alerts right to your inbox
+  - title: Never miss an opportunity
     image: /images/front_page_email_alert.png
     image_side: right
-    content: ''
-    bulletpoints: []
+    content: >-
+      Get intelligent alerts directly to your inbox so that you always know
+      where to find the best opportunities
+    bulletpoints:
+      - Configure up to 10 individual alerts
+      - Precisely filter your alerts so that you get exactly what you need.
+      - Set up alerts for daily, weekly or monthly alerts
+      - >-
+        Set up alerts for new tenders, expiring contracts or tracking
+        competitors
     button:
       label: ''
       link: ''
