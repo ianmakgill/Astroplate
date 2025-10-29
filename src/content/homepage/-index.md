@@ -52,26 +52,20 @@ features:
       enable: true
       label: Get Started Now
       link: https://github.com/zeon-studio/astroplate
-  - title: Download specification documents with Open Opportunities
+  - title: Download specification documents within Open Opportunities
     image: /images/front_page_attachments2.png
     image_side: right
-    content: >-
-      With Astro, you can build modern and content-focused websites without
-      sacrificing performance or ease of use.
+    content: 'Adding '
     bulletpoints:
-      - Instantly load static sites for better user experience and SEO.
+      - Download documents from your browser
       - >-
-        Intuitive syntax and support for popular frameworks make learning and
-        using Astro a breeze.
-      - >-
-        Use any front-end library or framework, or build custom components, for
-        any project size.
-      - >-
-        Built on cutting-edge technology to keep your projects up-to-date with
-        the latest web standards.
+        Easier evaluation of opportunities because you have all the data you
+        need
+      - Avoid the digital obstacle course of downloading documents
+      - Save time evaluating opportunities
     button:
       enable: false
-      label: ''
+      label: Try for free
       link: ''
   - title: Get daily alerts right to your inbox
     image: /images/front_page_email_alert.png
