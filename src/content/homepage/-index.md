@@ -12,7 +12,9 @@ features:
   - title: Instantly search across 800+ sources every day.
     image: /images/front_page_portal_maze.png
     image_side: right
-    content: The only service that offers...
+    content: >-
+      With opportunities spread across hundreds of sites, you need a single,
+      easy to use aggregator, so that you can focus on winning new business.
     bulletpoints:
       - Global coverage
       - 100% categorisation
@@ -26,8 +28,13 @@ features:
   - title: Use keywords to find the right opportunities
     image: /images/front_page_keyword.png
     image_side: right
-    content: Finding opportunities across hundreds of different portals.
-    bulletpoints: []
+    content: The fastest route from A to Bid, guaranteed.
+    bulletpoints:
+      - Advanced search configured for procurement opportunities
+      - Search enhanced with AI
+      - 'Search using three modes: strict, medium or loose'
+      - Exclude keywords for precision searching
+      - Sort responses for relevance
     button:
       label: ''
       link: ''
