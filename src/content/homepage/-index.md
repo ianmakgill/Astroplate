@@ -52,12 +52,12 @@ features:
       enable: true
       label: Get Started Now
       link: https://github.com/zeon-studio/astroplate
-  - title: Download specifications in Open Opportunities
+  - title: Download attachments
     image: /images/front_page_attachments2.png
     image_side: right
     content: >-
-      Making bid, no bid decisions instantly because you have easy access to the
-      data you need.
+      You can download specifications directly inside Open Opportunities, giving
+      you easy access to the data you need.
     bulletpoints:
       - Download documents from your browser
       - >-
