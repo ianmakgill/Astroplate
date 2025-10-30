@@ -1,5 +1,8 @@
 export function initFeatureScrollAnimations() {
+  console.log('[SCROLL DEBUG] Initializing...');
   const featureSections = document.querySelectorAll('.feature-scroll-section');
+
+  console.log('[SCROLL DEBUG] Found sections:', featureSections.length);
 
   if (featureSections.length === 0) {
     return;
@@ -8,24 +11,32 @@ export function initFeatureScrollAnimations() {
   // Check if mobile - skip animations on mobile devices
   const isMobile = () => window.innerWidth <= 768;
 
-  featureSections.forEach((section) => {
+  console.log('[SCROLL DEBUG] Is mobile?', isMobile(), 'Width:', window.innerWidth);
+
+  featureSections.forEach((section, idx) => {
     const image = section.querySelector('.feature-image') as HTMLElement;
     const textWrapper = section.querySelector('.feature-text-wrapper') as HTMLElement;
 
     if (!image || !textWrapper) {
+      console.log(`[SCROLL DEBUG] Section ${idx} missing elements`);
       return;
     }
+
+    const classes = textWrapper.className;
+    console.log(`[SCROLL DEBUG] Section ${idx} text classes:`, classes);
 
     // On mobile, keep everything visible - no animations
     if (isMobile()) {
       image.style.opacity = '1';
       textWrapper.style.opacity = '1';
+      console.log(`[SCROLL DEBUG] Section ${idx} set to mobile (visible)`);
       return;
     }
 
     // Set initial states for desktop
     image.style.opacity = '0';
     textWrapper.style.opacity = '0';
+    console.log(`[SCROLL DEBUG] Section ${idx} initialized with opacity 0`);
   });
 
   function updateAnimations() {
@@ -87,6 +98,11 @@ export function initFeatureScrollAnimations() {
 
       image.style.opacity = imageOpacity.toString();
       textWrapper.style.opacity = textOpacity.toString();
+
+      // Debug: Log when text is visible
+      if (textOpacity > 0 || imageOpacity > 0) {
+        console.log(`[SCROLL DEBUG] Section visible - Image: ${imageOpacity.toFixed(2)}, Text: ${textOpacity.toFixed(2)}, Progress: ${clampedProgress.toFixed(2)}`);
+      }
     });
   }
 

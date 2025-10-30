@@ -115,12 +115,8 @@ const { banner, features } = homepage.data;
 <script>
   import { initFeatureScrollAnimations } from '@/lib/scrollAnimations';
 
-  // Ensure DOM is ready before initializing
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      initFeatureScrollAnimations();
-    });
-  } else {
+  // Handle both initial load and view transition navigations
+  document.addEventListener('astro:page-load', () => {
     initFeatureScrollAnimations();
-  }
+  });
 </script>

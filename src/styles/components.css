@@ -154,6 +154,8 @@
 
 .feature-image {
   will-change: opacity;
+  /* Start hidden before JS initializes */
+  opacity: 0;
 }
 
 .feature-text-container {
@@ -171,6 +173,8 @@
   pointer-events: auto;
   width: 40%;
   max-width: 600px;
+  /* Start hidden before JS initializes */
+  opacity: 0;
 }
 
 .feature-text-wrapper.text-on-left {

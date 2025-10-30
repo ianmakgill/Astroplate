@@ -86,7 +86,7 @@ features:
       label: ''
       link: ''
   - title: We've categorized every document for you
-    image: media/public/images/front_page_categories_light.png
+    image: /images/front_page_categories_light.png
     image_side: right
     content: >-
       Sometimes keywords aren't enough, combining keywords and category filters
