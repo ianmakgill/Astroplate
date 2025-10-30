@@ -6,7 +6,18 @@
     },
     {
       "name": "About",
-      "url": "/about"
+      "url": "/about",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Contact",
+          "url": "/contact"
+        },
+        {
+          "name": "Open data principles",
+          "url": "opendata"
+        }
+      ]
     },
     {
       "name": "Elements",
