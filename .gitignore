@@ -27,3 +27,4 @@ package-lock.json
 
 # ide
 .idea/
+*.sublime-workspace
