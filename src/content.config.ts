@@ -152,48 +152,49 @@ const landingPagesCollection = defineCollection({
     image: z.string().optional(),
     draft: z.boolean().optional(),
     hero: z.object({
-      title: z.string().optional(),
-      description: z.string().optional(),
-    }).optional(),
-    stats: z.object({
-      title: z.string().optional(),
-      image: z.string().optional(),
-      items: z.array(
-        z.object({
-          value: z.string(),
-          label: z.string(),
-          icon: z.string().optional(),
-          variant: z.enum(['primary', 'secondary', 'light']).optional(),
-        })
-      ).optional(),
-    }).optional(),
-    infoCards: z.object({
-      title: z.string().optional(),
-      description: z.string().optional(),
-      columns: z.union([z.literal(2), z.literal(3), z.literal(4)]).optional(),
-      cards: z.array(
-        z.object({
-          title: z.string(),
-          content: z.string(),
-          icon: z.string().optional(),
-          link: z.string().optional(),
-          linkText: z.string().optional(),
-        })
-      ).optional(),
-    }).optional(),
-    cta: z.object({
       title: z.string(),
-      description: z.string().optional(),
-      variant: z.enum(['primary', 'secondary', 'gradient']).optional(),
-      primaryButton: z.object({
-        text: z.string(),
-        link: z.string(),
-      }).optional(),
-      secondaryButton: z.object({
-        text: z.string(),
-        link: z.string(),
-      }).optional(),
+      description: z.string(),
     }).optional(),
+    contentBlocks: z.array(
+      z.discriminatedUnion('type', [
+        z.object({
+          type: z.literal('chapterHeading'),
+          text: z.string(),
+        }),
+        z.object({
+          type: z.literal('sectionHeading'),
+          text: z.string(),
+        }),
+        z.object({
+          type: z.literal('text'),
+          content: z.string(),
+        }),
+        z.object({
+          type: z.literal('image'),
+          src: z.string(),
+          alt: z.string(),
+          caption: z.string().optional(),
+        }),
+        z.object({
+          type: z.literal('chart'),
+          data: z.string(),
+        }),
+        z.object({
+          type: z.literal('cta'),
+          title: z.string(),
+          description: z.string().optional(),
+          variant: z.enum(['primary', 'secondary', 'gradient']).optional(),
+          primaryButton: z.object({
+            text: z.string(),
+            link: z.string(),
+          }).optional(),
+          secondaryButton: z.object({
+            text: z.string(),
+            link: z.string(),
+          }).optional(),
+        }),
+      ])
+    ).optional(),
   }),
 });
 
