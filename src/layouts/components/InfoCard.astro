@@ -1,0 +1,52 @@
+---
+interface Props {
+  title: string;
+  content: string;
+  icon?: string;
+  link?: string;
+  linkText?: string;
+}
+
+const { title, content, icon, link, linkText = "Learn more" } = Astro.props;
+---
+
+<div class="info-card bg-white dark:bg-darkmode-body rounded-lg p-6 border border-border dark:border-darkmode-border h-full flex flex-col">
+  {icon && (
+    <div class="info-icon mb-4 text-primary text-3xl">
+      {icon}
+    </div>
+  )}
+
+  <h3 class="mb-3 text-xl font-bold text-dark dark:text-white">
+    {title}
+  </h3>
+
+  <div class="info-content mb-4 text-text dark:text-darkmode-text flex-grow">
+    <p>{content}</p>
+  </div>
+
+  {link && (
+    <div class="info-link mt-auto">
+      <a
+        href={link}
+        class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors"
+      >
+        {linkText}
+        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  )}
+</div>
+
+<style>
+  .info-card {
+    transition: all 0.3s ease;
+  }
+
+  .info-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+</style>

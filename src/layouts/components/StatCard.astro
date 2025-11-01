@@ -1,0 +1,41 @@
+---
+interface Props {
+  value: string;
+  label: string;
+  icon?: string;
+  variant?: 'primary' | 'secondary' | 'light';
+}
+
+const { value, label, icon, variant = 'primary' } = Astro.props;
+
+const variantClasses = {
+  primary: 'bg-primary text-white',
+  secondary: 'bg-theme-light dark:bg-darkmode-theme-light text-dark dark:text-white',
+  light: 'bg-white dark:bg-darkmode-body text-dark dark:text-white border border-border dark:border-darkmode-border',
+};
+---
+
+<div class={`stat-card rounded-lg p-6 text-center shadow-sm ${variantClasses[variant]}`}>
+  {icon && (
+    <div class="stat-icon mb-3 flex justify-center">
+      <span class="text-3xl">{icon}</span>
+    </div>
+  )}
+  <div class="stat-value text-4xl font-bold mb-2">
+    {value}
+  </div>
+  <div class="stat-label text-sm opacity-90">
+    {label}
+  </div>
+</div>
+
+<style>
+  .stat-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+</style>
