@@ -5,6 +5,32 @@
       "url": "/"
     },
     {
+      "name": "Resources",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Research",
+          "url": "/research",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Defence",
+              "url": "/research/defence"
+            },
+            {
+              "name": "Healthcare",
+              "url": "/research/healthcare"
+            }
+          ]
+        },
+        {
+          "name": "Country Guides",
+          "url": "/country-guides"
+        }
+      ]
+    },
+    {
       "name": "About",
       "url": "/about",
       "hasChildren": true,

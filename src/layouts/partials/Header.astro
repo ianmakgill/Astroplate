@@ -8,6 +8,8 @@ import { IoSearch } from "react-icons/io5";
 export interface ChildNavigationLink {
   name: string;
   url: string;
+  hasChildren?: boolean;
+  children?: ChildNavigationLink[];
 }
 
 export interface NavigationLink {
@@ -78,19 +80,62 @@ const { pathname } = Astro.url;
                 </label>
                 <ul class="nav-dropdown-list hidden peer-checked:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
                   {menu.children?.map((child) => (
-                    <li class="nav-dropdown-item">
-                      <a
-                        href={child.url}
-                        aria-label={child.name}
-                        class={`nav-dropdown-link block ${
-                          (pathname === `${child.url}/` ||
-                            pathname === child.url) &&
-                          "active"
-                        }`}
-                      >
-                        {child.name}
-                      </a>
-                    </li>
+                    <>
+                      {child.hasChildren ? (
+                        <li class="nav-dropdown-item group/nested relative">
+                          <input
+                            type="checkbox"
+                            id={`nested-${menu.name}-${child.name}`}
+                            class="peer hidden lg:hidden"
+                          />
+                          <label
+                            for={`nested-${menu.name}-${child.name}`}
+                            class={`nav-dropdown-link block ${
+                              child.children?.map(({ url }) => url).includes(pathname) ||
+                              child.children?.map(({ url }) => `${url}/`).includes(pathname)
+                                ? "active"
+                                : ""
+                            }`}
+                          >
+                            {child.name}
+                            <svg class="h-4 w-4 fill-current inline-block ml-1" viewBox="0 0 20 20">
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                          </label>
+                          <ul class="nav-dropdown-list hidden peer-checked:block lg:invisible lg:absolute lg:left-full lg:top-0 lg:block lg:opacity-0 lg:group-hover/nested:visible lg:group-hover/nested:opacity-100">
+                            {child.children?.map((grandchild) => (
+                              <li class="nav-dropdown-item">
+                                <a
+                                  href={grandchild.url}
+                                  aria-label={grandchild.name}
+                                  class={`nav-dropdown-link block ${
+                                    (pathname === `${grandchild.url}/` ||
+                                      pathname === grandchild.url) &&
+                                    "active"
+                                  }`}
+                                >
+                                  {grandchild.name}
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </li>
+                      ) : (
+                        <li class="nav-dropdown-item">
+                          <a
+                            href={child.url}
+                            aria-label={child.name}
+                            class={`nav-dropdown-link block ${
+                              (pathname === `${child.url}/` ||
+                                pathname === child.url) &&
+                              "active"
+                            }`}
+                          >
+                            {child.name}
+                          </a>
+                        </li>
+                      )}
+                    </>
                   ))}
                 </ul>
               </li>
