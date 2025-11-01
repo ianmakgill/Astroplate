@@ -3,28 +3,24 @@ title: "Defence and Security Procurement Trends 2025"
 meta_title: "Global Defence Procurement Analysis 2025 | Market Intelligence"
 description: "Comprehensive analysis of global defence and security procurement trends, market opportunities, and regional insights for 2025."
 draft: false
-
-# Hero section configuration
 hero:
   title: "Defence & Security Procurement Trends 2025"
   description: "Access comprehensive intelligence on global defence markets, procurement opportunities, and strategic insights for defence contractors and suppliers."
-
-# Statistics cards
 stats:
-  - value: "€450B"
-    label: "Global Defence Market"
-    variant: "primary"
-  - value: "15%"
-    label: "YoY Growth"
-    variant: "primary"
-  - value: "12,500+"
-    label: "Active Tenders"
-    variant: "secondary"
-  - value: "85+"
-    label: "Countries Covered"
-    variant: "secondary"
-
-# Info cards section
+  title: "Key Statistics"
+  items:
+    - value: "€450B"
+      label: "Global Defence Market"
+      variant: "primary"
+    - value: "15%"
+      label: "YoY Growth"
+      variant: "primary"
+    - value: "12,500+"
+      label: "Active Tenders"
+      variant: "secondary"
+    - value: "85+"
+      label: "Countries Covered"
+      variant: "secondary"
 infoCards:
   title: "Key Market Sectors"
   description: "Explore the fastest-growing defence procurement categories"
@@ -60,8 +56,6 @@ infoCards:
       icon: "🛰️"
       link: "#intelligence"
       linkText: "Discover more"
-
-# Call-to-action section
 cta:
   title: "Ready to Access Global Defence Opportunities?"
   description: "Join thousands of defence contractors and suppliers who trust Open Opportunities for procurement intelligence."

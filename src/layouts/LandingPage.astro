@@ -34,11 +34,19 @@ const { hero, stats, infoCards, cta } = data;
   )}
 
   <!-- Stats Section -->
-  {stats && stats.length > 0 && (
+  {stats && stats.items && stats.items.length > 0 && (
     <section class="stats-section py-12">
       <div class="container">
+        {stats.title && (
+          <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">{stats.title}</h2>
+        )}
+        {stats.image && (
+          <div class="mb-8 text-center">
+            <img src={stats.image} alt={stats.title || "Statistics"} class="mx-auto max-w-full h-auto rounded-lg" />
+          </div>
+        )}
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {stats.map((stat: any) => (
+          {stats.items.map((stat: any) => (
             <StatCard
               value={stat.value}
               label={stat.label}
@@ -65,7 +73,7 @@ const { hero, stats, infoCards, cta } = data;
   </section>
 
   <!-- Info Cards Section -->
-  {infoCards && infoCards.length > 0 && (
+  {infoCards && infoCards.cards && infoCards.cards.length > 0 && (
     <section class="info-cards-section py-12 bg-theme-light dark:bg-darkmode-theme-light">
       <div class="container">
         {infoCards.title && (

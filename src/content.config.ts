@@ -142,6 +142,61 @@ const testimonialSectionCollection = defineCollection({
   }),
 });
 
+// Landing Pages collection schema
+const landingPagesCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/landing-pages" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+    hero: z.object({
+      title: z.string().optional(),
+      description: z.string().optional(),
+    }).optional(),
+    stats: z.object({
+      title: z.string().optional(),
+      image: z.string().optional(),
+      items: z.array(
+        z.object({
+          value: z.string(),
+          label: z.string(),
+          icon: z.string().optional(),
+          variant: z.enum(['primary', 'secondary', 'light']).optional(),
+        })
+      ).optional(),
+    }).optional(),
+    infoCards: z.object({
+      title: z.string().optional(),
+      description: z.string().optional(),
+      columns: z.union([z.literal(2), z.literal(3), z.literal(4)]).optional(),
+      cards: z.array(
+        z.object({
+          title: z.string(),
+          content: z.string(),
+          icon: z.string().optional(),
+          link: z.string().optional(),
+          linkText: z.string().optional(),
+        })
+      ).optional(),
+    }).optional(),
+    cta: z.object({
+      title: z.string(),
+      description: z.string().optional(),
+      variant: z.enum(['primary', 'secondary', 'gradient']).optional(),
+      primaryButton: z.object({
+        text: z.string(),
+        link: z.string(),
+      }).optional(),
+      secondaryButton: z.object({
+        text: z.string(),
+        link: z.string(),
+      }).optional(),
+    }).optional(),
+  }),
+});
+
 // Export collections
 export const collections = {
   // Pages
@@ -151,6 +206,7 @@ export const collections = {
   pages: pagesCollection,
   about: aboutCollection,
   contact: contactCollection,
+  "landing-pages": landingPagesCollection,
 
   // sections
   ctaSection: ctaSectionCollection,
