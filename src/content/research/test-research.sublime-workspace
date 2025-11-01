@@ -1,0 +1,218 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/openopps/github/Astroplate/src/content/sections/testimonial.md",
+		"/Users/openopps/github/Astroplate/src/pages/about.astro",
+		"/Users/openopps/github/Astroplate/src/content/contact/-index.md",
+		"/Users/openopps/github/Astroplate/src/content/homepage/-index.md",
+		"/Users/openopps/github/Astroplate/src/content/blog/asian-governments-spent-big-in-june-heres-what-exporters-need-to-know.md",
+		"/Users/openopps/github/Astroplate/src/pages/contact.astro",
+		"/Users/openopps/github/Astroplate/src/content/sections/call-to-action.md",
+		"/Users/openopps/Downloads/openopportunities.WordPress.2025-10-21.xml",
+		"/Users/openopps/github/Astroplate/src/pages/index.astro",
+		"/Users/openopps/github/Astroplate/src/content.config.ts",
+		"/Users/openopps/github/Astroplate/src/layouts/partials/Header.astro",
+		"/Users/openopps/github/Astroplate/src/config/social.json",
+		"/Users/openopps/github/Astroplate/src/config/config.json",
+		"/Users/openopps/Downloads/openopportunities.WordPress.2025-10-21 (4).xml",
+		"/Users/openopps/github/Astroplate/src/pages/blog/index.astro",
+		"/Users/openopps/github/Astroplate/src/layouts/partials/Footer.astro",
+		"/Users/openopps/github/Astroplate/src/styles/buttons.css",
+		"/Users/openopps/github/Astroplate/src/factory_content.config.ts",
+		"/Users/openopps/github/Astroplate/src/pages/[regular].astro",
+		"/Users/openopps/github/Astroplate/src/content/research/test-research.md",
+		"/Users/openopps/github/Astroplate/node_modules/marked/lib/marked.esm.js",
+		"/Users/openopps/github/Astroplate/src/styles/main.css",
+		"/Users/openopps/github/Astroplate/src/styles/base.css",
+		"/Users/openopps/github/Astroplate/src/config/theme.json",
+		"/Users/openopps/github/Astroplate/src/tailwind-plugin/tw-theme.js",
+		"/Users/openopps/github/toki-astro-theme/src/components/blocks/slider/BrandSlider.astro",
+		"/Users/openopps/github/toki-astro-theme/src/components/blocks/testimonials/TestimonialsBasic.astro",
+		"/Users/openopps/github/toki-astro-theme/src/pages/index.astro",
+		"/Users/openopps/sanity/toki-astro-theme/README.md",
+		"/Users/openopps/github/toki-astro-theme/astro.config.mjs",
+		"/Users/openopps/github/toki-astro-theme/keystatic.config.ts",
+		"/Users/openopps/github/toki-astro-theme/package.json",
+		"/Users/openopps/github/toki-astro-theme/src/pages/[slug].astro",
+		"/Users/openopps/github/toki-astro-theme/src/assets/Owl-green-on-white_p_050926.svg",
+		"/Users/openopps/github/toki-astro-theme/src/pages/about-us.mdoc",
+		"/Users/openopps/github/toki-astro-theme/src/components/blocks/ImageTextRow.astro",
+		"/Users/openopps/github/toki-astro-theme/src/components/PageBuilder.astro",
+		"/Users/openopps/github/toki-astro-theme/src/pages/keystatic/[[...params]].astro",
+		"/Users/openopps/github/toki-astro-theme/keystatic.config.tsx",
+		"/Users/openopps/github/toki-astro-theme/src/components/ui/NavigationBar.astro",
+		"/Users/openopps/github/toki-astro-theme/src/pages/[...slug].astro",
+		"/Users/openopps/Library/Mobile Documents/com~apple~CloudDocs/Marketing images/Owl-green-on-white_p_050926.svg",
+		"/Users/openopps/github/toki-astro-theme/src/styles/global.css",
+		"/Users/openopps/Downloads/Private & Shared 3/Digital Government Exhibitors 26df851792118066b1b6c9bc045da658.md",
+		"/Users/openopps/Downloads/cpv_opensearch_bulk.jsonl",
+		"/Users/openopps/github/ch_bedrock_data_prepper/prepare_bedrock_kb_resumable.py",
+		"/Users/openopps/Documents/GitHub/openoppsdata/requirements.txt",
+		"/Users/openopps/Documents/GitHub/openoppsdata/pyproject.toml",
+		"/Users/openopps/Downloads/bonfirehub-urls.csv"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "test-research.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 415.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

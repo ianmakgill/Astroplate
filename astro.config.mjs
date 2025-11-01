@@ -21,7 +21,7 @@ export default defineConfig({
     sitemap(),
     AutoImport({
       imports: [
-        "@/shortcodes/Button",
+        "@/layouts/shortcodes/Button",
         "@/shortcodes/Accordion",
         "@/shortcodes/Notice",
         "@/shortcodes/Video",

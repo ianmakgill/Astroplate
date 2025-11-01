@@ -151,50 +151,6 @@ const landingPagesCollection = defineCollection({
     description: z.string().optional(),
     image: z.string().optional(),
     draft: z.boolean().optional(),
-    hero: z.object({
-      title: z.string(),
-      description: z.string(),
-    }).optional(),
-    contentBlocks: z.array(
-      z.discriminatedUnion('type', [
-        z.object({
-          type: z.literal('chapterHeading'),
-          text: z.string(),
-        }),
-        z.object({
-          type: z.literal('sectionHeading'),
-          text: z.string(),
-        }),
-        z.object({
-          type: z.literal('text'),
-          content: z.string(),
-        }),
-        z.object({
-          type: z.literal('image'),
-          src: z.string(),
-          alt: z.string(),
-          caption: z.string().optional(),
-        }),
-        z.object({
-          type: z.literal('chart'),
-          data: z.string(),
-        }),
-        z.object({
-          type: z.literal('cta'),
-          title: z.string(),
-          description: z.string().optional(),
-          variant: z.enum(['primary', 'secondary', 'gradient']).optional(),
-          primaryButton: z.object({
-            text: z.string(),
-            link: z.string(),
-          }).optional(),
-          secondaryButton: z.object({
-            text: z.string(),
-            link: z.string(),
-          }).optional(),
-        }),
-      ])
-    ).optional(),
   }),
 });
 

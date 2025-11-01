@@ -16,4 +16,4 @@ social:
 ---
 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
 
-\<Button label="Contact Me" link="/contact" />
+<a href="/contact" class="btn btn-primary mb-4 me-4 hover:text-white dark:hover:text-black">Contact Me</a>

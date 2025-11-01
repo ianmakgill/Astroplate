@@ -4,130 +4,18 @@ interface Props {
 }
 
 const { data } = Astro.props;
-const { hero, contentBlocks } = data;
 ---
 
 <div class="landing-page">
-  <!-- Hero Section -->
-  {hero && (
-    <section class="hero-section py-12 md:py-20">
-      <div class="container">
-        <div class="text-center max-w-4xl mx-auto">
-          <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold">
-            {hero.title}
-          </h1>
-          <p class="mb-8 text-xl text-text dark:text-darkmode-text">
-            {hero.description}
-          </p>
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <article class="content prose prose-lg max-w-none dark:prose-invert text-center">
+            <slot />
+          </article>
         </div>
       </div>
-    </section>
-  )}
-
-  <!-- Content Blocks -->
-  <div class="container max-w-4xl mx-auto">
-    {contentBlocks && contentBlocks.map((block: any) => {
-      if (block.type === 'chapterHeading') {
-        return (
-          <h2 class="text-3xl md:text-4xl font-bold mt-16 mb-6">
-            {block.text}
-          </h2>
-        );
-      }
-
-      if (block.type === 'sectionHeading') {
-        return (
-          <h3 class="text-2xl md:text-3xl font-bold mt-12 mb-4">
-            {block.text}
-          </h3>
-        );
-      }
-
-      if (block.type === 'text') {
-        return (
-          <div class="prose prose-lg max-w-none dark:prose-invert my-6">
-            <div set:html={block.content} />
-          </div>
-        );
-      }
-
-      if (block.type === 'image') {
-        return (
-          <figure class="my-8">
-            <img
-              src={block.src}
-              alt={block.alt}
-              class="w-full h-auto rounded-lg"
-            />
-            {block.caption && (
-              <figcaption class="text-center text-sm text-text dark:text-darkmode-text mt-2">
-                {block.caption}
-              </figcaption>
-            )}
-          </figure>
-        );
-      }
-
-      if (block.type === 'chart') {
-        return (
-          <div class="my-8 p-6 bg-theme-light dark:bg-darkmode-theme-light rounded-lg">
-            <div class="chart-container" data-chart={block.data}>
-              <!-- Chart will be rendered here -->
-              <p class="text-center text-text dark:text-darkmode-text">Chart: {block.data}</p>
-            </div>
-          </div>
-        );
-      }
-
-      if (block.type === 'cta') {
-        const variantClasses = {
-          primary: 'bg-primary text-white',
-          secondary: 'bg-theme-light dark:bg-darkmode-theme-light text-dark dark:text-white',
-          gradient: 'bg-gradient text-white',
-        };
-
-        return (
-          <section class={`cta-section rounded-2xl p-8 md:p-12 text-center my-12 ${variantClasses[block.variant || 'primary']}`}>
-            <div class="max-w-3xl mx-auto">
-              <h2 class="mb-4 text-3xl md:text-4xl font-bold">
-                {block.title}
-              </h2>
-              {block.description && (
-                <p class="mb-8 text-lg opacity-90">
-                  {block.description}
-                </p>
-              )}
-              <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                {block.primaryButton && (
-                  <a
-                    href={block.primaryButton.link}
-                    class="btn btn-primary bg-white text-primary hover:bg-white/90 px-8 py-3 rounded-lg font-semibold transition-all inline-flex items-center"
-                  >
-                    {block.primaryButton.text}
-                    <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </a>
-                )}
-                {block.secondaryButton && (
-                  <a
-                    href={block.secondaryButton.link}
-                    class="btn btn-outline border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-lg font-semibold transition-all"
-                  >
-                    {block.secondaryButton.text}
-                  </a>
-                )}
-              </div>
-            </div>
-          </section>
-        );
-      }
-    })}
-  </div>
+    </div>
+  </section>
 </div>
-
-<style>
-  .cta-section {
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  }
-</style>
