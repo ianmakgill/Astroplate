@@ -1,0 +1,36 @@
+---
+import Base from "@/layouts/Base.astro";
+import LandingPage from "@/layouts/LandingPage.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { render } from "astro:content";
+
+// get static paths for all release notes pages
+export async function getStaticPaths() {
+  const COLLECTION_FOLDER = "release-notes";
+
+  const releaseNotesPages = await getSinglePage(COLLECTION_FOLDER);
+
+  const paths = releaseNotesPages.map((page) => ({
+    params: {
+      slug: page.id,
+    },
+    props: { page },
+  }));
+  return paths;
+}
+
+const { page } = Astro.props;
+const { title, meta_title, description, image } = page.data;
+const { Content } = await render(page);
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  <LandingPage data={page.data}>
+    <Content />
+  </LandingPage>
+</Base>

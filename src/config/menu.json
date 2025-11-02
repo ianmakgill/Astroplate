@@ -5,90 +5,135 @@
       "url": "/"
     },
     {
+      "name": "Product",
+      "url": "/product",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Overview",
+          "url": "/product"
+        },
+        {
+          "name": "Release Notes",
+          "url": "/release-notes"
+        }
+      ]
+    },
+    {
       "name": "Resources",
       "url": "",
       "hasChildren": true,
       "children": [
         {
           "name": "Research",
-          "url": "/research",
-          "hasChildren": true,
-          "children": [
-            {
-              "name": "Defence",
-              "url": "/research/defence"
-            },
-            {
-              "name": "Healthcare",
-              "url": "/research/healthcare"
-            }
-          ]
+          "url": "/research"
         },
         {
-          "name": "Country Guides",
-          "url": "/country-guides"
-        }
-      ]
-    },
-    {
-      "name": "About",
-      "url": "/about",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Open data principles",
-          "url": "opendata"
-        }
-      ]
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
+          "name": "Guides",
+          "url": "/guides"
         },
         {
           "name": "Blog",
           "url": "/blog"
         },
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "Help",
+          "url": "/help"
+        }
+      ]
+    },
+    {
+      "name": "Company",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "About",
+          "url": "/about"
         },
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "Team",
+          "url": "/team"
         },
         {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
+          "name": "Contact",
+          "url": "/contact"
         }
       ]
     }
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Product",
+      "links": [
+        {
+          "name": "Overview",
+          "url": "/product"
+        },
+        {
+          "name": "Coverage",
+          "url": "/product/we-gather-data-from-all-over-the-world-find-out-more-about-our-coverage-here"
+        },
+        {
+          "name": "Intent Search",
+          "url": "/product/introducing-intent-search-enhanced-multi-lingual-search-that-understands-intent-open-opportuniti"
+        },
+        {
+          "name": "Release Notes",
+          "url": "/release-notes"
+        }
+      ]
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Resources",
+      "links": [
+        {
+          "name": "Research",
+          "url": "/research"
+        },
+        {
+          "name": "Guides",
+          "url": "/guides"
+        },
+        {
+          "name": "Blog",
+          "url": "/blog"
+        },
+        {
+          "name": "Help",
+          "url": "/help"
+        }
+      ]
+    },
+    {
+      "name": "Company",
+      "links": [
+        {
+          "name": "About",
+          "url": "/about"
+        },
+        {
+          "name": "Team",
+          "url": "/team"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
+      "name": "Legal",
+      "links": [
+        {
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "name": "Terms & Conditions",
+          "url": "/subscription-terms-and-conditions"
+        }
+      ]
     }
   ]
 }

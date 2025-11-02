@@ -6,28 +6,40 @@ import menu from "@/config/menu.json";
 import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
 
-const { footer }: { footer: { name: string; url: string }[] } = menu;
+const { footer }: { footer: { name: string; links: { name: string; url: string }[] }[] } = menu;
 ---
 
 <footer class="bg-light dark:bg-darkmode-light">
   <div class="container">
-    <div class="row items-center py-10">
-      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
+    <div class="row py-10">
+      <div class="mb-8 lg:col-3 lg:mb-0">
         <Logo />
+        <div class="mt-4">
+          <Social source={social.main} className="social-icons" />
+        </div>
       </div>
-      <div class="mb-8 text-center lg:col-6 lg:mb-0">
-        <ul>
+      <div class="lg:col-9">
+        <div class="row">
           {
-            footer.map((menu) => (
-              <li class="m-3 inline-block">
-                <a href={menu.url}>{menu.name}</a>
-              </li>
+            footer.map((section) => (
+              <div class="mb-8 lg:col-3 lg:mb-0">
+                <h5 class="mb-4 font-semibold">{section.name}</h5>
+                <ul class="space-y-2">
+                  {section.links.map((link) => (
+                    <li>
+                      <a
+                        href={link.url}
+                        class="text-text-light hover:text-text dark:text-darkmode-text-light dark:hover:text-darkmode-text"
+                      >
+                        {link.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))
           }
-        </ul>
-      </div>
-      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
-        <Social source={social.main} className="social-icons" />
+        </div>
       </div>
     </div>
   </div>

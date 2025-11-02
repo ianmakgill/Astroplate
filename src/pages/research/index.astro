@@ -1,0 +1,47 @@
+---
+import ContentCard from "@/layouts/components/ContentCard.astro";
+import Pagination from "@/components/Pagination.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import { sortByDate } from "@/lib/utils/sortFunctions";
+import PageHeader from "@/partials/PageHeader.astro";
+
+const COLLECTION_FOLDER = "research";
+
+const collectionIndex = await getListPage(COLLECTION_FOLDER, "-index");
+if (collectionIndex.data.draft) {
+  return Astro.redirect("/404");
+}
+const items = await getSinglePage(COLLECTION_FOLDER);
+const sortedItems = sortByDate(items);
+const totalPages: number = Math.ceil(items.length / config.settings.pagination);
+const currentItems = sortedItems.slice(0, config.settings.pagination);
+---
+
+<Base
+  title={collectionIndex.data.title}
+  meta_title={collectionIndex.data.meta_title}
+  image={collectionIndex.data.image}
+  description={collectionIndex.data.description}
+>
+  <PageHeader title={collectionIndex?.data.title} />
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        {
+          currentItems.map((item) => (
+            <div class="mb-14 md:col-6 lg:col-4">
+              <ContentCard data={item} collection={COLLECTION_FOLDER} />
+            </div>
+          ))
+        }
+      </div>
+      <Pagination
+        section={COLLECTION_FOLDER}
+        currentPage={1}
+        totalPages={totalPages}
+      />
+    </div>
+  </section>
+</Base>

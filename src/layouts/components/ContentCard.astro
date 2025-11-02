@@ -1,0 +1,39 @@
+---
+import config from "@/config/config.json";
+import dateFormat from "@/lib/utils/dateFormat";
+import { plainify } from "@/lib/utils/textConverter";
+import ImageMod from "./ImageMod.astro";
+
+const { summary_length }: { summary_length: number } = config.settings;
+const { data, collection } = Astro.props;
+const { title, image, date } = data.data;
+---
+
+<div class="bg-body dark:bg-darkmode-body">
+  {
+    image && (
+      <div class="mb-6 w-full h-[230px] overflow-hidden rounded">
+        <ImageMod
+          class="w-full h-full object-cover"
+          src={image}
+          alt={title}
+          width={445}
+          height={230}
+          format="webp"
+        />
+      </div>
+    )
+  }
+  <h4 class="mb-3">
+    <a href={`/${collection}/${data.id}`}>
+      {title}
+    </a>
+  </h4>
+  <ul class="mb-4">
+    {date && <li class="inline-block">{dateFormat(date)}</li>}
+  </ul>
+  <p class="mb-6">{plainify(data.body?.slice(0, Number(summary_length)))}</p>
+  <a class="btn btn-outline-primary btn-sm" href={`/${collection}/${data.id}`}>
+    read more
+  </a>
+</div>

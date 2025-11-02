@@ -154,6 +154,83 @@ const landingPagesCollection = defineCollection({
   }),
 });
 
+// Research collection schema
+const researchCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/research" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    date: z.date().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+// Product collection schema
+const productCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/product" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    date: z.date().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+// Guides collection schema
+const guidesCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/guides" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    date: z.date().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+// Release Notes collection schema
+const releaseNotesCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/release-notes" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    date: z.date().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+// Team collection schema
+const teamCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/team" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+// Help collection schema
+const helpCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/help" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    date: z.date().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
 // Export collections
 export const collections = {
   // Pages
@@ -164,6 +241,12 @@ export const collections = {
   about: aboutCollection,
   contact: contactCollection,
   "landing-pages": landingPagesCollection,
+  research: researchCollection,
+  product: productCollection,
+  guides: guidesCollection,
+  "release-notes": releaseNotesCollection,
+  team: teamCollection,
+  help: helpCollection,
 
   // sections
   ctaSection: ctaSectionCollection,
