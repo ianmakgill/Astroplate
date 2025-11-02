@@ -1,6 +1,6 @@
 ---
 import Base from "@/layouts/Base.astro";
-import LandingPage from "@/layouts/LandingPage.astro";
+import ResearchPage from "@/layouts/ResearchPage.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { render } from "astro:content";
 
@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 const { title, meta_title, description, image } = page.data;
-const { Content } = await render(page);
+const { Content, headings } = await render(page);
 ---
 
 <Base
@@ -30,7 +30,7 @@ const { Content } = await render(page);
   description={description}
   image={image}
 >
-  <LandingPage data={page.data}>
+  <ResearchPage data={page.data} headings={headings}>
     <Content />
-  </LandingPage>
+  </ResearchPage>
 </Base>

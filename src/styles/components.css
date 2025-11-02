@@ -118,7 +118,7 @@
 }
 
 .accordion-content {
-  @apply max-h-0 overflow-hidden px-8 py-0;
+  @apply max-h-0 overflow-hidden px-8 py-0 text-left;
 }
 
 .accordion.active .accordion-icon {
@@ -126,7 +126,7 @@
 }
 
 .accordion.active .accordion-content {
-  @apply max-h-screen;
+  @apply max-h-screen pb-4;
 }
 
 /* modal */

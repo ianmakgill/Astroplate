@@ -1,0 +1,70 @@
+---
+import { markdownify } from "@/lib/utils/textConverter";
+import dateFormat from "@/lib/utils/dateFormat";
+import { FaRegClock } from "react-icons/fa";
+import ImageMod from "./components/ImageMod.astro";
+import TableOfContents from "@/components/TableOfContents";
+
+interface Props {
+  data: any;
+  headings?: any[];
+}
+
+const { data, headings = [] } = Astro.props;
+const { title, image, date } = data;
+
+// Filter to only show h2 and h3 headings in TOC
+const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+<section class="section pt-7">
+  <div class="container">
+    {
+      image && (
+        <div class="row justify-center mb-10">
+          <div class="lg:col-10">
+            <ImageMod
+              src={image}
+              height={500}
+              width={1200}
+              alt={title}
+              class="w-full rounded"
+              format="webp"
+            />
+          </div>
+        </div>
+      )
+    }
+    <div class="row justify-center">
+      <div class="lg:col-10">
+        <div class="row">
+          <article class:list={[tocHeadings.length > 0 ? "lg:col-8" : "lg:col-12"]}>
+            <h1 set:html={markdownify(title)} class="h2 mb-4" />
+            {
+              date && (
+                <ul class="mb-8">
+                  <li class="inline-block">
+                    <FaRegClock className={"mr-2 -mt-1 inline-block"} />
+                    {dateFormat(date)}
+                  </li>
+                </ul>
+              )
+            }
+            <div class="content prose prose-lg max-w-none dark:prose-invert">
+              <slot />
+            </div>
+          </article>
+          {
+            tocHeadings.length > 0 && (
+              <aside class="lg:col-4 hidden lg:block">
+                <div class="sticky top-24">
+                  <TableOfContents client:load headings={tocHeadings} />
+                </div>
+              </aside>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
