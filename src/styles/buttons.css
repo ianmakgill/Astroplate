@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition;
+  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition hover:scale-105;
 }
 
 .btn-sm {
@@ -7,11 +7,23 @@
 }
 
 .btn-primary {
-  @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark text-white dark:bg-darkmode-primary;
+  @apply border-primary bg-primary dark:border-darkmode-primary;
+  color: white !important;
 }
 
 .btn-outline-primary {
-  @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+  @apply border-dark text-text-dark bg-transparent dark:border-white dark:text-white;
+}
+
+.btn-outline-primary:hover {
+  @apply bg-dark;
+  color: white !important;
+}
+
+.btn-outline-primary:hover.dark,
+.dark .btn-outline-primary:hover {
+  @apply bg-white;
+  color: #1a1a1a !important;
 }
 
 /* Large size variant (matches your existing .btn-sm pattern) */

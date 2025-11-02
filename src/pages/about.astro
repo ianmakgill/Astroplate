@@ -4,6 +4,7 @@ import Base from "@/layouts/Base.astro";
 import { getListPage } from "@/lib/contentParser.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import { render } from "astro:content";
+import FeatureGrid from "@/layouts/shortcodes/FeatureGrid";
 
 const aboutIndex = await getListPage("about", "-index");
 const { Content } = await render(aboutIndex);
@@ -23,7 +24,7 @@ if (aboutIndex.data.draft) {
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
-        <div class="text-center md:col-10 lg:col-7">
+        <div class="text-center md:col-10 lg:col-10">
           {
             image && (
               <ImageMod

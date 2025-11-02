@@ -31,6 +31,13 @@ import FeatureGrid from "@/layouts/shortcodes/FeatureGrid";
   ]}
 />
 
+## Center-aligned version
+
+<FeatureGrid
+  textAlign="center"
+  items={[...]}
+/>
+
 ## How to do it yourself
 
 <FeatureGrid
@@ -50,6 +57,11 @@ import FeatureGrid from "@/layouts/shortcodes/FeatureGrid";
   ]}
 />
 ```
+
+**Props:**
+- `heading` (optional): Section heading centered above the grid
+- `items` (required): Array of objects with `title` and `content`
+- `textAlign` (optional): `"left"` (default) or `"center"`
 
 ## FeaturePanel (Two Panel)
 
@@ -123,6 +135,32 @@ title: "My Page"
 - Solid style has green background with white text
 - Outline style has green border with colored text
 - Perfect for displaying key metrics at the top of research pages
+
+---
+
+## Spacer
+
+Add vertical spacing between sections with precise control.
+
+```mdx
+---
+title: "My Page"
+---
+
+<FeatureGrid items={[...]} />
+
+<Spacer size="lg" />
+
+<FeatureGrid items={[...]} />
+```
+
+**Props:**
+- `size` (optional): `"xs"` (16px), `"sm"` (32px), `"md"` (48px, default), `"lg"` (64px), `"xl"` (96px), or `"2xl"` (128px)
+
+**Notes:**
+- Use between sections when you need more or less space than the default
+- Useful for fine-tuning vertical rhythm in your layouts
+- FeatureGrid now uses reduced vertical padding by default (py-12 / 48px)
 
 ---
 
@@ -346,9 +384,10 @@ title: "My Research"
 - **FeaturePanel**: Requires manual import (it's an `.astro` file)
 - **Interactive components**: Accordion, Tabs, and Youtube need `client:load`
 - **StatsGrid**: Perfect for research pages - displays 1-4 stats in responsive grid
-- **FeatureGrid**: Great for 3-6 items, automatically responsive
+- **FeatureGrid**: Great for 3-6 items, automatically responsive, now uses reduced vertical spacing
 - **FeaturePanel**: Alternating `imageSide` creates a nice rhythm
 - **Chart**: Handles mobile horizontal scroll automatically - great for D3.js SVGs
+- **Spacer**: Fine-tune vertical spacing between sections (6 size options from xs to 2xl)
 - **Button & StatsGrid**: Both have solid and outline style options
 - **In Sitepin**: Non-technical team members can edit collection items (blog, team, etc.)
 - **Direct editing**: Developers should edit .mdx page files directly in VS Code

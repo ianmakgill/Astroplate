@@ -26,6 +26,7 @@ export default defineConfig({
         "@/layouts/shortcodes/Chart",
         "@/layouts/shortcodes/FeatureGrid",
         "@/layouts/shortcodes/Notice",
+        "@/layouts/shortcodes/Spacer",
         "@/layouts/shortcodes/StatsGrid",
         "@/layouts/shortcodes/Tab",
         "@/layouts/shortcodes/Tabs",
