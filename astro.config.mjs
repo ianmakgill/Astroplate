@@ -23,6 +23,7 @@ export default defineConfig({
       imports: [
         "@/layouts/shortcodes/Accordion",
         "@/layouts/shortcodes/Button",
+        "@/layouts/shortcodes/Chart",
         "@/layouts/shortcodes/FeatureGrid",
         "@/layouts/shortcodes/Notice",
         "@/layouts/shortcodes/StatsGrid",

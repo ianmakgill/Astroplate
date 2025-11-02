@@ -295,6 +295,51 @@ title: "My Page"
 
 ---
 
+## Chart
+
+Display SVG charts with automatic mobile/desktop handling.
+
+```mdx
+---
+title: "My Research"
+---
+
+## Contract Volume Trends
+
+<Chart
+  src="/images/charts/defence-streamgraph.svg"
+  alt="Streamgraph showing contract volumes by category"
+  caption="Figure 1: Contract volumes by category, 2022-2025"
+/>
+
+<Chart
+  src="/images/charts/bar-chart.svg"
+  alt="Bar chart"
+  minWidth={600}
+/>
+```
+
+**Props:**
+- `src` (required): Path to SVG file in `/public/images/charts/`
+- `alt` (required): Accessibility text description
+- `caption` (optional): Figure caption shown below chart
+- `minWidth` (optional): Minimum width in pixels for mobile scroll (default: 800)
+
+**Features:**
+- **Mobile**: Horizontal scroll with "swipe to view" hint
+- **Desktop**: Full width display
+- **Responsive**: Negative margins on mobile for edge-to-edge scroll
+- **Accessible**: Proper semantic HTML with figure/figcaption
+
+**To extract SVGs from your live site:**
+1. Open browser DevTools (F12)
+2. Inspect the chart and find the `<svg>` element
+3. Right-click → Copy → Copy element
+4. Save to `/public/images/charts/your-chart-name.svg`
+5. Use Chart component to embed it
+
+---
+
 ## Tips
 
 - **Auto-imported**: All components except FeaturePanel are automatically available in .mdx files
@@ -303,6 +348,7 @@ title: "My Page"
 - **StatsGrid**: Perfect for research pages - displays 1-4 stats in responsive grid
 - **FeatureGrid**: Great for 3-6 items, automatically responsive
 - **FeaturePanel**: Alternating `imageSide` creates a nice rhythm
+- **Chart**: Handles mobile horizontal scroll automatically - great for D3.js SVGs
 - **Button & StatsGrid**: Both have solid and outline style options
 - **In Sitepin**: Non-technical team members can edit collection items (blog, team, etc.)
 - **Direct editing**: Developers should edit .mdx page files directly in VS Code

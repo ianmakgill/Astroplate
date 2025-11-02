@@ -1,13 +1,15 @@
 ---
-import ContentCard from "@/layouts/components/ContentCard.astro";
+import ImageMod from "@/components/ImageMod.astro";
 import Pagination from "@/components/Pagination.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
+import { plainify } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 
 const COLLECTION_FOLDER = "product";
+const { summary_length }: { summary_length: number } = config.settings;
 
 const collectionIndex = await getListPage(COLLECTION_FOLDER, "-index");
 if (collectionIndex.data.draft) {
@@ -26,17 +28,61 @@ const currentItems = sortedItems.slice(0, config.settings.pagination);
   description={collectionIndex.data.description}
 >
   <PageHeader title={collectionIndex?.data.title} />
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        {
-          currentItems.map((item) => (
-            <div class="mb-14 md:col-6 lg:col-4">
-              <ContentCard data={item} collection={COLLECTION_FOLDER} />
+  {
+    currentItems.map((item, index) => {
+      const { title, image, description } = item.data;
+      const imageSide = index % 2 === 0 ? "right" : "left";
+
+      return (
+        <section class="section">
+          <div class="container">
+            <div class="row items-center justify-between">
+              {image && (
+                <div
+                  class:list={[
+                    "mb-6 md:col-6 lg:col-5 md:mb-0",
+                    { "md:order-2": imageSide === "right" },
+                  ]}
+                >
+                  <ImageMod
+                    src={image}
+                    height={480}
+                    width={520}
+                    alt={title}
+                    format="webp"
+                  />
+                </div>
+              )}
+              <div
+                class:list={[
+                  image ? "md:col-6 lg:col-5" : "md:col-12",
+                  { "md:order-1": imageSide === "right" },
+                ]}
+              >
+                <h2 class="mb-4">
+                  <a href={`/${COLLECTION_FOLDER}/${item.id}`}>{title}</a>
+                </h2>
+                {description && (
+                  <p class="mb-6 text-lg">{description}</p>
+                )}
+                <p class="mb-6">
+                  {plainify(item.body?.slice(0, Number(summary_length)))}
+                </p>
+                <a
+                  class="btn btn-outline-primary"
+                  href={`/${COLLECTION_FOLDER}/${item.id}`}
+                >
+                  Learn more
+                </a>
+              </div>
             </div>
-          ))
-        }
-      </div>
+          </div>
+        </section>
+      );
+    })
+  }
+  <section class="section pt-0">
+    <div class="container">
       <Pagination
         section={COLLECTION_FOLDER}
         currentPage={1}
