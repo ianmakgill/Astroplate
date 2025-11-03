@@ -1,0 +1,248 @@
+<div class="elementor-widget-container">
+					<div id="contract-duration-slope-categories-2022-2024" style="width:100%; min-height:600px; margin:0 0;"><svg xmlns="http://www.w3.org/2000/svg" width="823" height="700"><g transform="translate(200,40)"><line class="vertical-guide" x1="0" x2="0" y1="0" y2="620"></line><line class="vertical-guide" x1="423" x2="423" y1="0" y2="620"></line><text class="year-label" x="0" y="-20" text-anchor="middle">2022</text><text class="year-label" x="423" y="-20" text-anchor="middle">2024</text><g class="slope-group" style="opacity: 1;"><line class="slope-line increase" x1="0" x2="423" y1="99.20000000000002" y2="37.20000000000003"></line><circle class="endpoint-circle increase" cx="0" cy="99.20000000000002" r="4"></circle><circle class="endpoint-circle increase" cx="423" cy="37.20000000000003" r="4"></circle><text class="left-label" x="-10" y="99.20000000000002" text-anchor="end" alignment-baseline="middle">Information Systems (42)</text><text class="right-label" x="433" y="37.20000000000003" text-anchor="start" alignment-baseline="middle">47 months</text><text class="value-change increase" x="513" y="37.20000000000003" text-anchor="start" alignment-baseline="middle">+11.9%</text></g><g class="slope-group" style="opacity: 1;"><line class="slope-line decrease" x1="0" x2="423" y1="148.79999999999998" y2="223.2"></line><circle class="endpoint-circle decrease" cx="0" cy="148.79999999999998" r="4"></circle><circle class="endpoint-circle decrease" cx="423" cy="223.2" r="4"></circle><text class="left-label" x="-10" y="148.79999999999998" text-anchor="end" alignment-baseline="middle">Document creation software (38)</text><text class="right-label" x="433" y="223.2" text-anchor="start" alignment-baseline="middle">32 months</text><text class="value-change decrease" x="513" y="223.2" text-anchor="start" alignment-baseline="middle">-15.8%</text></g><g class="slope-group" style="opacity: 1;"><line class="slope-line decrease" x1="0" x2="423" y1="235.6" y2="285.2"></line><circle class="endpoint-circle decrease" cx="0" cy="235.6" r="4"></circle><circle class="endpoint-circle decrease" cx="423" cy="285.2" r="4"></circle><text class="left-label" x="-10" y="235.6" text-anchor="end" alignment-baseline="middle">Medical software (31)</text><text class="right-label" x="433" y="285.2" text-anchor="start" alignment-baseline="middle">27 months</text><text class="value-change decrease" x="513" y="285.2" text-anchor="start" alignment-baseline="middle">-12.9%</text></g><g class="slope-group" style="opacity: 1;"><line class="slope-line decrease" x1="0" x2="423" y1="161.20000000000002" y2="198.39999999999998"></line><circle class="endpoint-circle decrease" cx="0" cy="161.20000000000002" r="4"></circle><circle class="endpoint-circle decrease" cx="423" cy="198.39999999999998" r="4"></circle><text class="left-label" x="-10" y="173.79999999999998" text-anchor="end" alignment-baseline="middle">Time accounting software (37)</text><text class="right-label" x="433" y="198.2" text-anchor="start" alignment-baseline="middle">34 months</text><text class="value-change decrease" x="513" y="198.2" text-anchor="start" alignment-baseline="middle">-8.1%</text></g><g class="slope-group" style="opacity: 1;"><line class="slope-line increase" x1="0" x2="423" y1="384.4" y2="372"></line><circle class="endpoint-circle increase" cx="0" cy="384.4" r="4"></circle><circle class="endpoint-circle increase" cx="423" cy="372" r="4"></circle><text class="left-label" x="-10" y="384.4" text-anchor="end" alignment-baseline="middle">Drawing and imaging (19)</text><text class="right-label" x="433" y="372" text-anchor="start" alignment-baseline="middle">20 months</text><text class="value-change increase" x="513" y="372" text-anchor="start" alignment-baseline="middle">+5.3%</text></g><g class="slope-group" style="opacity: 1;"><line class="slope-line increase" x1="0" x2="423" y1="347.20000000000005" y2="272.79999999999995"></line><circle class="endpoint-circle increase" cx="0" cy="347.20000000000005" r="4"></circle><circle class="endpoint-circle increase" cx="423" cy="272.79999999999995" r="4"></circle><text class="left-label" x="-10" y="347.20000000000005" text-anchor="end" alignment-baseline="middle">Communication software (22)</text><text class="right-label" x="433" y="260.2" text-anchor="start" alignment-baseline="middle">28 months</text><text class="value-change increase" x="513" y="260.2" text-anchor="start" alignment-baseline="middle">+27.3%</text></g><g class="slope-group" style="opacity: 1;"><line class="slope-line increase" x1="0" x2="423" y1="359.6" y2="297.59999999999997"></line><circle class="endpoint-circle increase" cx="0" cy="359.6" r="4"></circle><circle class="endpoint-circle increase" cx="423" cy="297.59999999999997" r="4"></circle><text class="left-label" x="-10" y="372.20000000000005" text-anchor="end" alignment-baseline="middle">Security software (21)</text><text class="right-label" x="433" y="297.79999999999995" text-anchor="start" alignment-baseline="middle">26 months</text><text class="value-change increase" x="513" y="297.79999999999995" text-anchor="start" alignment-baseline="middle">+23.8%</text></g><g class="slope-group" style="opacity: 1;"><line class="slope-line increase" x1="0" x2="423" y1="322.40000000000003" y2="285.2"></line><circle class="endpoint-circle increase" cx="0" cy="322.40000000000003" r="4"></circle><circle class="endpoint-circle increase" cx="423" cy="285.2" r="4"></circle><text class="left-label" x="-10" y="322.20000000000005" text-anchor="end" alignment-baseline="middle">Virus protection (24)</text><text class="right-label" x="433" y="272.59999999999997" text-anchor="start" alignment-baseline="middle">27 months</text><text class="value-change increase" x="513" y="272.59999999999997" text-anchor="start" alignment-baseline="middle">+12.5%</text></g></g></svg></div>
+<style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .slope-group {
+        transition: opacity 0.2s ease;
+    }
+    .slope-line {
+        stroke-width: 1.5;
+    }
+    .slope-line.increase {
+        stroke: #034737;
+    }
+    .slope-line.decrease {
+        stroke: #FB8500;
+    }
+    .hover-line {
+        stroke: transparent;
+        stroke-width: 10;
+        cursor: pointer;
+    }
+    .endpoint-circle.increase {
+        fill: #034737;
+    }
+    .endpoint-circle.decrease {
+        fill: #FB8500;
+    }
+    .vertical-guide {
+        stroke: rgba(3, 71, 55, 0.2);
+        stroke-width: 1;
+        stroke-dasharray: 4,4;
+        pointer-events: none;
+    }
+    .left-label, .right-label {
+        font-family: inherit;
+        font-size: 12px;
+        fill: #034737;
+        cursor: pointer;
+    }
+    .year-label {
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: bold;
+        fill: #034737;
+        pointer-events: none;
+    }
+    .value-change {
+        font-family: inherit;
+        font-size: 12px;
+    }
+    .value-change.increase {
+        fill: #034737;
+    }
+    .value-change.decrease {
+        fill: #FB8500;
+    }
+</style>
+
+<script>
+(function() {
+    if (typeof d3 === 'undefined') {
+        var script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js';
+        script.onload = initializeChart;
+        document.head.appendChild(script);
+    } else {
+        initializeChart();
+    }
+
+    function initializeChart() {
+        const data = [
+          { category: "Information Systems", year2022: 42.0, year2024: 47.0 },
+          { category: "Document creation software", year2022: 38.0, year2024: 32.0 },
+          { category: "Medical software", year2022: 31.0, year2024: 27.0  },
+          { category: "Time accounting software", year2022: 37.0, year2024: 34.0 },
+          { category: "Drawing and imaging", year2022: 19.0, year2024: 20.0 },
+          { category: "Communication software", year2022: 22.0, year2024: 28.0 },
+          { category: "Security software", year2022: 21.0, year2024: 26.0 },
+          { category: "Virus protection", year2022: 24.0, year2024: 27.0 },
+        ];
+
+        // Add percent change calculation
+        data.forEach(d => {
+            d.percentChange = ((d.year2024 - d.year2022) / d.year2022 * 100).toFixed(1);
+        });
+
+        const container = document.getElementById('contract-duration-slope-categories-2022-2024');
+        const width = Math.max(container.offsetWidth, 800);
+        const height = 700;  // Increased height
+        const margin = { top: 40, right: 200, bottom: 40, left: 200 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+
+        // Clear any existing SVG
+        d3.select(container).selectAll("svg").remove();
+
+        const svg = d3.select(container)
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        const g = svg.append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        // Scale for y-axis (months)
+        const yScale = d3.scaleLinear()
+            .domain([0, Math.max(d3.max(data, d => d.year2022), d3.max(data, d => d.year2024))])
+            .range([innerHeight, 0])
+            .nice();
+
+        // Add vertical guides
+        g.append("line")
+            .attr("class", "vertical-guide")
+            .attr("x1", 0)
+            .attr("x2", 0)
+            .attr("y1", 0)
+            .attr("y2", innerHeight);
+
+        g.append("line")
+            .attr("class", "vertical-guide")
+            .attr("x1", innerWidth)
+            .attr("x2", innerWidth)
+            .attr("y1", 0)
+            .attr("y2", innerHeight);
+
+        // Year labels
+        g.append("text")
+            .attr("class", "year-label")
+            .attr("x", 0)
+            .attr("y", -20)
+            .attr("text-anchor", "middle")
+            .text("2022");
+
+        g.append("text")
+            .attr("class", "year-label")
+            .attr("x", innerWidth)
+            .attr("y", -20)
+            .attr("text-anchor", "middle")
+            .text("2024");
+
+        // Create groups for each category
+        const categoryGroups = g.selectAll(".slope-group")
+            .data(data)
+            .enter()
+            .append("g")
+            .attr("class", "slope-group");
+
+        // Draw lines
+        categoryGroups.append("line")
+            .attr("class", d => `slope-line ${d.year2024 >= d.year2022 ? 'increase' : 'decrease'}`)
+            .attr("x1", 0)
+            .attr("x2", innerWidth)
+            .attr("y1", d => yScale(d.year2022))
+            .attr("y2", d => yScale(d.year2024));
+
+        // Add points
+        categoryGroups.append("circle")
+            .attr("class", d => `endpoint-circle ${d.year2024 >= d.year2022 ? 'increase' : 'decrease'}`)
+            .attr("cx", 0)
+            .attr("cy", d => yScale(d.year2022))
+            .attr("r", 4);
+
+        categoryGroups.append("circle")
+            .attr("class", d => `endpoint-circle ${d.year2024 >= d.year2022 ? 'increase' : 'decrease'}`)
+            .attr("cx", innerWidth)
+            .attr("cy", d => yScale(d.year2024))
+            .attr("r", 4);
+
+        // Function to prevent label overlap
+        function getLabelY(value, index, array) {
+            const baseY = yScale(value);
+            const minSpacing = 25; // Minimum pixels between labels
+            let shift = 0;
+            
+            array.slice(0, index).forEach((otherValue, i) => {
+                const otherY = yScale(otherValue);
+                const diff = Math.abs(baseY - otherY);
+                if (diff < minSpacing) {
+                    shift = (minSpacing - diff) * (baseY > otherY ? 1 : -1);
+                }
+            });
+            
+            return baseY + shift;
+        }
+
+        // Add left labels (2022) with adjusted positions
+        data.forEach((d, i) => {
+            const labelY = getLabelY(d.year2022, i, data.map(d => d.year2022));
+            categoryGroups.filter(dd => dd === d)
+                .append("text")
+                .attr("class", "left-label")
+                .attr("x", -10)
+                .attr("y", labelY)
+                .attr("text-anchor", "end")
+                .attr("alignment-baseline", "middle")
+                .text(`${d.category} (${d.year2022})`);
+        });
+
+        // Add right labels (2024) with adjusted positions
+        data.forEach((d, i) => {
+            const labelY = getLabelY(d.year2024, i, data.map(d => d.year2024));
+            categoryGroups.filter(dd => dd === d)
+                .append("text")
+                .attr("class", "right-label")
+                .attr("x", innerWidth + 10)
+                .attr("y", labelY)
+                .attr("text-anchor", "start")
+                .attr("alignment-baseline", "middle")
+                .text(`${d.year2024} months`);
+
+            // Add percent change labels
+            categoryGroups.filter(dd => dd === d)
+                .append("text")
+                .attr("class", d => `value-change ${d.year2024 >= d.year2022 ? 'increase' : 'decrease'}`)
+                .attr("x", innerWidth + 90)
+                .attr("y", labelY)
+                .attr("text-anchor", "start")
+                .attr("alignment-baseline", "middle")
+                .text(d => `${d.percentChange > 0 ? '+' : ''}${d.percentChange}%`);
+        });
+
+        // Add hover interaction
+        categoryGroups
+            .on("mouseenter", function(event, d) {
+                const selectedCategory = d.category;
+                categoryGroups.style("opacity", g => g.category === selectedCategory ? 1 : 0.2);
+            })
+            .on("mouseleave", function() {
+                categoryGroups.style("opacity", 1);
+            });
+
+        // Add resize handler
+        function handleResize() {
+            const newWidth = Math.max(container.offsetWidth, 800);
+            svg.attr("width", newWidth);
+        }
+
+        window.addEventListener('resize', handleResize);
+    }
+})();
+</script>				</div>

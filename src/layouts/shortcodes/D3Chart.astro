@@ -1,0 +1,109 @@
+---
+interface Props {
+  id: string;
+  height?: number;
+  caption?: string;
+}
+
+const { id, height = 500, caption } = Astro.props;
+---
+
+<figure class="my-8">
+  <div
+    id={id}
+    style={`width: 100%; height: ${height}px; margin: 0;`}
+  ></div>
+
+  {caption && (
+    <figcaption class="text-sm text-center mt-3 text-text-light dark:text-darkmode-text-light">
+      {caption}
+    </figcaption>
+  )}
+</figure>
+
+<style is:global>
+  /* Bar Chart Styles */
+  .bar { transition: opacity 0.2s; fill: #034737; }
+  .bar.europe { fill: #034737; }
+  .bar.namerica { fill: #a9ff9b; }
+  .bar:hover { fill: #FB8500; opacity: 0.8; }
+  .bar-total { fill: #a9ff9b; transition: opacity 0.2s ease; }
+  .bar-subset { fill: #034737; transition: opacity 0.2s ease; }
+
+  /* Heatmap Styles */
+  .heatmap-rect { stroke: #fff; stroke-width: 1px; transition: opacity 0.2s ease; }
+  .heatmap-rect:hover { opacity: 0.8; stroke: #034737; stroke-width: 3px; filter: brightness(1.1); }
+
+  /* Tooltip Styles */
+  .tooltip, .d3-tooltip, .heatmap-tooltip {
+    position: absolute;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    pointer-events: none;
+    font-family: inherit;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 1000;
+  }
+
+  /* Axis Styles */
+  .axis text { font-size: 12px; fill: #034737; font-family: inherit; }
+  .axis line, .axis path { stroke: rgba(3, 71, 55, 0.2); }
+  .axis-label { font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; fill: #034737; }
+  .y-axis-line text { fill: #034737; }
+  .y-axis-line line, .y-axis-line path { stroke: rgba(255, 183, 3, 0.2); }
+
+  /* Grid Styles */
+  .grid line { stroke: rgba(3, 71, 55, 0.1); stroke-dasharray: 2,2; }
+  .grid path { stroke-width: 0; }
+
+  /* Label Styles */
+  .title { font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; font-weight: bold; }
+  .category-label { font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; fill: #333; }
+  .value-label { font-size: 11px; font-family: inherit; fill: #034737; transition: opacity 0.2s ease; }
+  .subset-label { font-family: inherit; font-size: 12px; fill: #666666; transition: opacity 0.2s ease; }
+
+  /* Legend Styles */
+  .legend { font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+  .legend-item { font-family: inherit; font-size: 12px; cursor: pointer; }
+  .legend-item:hover { opacity: 0.8; }
+
+  /* Slope Chart Styles */
+  .slope-group { transition: opacity 0.2s ease; }
+  .slope-line { stroke-width: 1.5; }
+  .slope-line.increase { stroke: #034737; }
+  .slope-line.decrease { stroke: #FB8500; }
+  .hover-line { stroke: transparent; stroke-width: 10; cursor: pointer; }
+  .endpoint-circle.increase { fill: #034737; }
+  .endpoint-circle.decrease { fill: #FB8500; }
+  .vertical-guide { stroke: rgba(3, 71, 55, 0.2); stroke-width: 1; stroke-dasharray: 4,4; pointer-events: none; }
+  .city-label, .left-label, .right-label { font-family: inherit; font-size: 12px; fill: #034737; cursor: pointer; transition: opacity 0.2s ease; }
+  .percent-label { font-family: inherit; font-size: 12px; transition: opacity 0.2s ease; }
+  .percent-label.increase { fill: #034737; }
+  .percent-label.decrease { fill: #FB8500; }
+  .year-label { font-family: inherit; font-size: 14px; font-weight: bold; fill: #034737; pointer-events: none; }
+  .label-line { stroke: rgba(3, 71, 55, 0.4); stroke-width: 1; stroke-dasharray: 2,2; pointer-events: none; transition: opacity 0.2s ease; fill: none; }
+  .value-change { font-family: inherit; font-size: 12px; }
+  .value-change.increase { fill: #034737; }
+  .value-change.decrease { fill: #FB8500; }
+
+  /* Line Chart Styles */
+  .line { fill: none; stroke: #FB8500; stroke-width: 2.5; transition: opacity 0.2s ease; pointer-events: none; }
+  .line-point { fill: #FB8500; stroke: #fff; stroke-width: 2; transition: opacity 0.2s ease; }
+  .hover-area { fill: transparent; pointer-events: all; cursor: pointer; }
+  .data-point { stroke: #fff; stroke-width: 2; cursor: pointer; transition: opacity 0.3s ease; }
+  .faded { opacity: 0.2; }
+  .trendline { stroke-dasharray: 5,5; stroke-width: 2; opacity: 0.7; }
+
+  /* Stream Chart Styles */
+  .stream-layer { opacity: 0.8; transition: opacity 0.2s; }
+  .stream-layer:hover { opacity: 1; }
+  .quarter-line { stroke: #FFB703; stroke-width: 1px; stroke-dasharray: 4,4; opacity: 0.3; }
+  .quarter-label { font-size: 10px; fill: #666; }
+</style>
+
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
