@@ -5,375 +5,527 @@ description: "Global Medical & Healthcare: Supply Chain Analysis 2025"
 draft: false
 ---
 
-# Global Medical & Healthcare: Supply Chain Analysis 2025
-
-[ [ Login ] [ Try for free ] 
-## Table of Contents. * * * * 0 M 
-#### Documents analysed * * 0 
-#### Sources used * * 0 
-#### Countries 
-## 1. Introduction 
-
- In a rapidly transforming global medical supply chain landscape, understanding procurement trends is crucial for all healthcare providers. This comprehensive analysis examines public procurement data from 2022 to 2024, revealing significant shifts in buying patterns, contract structures, and regional variations. 
-### About this report 
-
- This report analyses over 6 million healthcare tenders published by public sector organisations around the world. Using AI to enhance this data we’ve been able to provide detailed insights into how the healthcare supply chain process is adapting their procurement strategies in response to market pressures and changing demands. 
-
- * * $ 0 Bn 
-#### Value of opportunities in 2024 * * 0 % 
-#### Of all spend was on consumables * * 0 % 
-#### Demand increase for consumables 
-### Key findings: 
- - Global medical value of opportunities peaked at $60.99 billion in 2023 before declining to $46.74 billion in 2024. 
- - Medical consumables and medicinal products dominate the market, accounting for nearly 60% of all value of opportunities. 
- - European buyers show a strong preference for multi-supplier agreements, accounting for 72% of total procurement value. 
- - Average contract durations vary significantly, from 8.8 months for anaesthesia equipment to 40.2 months for cadaver transport systems. 
- - European dental and medical device opportunities average $4.2 million per contract, compared to $780,000 in Asian markets. 
- - Baby care products saw the most dramatic change, with contract lengths halving from 48 to 24 months in 2024. 
- 
-### ** This report will help you to learn: ** 
- - How procurement strategies vary across different healthcare categories. 
- - Why contract durations are evolving and what this means for suppliers. 
- - Which regional markets offer the greatest opportunities. 
- 
-### ** Detailed visualisations: ** 
- - ** Demand Analysis: ** Comprehensive trends in tender volumes and market share across categories, with detailed breakdowns of medical consumables, medicines, and specialist equipment. 
- - ** Value and Spending Patterns ** : In-depth examination of procurement values, including core category performance, regional variations, and strategic implications. 
- - ** Contract Duration Trends ** : Detailed analysis of how contract lengths are evolving across different product categories, from essential supplies to specialist equipment. 
- - ** Geographic Analysis ** : Regional procurement patterns, market access considerations, and spending distribution across Europe, North America, and Asia. 
- - ** Multiple Supplier Strategies ** : Framework agreement usage, contract value distribution, and changing patterns in supplier engagement. 
- 
-### [ Try for free [ Book a demo ] 
-## 2. Understanding healthcare categories 
-
- Every document in our database is categorised to a level 3 CPV code by our state of the art, classification algorithm. This allows us to conduct analysis and research that others cannot. 
-
- What’s in each category? 
-### ** Medical consumables ** 
-
- Understandably medical consumables dominates the market and contains a wide range of single use goods such as PPE combined with high volume, non-specialist products such as furniture: 
- - Surgical consumables and materials 
- - Medical dressings and bandages 
- - Collection bags and tubes 
- - Medical furniture 
- - Patient aids and devices 
- - Personal protective equipment 
- - Hospital beds and medical furniture 
- - Medical needles and catheters 
- - Sterilization supplies 
- 
-### ** Various medicinal products ** This category typically covers a range of fungible products or consumables that require constant supplies, from steroid gels to reagents this category covers medical products that require continuous supply. 
- - Medical solutions 
- - Laboratory reagents 
- - Diagnostic agents 
- - Dermatology products 
- - Medical gases 
- - General pharmaceuticals 
- - Clinical products 
- - Medical nutritional products 
- 
-### ** Miscellaneous medical devices: ** With miscellaneous medical devices we’re seeing the fundamental technologies and products that are required to provide healthcare services to citizens. Requirements can be high value, sophisticated products, but the requirements to have these products are, by and large, universal for healthcare providers. 
- - Diagnostic imaging equipment (X-ray, ultrasound) 
- - Recording and monitoring systems 
- - Dental equipment and instruments 
- - Analytical and laboratory devices 
- - Patient monitoring systems 
- - Cardiovascular monitoring equipment 
- - Medical imaging devices 
- 
-### ** Operating techniques: ** 
-
- The strangely titled “operating techniques” is being used by buyers to purchase hardware and equipment for operating theatres. 
- - Surgical instruments and tools 
- - Operating theatre equipment 
- - Endoscopy devices 
- - Anesthesia equipment 
- - Surgical power tools 
- - Surgical lighting systems 
- - Resuscitation equipment 
- 
-### ** General anti-infectives: ** 
-
- Anti-infectives covers both the disinfectants for cleaning the working environment and the medicines used to treat infections. ** ** 
- - Systemic antibiotics 
- - Medical solutions for infection control 
- - Hospital-grade disinfectants 
- - Sterilization products 
- - Antimicrobial solutions 
- - Medical sanitization supplies 
- 
-### Research scope 
-
- Healthcare procurement represents one of the most significant areas of public spending globally, encompassing everything from basic medical consumables to complex pharmaceutical products. This analysis examines procurement patterns across major healthcare markets from 2022 to 2024, focusing on published opportunities that provide visibility into public healthcare purchasing. 
-
- The data reveals a market dominated by medical consumables and pharmaceutical products, with total published opportunities exceeding 270,000 across the studied period. European markets show the highest visibility with over 163,000 published opportunities, though this reflects standardised publishing requirements rather than necessarily indicating relative market size. 
-### Trends 
+import D3Chart from "@/layouts/shortcodes/D3Chart.astro";
 
- Significant trends emerge in both volume and value patterns. Medical consumables demonstrate particular resilience, growing from 178,287 opportunities in 2022 to 227,505 in 2023, with continued strength into 2024. Contract structures show evolution away from framework agreements, whilst duration patterns reveal sophisticated responses to market conditions. 
+## Introduction
 
- This analysis explores these patterns in detail, examining regional variations, category-specific trends, and the relationship between procurement values and contract structures. Throughout, we consider how publishing requirements influence market visibility, ensuring that patterns are interpreted within their proper context. 
-## 3. Medical Device Market Patterns 
-#### Charts show on larger screens 
-### Medical Supply Chain Market Size and Evolution 
+<StatsGrid
+  items={[
+    { label: "Value of opportunities in 2024", value: "$47 Bn" },
+    { label: "Of all spend was on consumables", value: "60%" },
+    { label: "Demand increase for consumables", value: "53%" }
+  ]}
+/>
 
- The global medical supply market demonstrates significant scale and complexity across the studied period. The total volume of published opportunities shows substantial quarterly variations, with particular strength in first quarters. Medical consumables, the largest category by volume, grew from 178,287 opportunities in 2022 to 227,505 in 2023, whilst various medicinal products maintained more stable volumes around 146,900 opportunities per year until 2024. 
+In a rapidly transforming global medical supply chain landscape, understanding procurement trends is crucial for all healthcare providers. This comprehensive analysis examines public procurement data from 2022 to 2024, revealing significant shifts in buying patterns, contract structures, and regional variations.
 
- Using over 6m documents gathered from healthcare tenders published around the world between 2022 and 2024, we have identified several important changes in the way healthcare organisations buy goods and services. 
-#### Charts show on larger screens 
-### Medical Consumables: Strong and Sustained Growth 
+### About this report
 
- Medical consumables show the strongest growth of any category in our data. The number of tenders has risen steadily from 89,567 opportunities in 2022 to 128,528 in 2023, reaching 137,759 in 2024. This sustained growth means medical consumables now make up 38.7% of all healthcare contracting opportunities, up from 25.2% in 2022. This increase represents the largest change in market share we have seen across all categories. 
-### Medicines: Volume Remains Stable 
+This report analyses over 6 million healthcare tenders published by public sector organisations around the world. Using AI to enhance this data we've been able to provide detailed insights into how the healthcare supply chain process is adapting their procurement strategies in response to market pressures and changing demands.
 
- The medicines market, while smaller than consumables, maintains consistent tender volumes. Starting at 48,047 opportunities in 2022, the market saw a brief rise to 54,162 opportunities in 2023 before returning to similar levels with 48,518 opportunities in 2024. Throughout this period, medicines have maintained a steady share of total opportunities at around 32%. 
-### Specialist Equipment: Steady Decline 
+### Key findings:
 
- Two specialist areas show clear downward trends. Operating equipment opportunities have fallen steadily, starting at 11,820 opportunities in 2022, dropping slightly to 11,755 in 2023, and falling further to 11,060 in 2024. The decline is more pronounced in vaccines and anti-infectives, where tender numbers have dropped consistently from 11,598 opportunities in 2022 to 10,489 in 2023, falling further to 9,708 in 2024. This represents a sustained reduction in opportunities across both specialist sectors. In the case of anti-infectives it is likely that this is the tail end of the pandemic demand curve and represents the new normal for this space. 
-### Support Services: Variable Demand 
+- Global medical value of opportunities peaked at $60.99 billion in 2023 before declining to $46.74 billion in 2024.
+- Medical consumables and medicinal products dominate the market, accounting for nearly 60% of all value of opportunities.
+- European buyers show a strong preference for multi-supplier agreements, accounting for 72% of total procurement value.
+- Average contract durations vary significantly, from 8.8 months for anaesthesia equipment to 40.2 months for cadaver transport systems.
+- European dental and medical device opportunities average $4.2 million per contract, compared to $780,000 in Asian markets.
+- Baby care products saw the most dramatic change, with contract lengths halving from 48 to 24 months in 2024.
 
- Support services show less predictable patterns in the data. From 9,579 opportunities in 2022, the market grew to 11,679 opportunities in 2023, before falling back to 10,363 in 2024. The quarterly data reveals significant variations with some increase each January. This implies that a variety of factors are impacting demand for support services but that the new year and likely release of budget allocations may drive demand for services contracts. 
-## 4. Healthcare Procurement Value Analysis. 
-#### Charts show on larger screens 
-#### Charts show on larger screens 
-### Overall Value Trends 
+### This report will help you to learn:
 
- The healthcare procurement market demonstrated significant value fluctuations between 2022 and 2024. Total values peaked notably in 2023, with medical consumables reaching nearly $19 billion in published opportunities, before declining in 2024. However, these figures reflect only opportunities where values were published, typically from European Union member states and select other markets with transparent reporting requirements. 
+- How procurement strategies vary across different healthcare categories.
+- Why contract durations are evolving and what this means for suppliers.
+- Which regional markets offer the greatest opportunities.
 
- The apparent peak in 2023 warrants careful interpretation. Rather than necessarily indicating increased spending, this spike coincides with enhanced reporting practices in several European markets, particularly in France and Germany. The subsequent decline in 2024 similarly reflects changes in reporting patterns rather than definitively indicating reduced procurement activity. 
-### Medical Devices Categories Value Analysis 
+### Detailed visualisations:
 
- The relative stability of medical consumables values, maintaining approximately 40-50% of published values throughout the period, suggests consistent reporting in this category. This steadiness likely stems from standardised reporting requirements for basic medical supplies across European markets. In contrast, various medicinal products showed marked volatility, with values swinging from $14.2 billion in 2022 to $21.1 billion in 2023, before falling to $10.7 billion in 2024. These dramatic shifts often reflect changes in how framework agreements are valued rather than actual spending changes. 
+- **Demand Analysis:** Comprehensive trends in tender volumes and market share across categories, with detailed breakdowns of medical consumables, medicines, and specialist equipment.
+- **Value and Spending Patterns:** In-depth examination of procurement values, including core category performance, regional variations, and strategic implications.
+- **Contract Duration Trends:** Detailed analysis of how contract lengths are evolving across different product categories, from essential supplies to specialist equipment.
+- **Geographic Analysis:** Regional procurement patterns, market access considerations, and spending distribution across Europe, North America, and Asia.
+- **Multiple Supplier Strategies:** Framework agreement usage, contract value distribution, and changing patterns in supplier engagement.
 
- The miscellaneous devices category, whilst showing smaller absolute values, reveals interesting patterns in procurement strategy. The category’s declining share of total value, from 14.6% in 2022 to 12.1% in 2024, might indicate a trend toward more specific categorisation in procurement rather than necessarily showing reduced spending on devices. 
-### Value-Volume Relationships 
 
- The relationship between procurement values and volumes reveals intriguing patterns that challenge simple interpretation. While medical consumables consistently show high volumes of opportunities, their average values remain relatively modest. This pattern typically reflects decentralised purchasing, where individual hospitals publish separate opportunities for similar items. 
+## Understanding healthcare categories
 
- Conversely, various medicinal products show fewer individual opportunities but often carry higher average values. This disparity largely stems from different purchasing approaches, with medicines more commonly procured through centralised, high-value framework agreements, particularly in Western European markets. 
-### Regional Value Distribution 
+Every document in our database is categorised to a level 3 CPV code by our state of the art, classification algorithm. This allows us to conduct analysis and research that others cannot.
 
- European markets dominate published value figures, though this predominantly reflects more comprehensive reporting requirements rather than necessarily indicating larger market sizes. The value distribution across European regions shows marked variations, with Western European opportunities typically carrying higher published values than Eastern European ones, though this partly reflects different approaches to value calculation in framework agreements. 
+### What's in each category?
 
- North American value data, whilst limited, reveals higher average values per opportunity. This pattern stems from the selective publishing of larger, federal-level opportunities, whilst numerous smaller purchases remain unpublished. Asian and South American markets generally show lower published values, though this primarily reflects different reporting requirements rather than actual market sizes. 
-### Value Reporting Analysis 
+### Medical consumables
 
- Understanding healthcare procurement values requires careful consideration of reporting limitations. Many major healthcare markets, including Japan, South Korea, and much of the United States private sector, operate under reporting regimes that don’t require public value disclosure. Consequently, published values likely represent only a fraction of global healthcare procurement spending. 
+Understandably medical consumables dominates the market and contains a wide range of single use goods such as PPE combined with high volume, non-specialist products such as furniture:
 
- The completeness of value reporting varies significantly by category and region. Whilst basic medical supplies show relatively consistent value reporting, more complex categories like specialist medical devices or pharmaceutical frameworks often have less complete value data. This variation reflects both technical challenges in value estimation and different interpretations of reporting requirements across markets. 
-#### Charts show on larger screens 
-### Core Category Performance 
+- Surgical consumables and materials
+- Medical dressings and bandages
+- Collection bags and tubes
+- Medical furniture
+- Patient aids and devices
+- Personal protective equipment
+- Hospital beds and medical furniture
+- Medical needles and catheters
+- Sterilization supplies
 
- Our data shows significant value changes across major healthcare categories between 2022 and 2024. Medical consumables and medicinal products consistently dominated the market, together accounting for nearly 60% of all spending in 2022 and 2023. 
-### Medical consumables: increased spending 
+### Various medicinal products
 
- Medical consumables spending grew markedly from $15.52 billion in 2022 to $19.05 billion in 2023, a 22.8% increase. However, 2024 saw values decline to $14.40 billion. This mirrors activity in medicinal products, where values rose from $15.55 billion in 2022 to $19.36 billion in 2023, a 24.5% increase, before falling to $12.13 billion in 2024. 
+This category typically covers a range of fungible products or consumables that require constant supplies, from steroid gels to reagents this category covers medical products that require continuous supply.
 
- Looking at quarterly patterns, we see that consumables spending typically peaks in the second quarter of each year. For instance, Q2 2023 saw values 15% higher than the quarterly average for that year. This pattern suggests many healthcare organisations align major consumables purchasing with their financial year end. 
-### Medicinal products: aggregating demand 
+- Medical solutions
+- Laboratory reagents
+- Diagnostic agents
+- Dermatology products
+- Medical gases
+- General pharmaceuticals
+- Clinical products
+- Medical nutritional products
 
- The medicinal products category shows less seasonal variation, though we note that the largest contracts, those over $100 million, are more common in the third quarter. Based on the tender descriptions, these often relate to annual framework agreements for hospital pharmacy supplies. 
+### Miscellaneous medical devices
 
- In both categories, the average contract value has increased. For medical consumables, the mean contract value rose from $2.8 million in 2022 to $3.4 million in 2024. Similarly, medicinal products contracts grew from an average of $3.1 million to $3.8 million. This suggests buyers are consolidating their purchasing into larger contracts. 
-### Changes in Specialist Categories 
+With miscellaneous medical devices we're seeing the fundamental technologies and products that are required to provide healthcare services to citizens. Requirements can be high value, sophisticated products, but the requirements to have these products are, by and large, universal for healthcare providers.
 
- Some smaller categories showed different patterns from the core medical consumables and medicines markets. Functional support spending grew steadily from $2.67 billion in 2022 to $3.72 billion in 2023, maintaining that level through 2024. The average contract value in this category increased more sharply than in other areas, rising from $1.2 million in 2022 to $2.1 million in 2024. The tender descriptions suggest this reflects a move towards more comprehensive support contracts covering multiple services. 
-### Imaging equipment centralisation 
+- Diagnostic imaging equipment (X-ray, ultrasound)
+- Recording and monitoring systems
+- Dental equipment and instruments
+- Analytical and laboratory devices
+- Patient monitoring systems
+- Cardiovascular monitoring equipment
+- Medical imaging devices
 
- In contrast, imaging equipment spending fell each year, from $2.79 billion in 2022 to $2.26 billion in 2023, and further to $2.04 billion in 2024. However, while total spending decreased, the number of high-value contracts (over $10 million) increased from 12 in 2022 to 18 in 2024. This suggests a trend towards centralised purchasing of imaging equipment, particularly in teaching hospitals and regional health authorities. 
-### Dental: significant growth 
+### Operating techniques
 
- Other specialist categories show varied patterns. Dental and subspecialty instruments saw significant growth, with values rising from $1.8 billion in 2022 to $4.2 billion in 2024. Meanwhile, laboratory equipment and supplies remained relatively stable around $1.5 billion annually, though with notable quarterly fluctuations. 
-### Longer term partnerships 
+The strangely titled "operating techniques" is being used by buyers to purchase hardware and equipment for operating theatres.
 
- Looking at contract durations in specialist categories, we see a trend towards longer terms. The average duration for imaging equipment contracts lengthened from 22.9 months in 2022 to 25.5 months in 2024. Similarly, functional support contracts extended from 26.6 months to 29.4 months. This suggests buyers are seeking longer-term partnerships in these technical areas, possibly to ensure consistency of service and support. 
-### Market Access Considerations 
+- Surgical instruments and tools
+- Operating theatre equipment
+- Endoscopy devices
+- Anesthesia equipment
+- Surgical power tools
+- Surgical lighting systems
+- Resuscitation equipment
 
- The differences we see in spending patterns likely stem from variations in how different countries publish tender information rather than reflecting actual market sizes. Many healthcare providers are not required to publish opportunity details, while others must publish all purchasing intentions regardless of value. 
-### Strategic Implications for Suppliers 
+### General anti-infectives
 
- Based on the changes we have seen in spending patterns, we think buyers may be moving towards longer-term, higher-value contracts, particularly for everyday items like consumables and medicines. This could create both opportunities and challenges for medical device suppliers, depending on their size and ability to fulfil larger contracts. 
+Anti-infectives covers both the disinfectants for cleaning the working environment and the medicines used to treat infections.
 
- For companies planning their business development activities, understanding these spending patterns could help target resources more effectively. The increasing contract values suggest a need for robust medical supply chain capabilities and potentially new partnership approaches for smaller suppliers. [ [ Try for free [ Book a demo ] 
-## 5. Contract durations 
-#### Charts show on larger screens 
-### Overview 
+- Systemic antibiotics
+- Medical solutions for infection control
+- Hospital-grade disinfectants
+- Sterilization products
+- Antimicrobial solutions
+- Medical sanitization supplies
 
- Our analysis of healthcare procurement data from 2022 to 2024 shows notable changes in how long contracts last across different product categories. These changes provide insights into how governments and healthcare organisations are approaching their purchasing strategies. 
-#### Charts show on larger screens 
-### Trends in Specialist Equipment 
+### Research scope
 
- The length of contracts varies significantly between different types of medical products and equipment. For example, contracts for cadaver transport and storage equipment have grown steadily longer, increasing from 31 months in 2022 to 38 months in 2023, and reaching 40.2 months in 2024. This suggests buyers may be seeking longer-term stability in this specialist area. 
-### Changes in Essential Supplies 
+Healthcare procurement represents one of the most significant areas of public spending globally, encompassing everything from basic medical consumables to complex pharmaceutical products. This analysis examines procurement patterns across major healthcare markets from 2022 to 2024, focusing on published opportunities that provide visibility into public healthcare purchasing.
 
- In contrast, some categories show sharp changes in contract duration. Baby care products contracts halved in length from 48 months in 2023 to 24 months in 2024, after previously running at 40.8 months in 2022. This volatility might indicate changing market conditions or shifting procurement strategies for these essential supplies. 
-### Dramatic Shifts in Critical Care Equipment 
+The data reveals a market dominated by medical consumables and pharmaceutical products, with total published opportunities exceeding 270,000 across the studied period. European markets show the highest visibility with over 163,000 published opportunities, though this reflects standardised publishing requirements rather than necessarily indicating relative market size.
 
- One of the most dramatic changes appears in anaesthesia and resuscitation equipment contracts. The average duration dropped from 34.3 months in 2022 to just 9 months in 2023, and remained short at 8.8 months in 2024. This substantial reduction in contract length might suggest buyers want more flexibility in this category, though we would need more data to understand the full reasons for this change. 
-### Core Medical Categories 
+### Trends
 
- For core medical categories, the patterns are mixed. Medical consumables contracts have fluctuated, moving from 29.4 months in 2022 to 23.3 months in 2023, before lengthening to 31.9 months in 2024. Various medicinal products show a similar pattern, with contract durations falling from 23.4 months to 18.8 months between 2022 and 2023, before increasing to 29.5 months in 2024. 
-### Stability in Specialist Areas 
+Significant trends emerge in both volume and value patterns. Medical consumables demonstrate particular resilience, growing from 178,287 opportunities in 2022 to 227,505 in 2023, with continued strength into 2024. Contract structures show evolution away from framework agreements, whilst duration patterns reveal sophisticated responses to market conditions.
 
- Some specialist categories maintain more stable contract durations. Clinical forensics equipment contracts showed only a modest change from 36 months in 2022 to 32.8 months in 2024. However, recording systems and exploration devices show a consistent downward trend in contract length, declining from 24.8 months in 2022 to 19.9 months in 2023, and further reducing to 16.1 months in 2024. 
-### Business Implications 
+This analysis explores these patterns in detail, examining regional variations, category-specific trends, and the relationship between procurement values and contract structures. Throughout, we consider how publishing requirements influence market visibility, ensuring that patterns are interpreted within their proper context.
 
- For healthcare solutions providers looking to enter or expand in these markets, these duration patterns offer practical insights for business planning. The variation between categories suggests that different product areas may require different approaches to tender preparation and resource allocation. Companies might need to adapt their strategies based on whether they are operating in categories with lengthening contract durations, like cadaver transport equipment, or those showing shorter terms, like anaesthesia equipment. [ 
-## 6. Healthcare Technology Market Patterns 
-#### Charts show on larger screens 
 
- Using the data we have gathered we have identified several changes in the healthcare procurement market between 2022 and 2024. By examining the relationships between tender volumes, contract values, and contract durations we can see how buying behaviour has changed. 
-### Medical Consumables: Growing Demand and Longer Contracts 
+## Medical Device Market Patterns
 
- The data shows that medical consumables buying has grown substantially. The number of tenders increased from 89,567 in 2022 to 137,759 in 2024. During this period, we also saw contract values rise from $15.52 billion in 2022 to $19.05 billion in 2023. Contract durations lengthened from 23.3 months to 31.9 months. This combination of more tenders, higher spending, and longer contracts suggests that buyers might be trying to secure their supply chains for the future. 
-### Various Medicinal Products: Fewer, Bigger, Longer Contracts 
+<D3Chart
+  id="health-demand-heatmap"
+  height={500}
+  caption="Medical Supply Chain Market Size and Evolution"
+/>
 
- The medicinal products sector shows an interesting pattern. While the number of tenders stayed almost the same (48,047 in 2022 to 48,518 in 2024), the total value of these contracts fell from $19.36 billion in 2023 to $12.13 billion in 2024. At the same time, contract lengths grew from 18.8 months to 29.5 months. These changes suggest that buyers are combining multiple smaller contracts into fewer, longer agreements. This might help them save money through bulk buying. 
-### Imaging Equipment: A Shrinking Market 
+<script src="/scripts/health-demand-heatmap-chart.js"></script>
 
- The imaging equipment market has become smaller. Both the number of tenders and their value have fallen. Tender numbers dropped from 11,522 in 2022 to 9,883 in 2024, while values decreased from $2.79 billion to $2.04 billion. Unlike other sectors where we see changes in buying methods, this appears to be a straightforward reduction in demand. 
-### Functional Support: Higher Values, Shorter Terms 
+### Medical Supply Chain Market Size and Evolution
 
- The functional support sector shows yet another pattern. While tender numbers fell from 11,679 in 2023 to 10,363 in 2024, the total value stayed steady at around $3.72 billion. Contract lengths shortened slightly from 27.8 months to 26.6 months. This means each tender is worth more money but runs for less time, which might indicate rising prices or larger individual purchases. 
-### Miscellaneous Medical Devices: Changing Contract Patterns 
+The global medical supply market demonstrates significant scale and complexity across the studied period. The total volume of published opportunities shows substantial quarterly variations, with particular strength in first quarters. Medical consumables, the largest category by volume, grew from 178,287 opportunities in 2022 to 227,505 in 2023, whilst various medicinal products maintained more stable volumes around 146,900 opportunities per year until 2024.
 
- The data shows that miscellaneous medical devices have gone through significant changes. While tender numbers in 2024 (28,177) are similar to 2022 (28,977), the value of these contracts has changed dramatically. The total value fell from $6.07 billion in 2023 to $3.49 billion in 2024, even as contract lengths grew from 25.7 months to 28.9 months. This suggests buyers are seeking longer-term commitments but at lower prices. 
-### Anti-infectives and Vaccines: Changes in Buying Strategy 
+Using over 6m documents gathered from healthcare tenders published around the world between 2022 and 2024, we have identified several important changes in the way healthcare organisations buy goods and services.
 
- The market for anti-infectives and vaccines has changed notably. Tender numbers fell from 11,598 in 2022 to 9,708 in 2024, while total spending decreased from $3.96 billion to $3.29 billion. At the same time, contract lengths grew from 20.6 months to 27.7 months. This mix of fewer tenders but longer contracts suggests that there is a post-pandemic consolidation with buyers seeking long term, consistent supply. 
-### Baby Care Products: Big Changes in Contract Length 
+<D3Chart
+  id="health-category-volume-changes"
+  height={500}
+  caption="Medical Consumables: Strong and Sustained Growth"
+/>
 
- One of the most striking changes we found was in baby care products. The typical contract length halved from 48 months in 2023 to 24 months in 2024. This is the largest change in contract length we found in our analysis. This suggests buyers have fundamentally changed how they buy these products, perhaps in response to increased commodification of supplies in this market. 
-### Operating Techniques: Steady Decline 
+<script src="/scripts/health-category-volume-changes-chart.js"></script>
 
- The operating techniques sector shows a different pattern. Unlike other areas which show sharp changes, this sector has declined steadily. Tender numbers fell from 11,820 in 2022 to 11,060 in 2024. This steady decline, rather than sharp changes, might suggest a long-term change in how these products are bought or used. 
-### Nervous System Medicines: Sharp Value Changes 
+### Medical Consumables: Strong and Sustained Growth
 
- The data shows that medicines for the nervous system and sensory organs have seen dramatic value changes. The total value of contracts fell from $1.26 billion in 2023 to $566 million in 2024, more than halving in a single year. This significant change in spending might suggest changes in how these medicines are being bought or prescribed. 
-#### Charts show on larger screens 
+Medical consumables show the strongest growth of any category in our data. The number of tenders has risen steadily from 89,567 opportunities in 2022 to 128,528 in 2023, reaching 137,759 in 2024. This sustained growth means medical consumables now make up 38.7% of all healthcare contracting opportunities, up from 25.2% in 2022. This increase represents the largest change in market share we have seen across all categories.
 
- 
-### Radiotherapy and Physical Therapy: Gradual Market Softening 
+### Medicines: Volume Remains Stable
 
- The market for radiotherapy and physical therapy equipment shows a consistent downward trend. Tender numbers decreased from 5,271 in 2022 to 4,925 in 2024. This gradual decline in opportunities might indicate that hospitals are extending the life of existing equipment rather than replacing it. 
-### Recording and Exploration Devices: Declining Investment 
+The medicines market, while smaller than consumables, maintains consistent tender volumes. Starting at 48,047 opportunities in 2022, the market saw a brief rise to 54,162 opportunities in 2023 before returning to similar levels with 48,518 opportunities in 2024. Throughout this period, medicines have maintained a steady share of total opportunities at around 32%.
 
- The data shows a clear downward trend in recording and exploration devices. Tender numbers fell from 4,338 in 2022 to 3,628 in 2024, representing a steady decline in procurement activity. This might reflect a more cautious approach to investing in new monitoring and diagnostic equipment as budgets are squeezed and healthcare providers are expected to deliver continued services without investment in new diagnostic equipment. 
-### Overall Market Picture 
+### Specialist Equipment: Steady Decline
 
- When we look at total market values, we can see significant movement. The total value across all categories peaked at $60.99 billion in 2023, up from $52.97 billion in 2022, before falling to $46.74 billion in 2024. This pattern of rise and fall might suggest that healthcare systems made major investments in 2023 before reducing spending in 2024. 
-### What This Means for Suppliers 
+Two specialist areas show clear downward trends. Operating equipment opportunities have fallen steadily, starting at 11,820 opportunities in 2022, dropping slightly to 11,755 in 2023, and falling further to 11,060 in 2024. The decline is more pronounced in vaccines and anti-infectives, where tender numbers have dropped consistently from 11,598 opportunities in 2022 to 10,489 in 2023, falling further to 9,708 in 2024. This represents a sustained reduction in opportunities across both specialist sectors. In the case of anti-infectives it is likely that this is the tail end of the pandemic demand curve and represents the new normal for this space.
 
- These changes could mean different things for different types of suppliers. For medical consumables, there might be more opportunities but suppliers will need to be able to handle longer contracts. In medicinal products, suppliers might need to be ready for larger, longer-term contracts. The imaging equipment market has become more competitive as it has shrunk. In functional support, suppliers might need to adjust their pricing strategies as buyers seem willing to spend more per contract. [ [ Try for free [ Book a demo ] 
-## 7. Geographic analysis 
-#### Charts show on larger screens 
-### Market Size and Distribution 
+### Support Services: Variable Demand
 
- The healthcare procurement market shows distinct regional patterns. European buyers account for the highest total value, with dental and subspecialty instruments reaching $26.1 billion in 2024. In comparison, Asian markets show lower total values but higher volumes of opportunities, particularly in medical consumables and anaesthesia equipment, with values around $116.5 million in these categories. 
-### Healthcare Procurement Regional Patterns 
+Support services show less predictable patterns in the data. From 9,579 opportunities in 2022, the market grew to 11,679 opportunities in 2023, before falling back to 10,363 in 2024. The quarterly data reveals significant variations with some increase each January. This implies that a variety of factors are impacting demand for support services but that the new year and likely release of budget allocations may drive demand for services contracts.
 
- The data shows that European buyers tend to use longer contracts and framework agreements. These frameworks often run for four years or more. North American buyers focus on specific categories, particularly baby care products and medical consumables, with typical contract lengths between two and three years. Asian markets show more variation in how they buy, using shorter contracts but publishing more frequent opportunities. 
-### Worldwide Opportunities 
 
- Several major organisations buy healthcare products across multiple countries. The World Bank, UNDP, WHO, UNICEF and the International Red Cross create opportunities marked as ‘worldwide’ in our data. These worldwide opportunities often have higher values and longer contract periods than single-country purchases. NATO and EU institutions lead the multinational buying category, typically focusing on strategic products and emergency supplies. 
-#### Charts show on larger screens 
-### Market Access Considerations 
+## Healthcare Procurement Value Analysis
 
- Our analysis of the data suggests that the approach to market varies significantly by region. European buyers publish the most detailed tender information, including award notices which help us understand real costs. Asian markets publish high volumes of opportunities but less information about contract values. North American data focuses on specific product categories, suggesting that other purchasing channels may exist that our data does not capture. 
-### Contract Duration Trends 
+<D3Chart
+  id="health-market-value-trends"
+  height={600}
+  caption="Overall Value Trends"
+/>
 
- Looking at how long contracts run for, we see clear differences between regions. European contracts for medical supplies average 3.8 years when framework agreements are included. Asian market contract durations average 2.1 years, while North American contracts typically run for 2.7 years. These durations appear stable across the years we analysed, with only small changes between 2022 and 2024. 
-### Value Patterns 
+<script src="/scripts/health-market-value-trends-chart.js"></script>
 
- The value of opportunities varies notably between regions. European dental and medical device opportunities average $4.2 million per contract. Asian market opportunities show lower average values at $780,000, but higher volumes create significant total market value. North American opportunities average $2.1 million per contract, concentrated in specific product categories. 
-### Supply Chain Patterns 
+### Overall Value Trends
 
- The data indicates different approaches to supply chain management across regions. European buyers often combine requirements into larger framework agreements, particularly for medical consumables and pharmaceuticals. In Asia, we see more frequent, smaller purchases suggesting a just-in-time approach. North American buyers appear to balance these approaches, using frameworks for standard items while maintaining flexibility for specialised purchases. 
-### Category Specialisation 
+The healthcare procurement market demonstrated significant value fluctuations between 2022 and 2024. Total values peaked notably in 2023, with medical consumables reaching nearly $19 billion in published opportunities, before declining in 2024. However, these figures reflect only opportunities where values were published, typically from European Union member states and select other markets with transparent reporting requirements.
 
- Our analysis of product categories shows that certain regions focus on specific types of healthcare products. Dental and subspecialty instruments dominate European procurement, accounting for over 60% of published opportunities by value. Laboratory equipment represents the largest category in Asian markets, while medical consumables lead in North America. 
-### Market Development Indicators 
+The apparent peak in 2023 warrants careful interpretation. Rather than necessarily indicating increased spending, this spike coincides with enhanced reporting practices in several European markets, particularly in France and Germany. The subsequent decline in 2024 similarly reflects changes in reporting patterns rather than definitively indicating reduced procurement activity.
 
- Using contract values and durations as indicators of market maturity, we see varying levels of market development. European markets show characteristics of mature procurement systems, with structured framework agreements and detailed tender documentation. Asian markets demonstrate rapid development, with increasing contract values and growing use of framework agreements. North American patterns suggest a stable but more specialised public procurement market. 
-### Transparency Variations 
+### Medical Devices Categories Value Analysis
 
- The way procurement information is published varies significantly between regions. European buyers, bound by EU procurement regulations, provide comprehensive tender and award information. Asian markets generally publish basic tender details but fewer award notices. North American opportunities often include detailed specifications but less post-award information. 
-### Global Medical Distribution Networks 
+The relative stability of medical consumables values, maintaining approximately 40-50% of published values throughout the period, suggests consistent reporting in this category. This steadiness likely stems from standardised reporting requirements for basic medical supplies across European markets. In contrast, various medicinal products showed marked volatility, with values swinging from $14.2 billion in 2022 to $21.1 billion in 2023, before falling to $10.7 billion in 2024. These dramatic shifts often reflect changes in how framework agreements are valued rather than actual spending changes.
 
- The data shows increasing cross-border procurement activity. International organisations like the World Bank and WHO managed procurement worth $8.2 billion in 2024, a 15% increase from 2022. These opportunities typically attract healthcare solutions providers from multiple regions and often involve longer implementation periods than domestic contracts. 
-### Healthcare Supply Chain Framework Trends 
+The miscellaneous devices category, whilst showing smaller absolute values, reveals interesting patterns in procurement strategy. The category's declining share of total value, from 14.6% in 2022 to 12.1% in 2024, might indicate a trend toward more specific categorisation in procurement rather than necessarily showing reduced spending on devices.
 
- The use of framework agreements varies notably by region. In European markets, frameworks account for 72% of total procurement value. Asian buyers use frameworks for 28% of procurement value, while North American buyers use them for 45%. This pattern has remained stable across the three years we analysed. 
-## 8. Healthcare Supply Chain Management Patterns 
-### Changes in Framework Usage 
+### Value-Volume Relationships
 
- The use of frameworks and multiple supplier contracts has changed between 2022 and 2024. In medical consumables, the percentage of contracts awarded to multiple suppliers dropped from 24% to 8%. Similar declines appeared in laboratory glassware (30% to 0%) and baby care products (25% to 5%). However, dental instruments saw an increase in multiple supplier usage from 10% to 34%. 
-### Contract Duration and Value 
+The relationship between procurement values and volumes reveals intriguing patterns that challenge simple interpretation. While medical consumables consistently show high volumes of opportunities, their average values remain relatively modest. This pattern typically reflects decentralised purchasing, where individual hospitals publish separate opportunities for similar items.
 
- When examining how buyers structure their contracts, we found clear differences between single and multiple supplier approaches. Single supplier contracts typically run for 24.5 months, while framework contracts average 18.7 months. The value patterns show an inverse relationship – framework contracts have higher values despite shorter durations. For example, dental instruments, with 34% multiple supplier usage, showed a contract value of $107.4 billion in 2024. In contrast, various medicinal products, with 7% multiple supplier usage, had a value of $12.1 billion. 
-### Market Impact 
+Conversely, various medicinal products show fewer individual opportunities but often carry higher average values. This disparity largely stems from different purchasing approaches, with medicines more commonly procured through centralised, high-value framework agreements, particularly in Western European markets.
 
- These patterns suggest buyers are using frameworks differently now compared to 2022. The shorter duration but higher value of framework contracts might indicate that buyers want more flexibility while still achieving economies of scale. Medical consumables provide an interesting exception to these patterns. Despite low multiple supplier usage (3.5%), these contracts run longer at 31.9 months, suggesting different procurement approaches for different product types. 
-### Understanding Buyer Behaviour 
+### Regional Value Distribution
 
- The data suggests buyers might be moving away from frameworks in some categories while increasing their use in others. The dental sector’s shift towards more framework usage (34% in 2024) while maintaining high contract values suggests possible market consolidation in this area. However, the movement away from frameworks in categories like laboratory glassware and baby care products might indicate a preference for dedicated supply arrangements in these areas. 
-### Changes in Framework Usage 
+European markets dominate published value figures, though this predominantly reflects more comprehensive reporting requirements rather than necessarily indicating larger market sizes. The value distribution across European regions shows marked variations, with Western European opportunities typically carrying higher published values than Eastern European ones, though this partly reflects different approaches to value calculation in framework agreements.
 
- The use of frameworks and multiple supplier contracts has changed between 2022 and 2024. In medical consumables, the percentage of contracts awarded to multiple suppliers dropped from 24% to 8%. Similar declines appeared in laboratory glassware (30% to 0%) and baby care products (25% to 5%). However, dental instruments saw an increase in multiple supplier usage from 10% to 34%. 
-### Contract Duration and Value 
+North American value data, whilst limited, reveals higher average values per opportunity. This pattern stems from the selective publishing of larger, federal-level opportunities, whilst numerous smaller purchases remain unpublished. Asian and South American markets generally show lower published values, though this primarily reflects different reporting requirements rather than actual market sizes.
 
- When examining how buyers structure their contracts, we found clear differences between single and multiple supplier approaches. Single supplier contracts typically run for 24.5 months, while framework contracts average 18.7 months. The value patterns show an inverse relationship – framework contracts have higher values despite shorter durations. For example, dental instruments, with 34% multiple supplier usage, showed a contract value of $107.4 billion in 2024. In contrast, various medicinal products, with 7% multiple supplier usage, had a value of $12.1 billion. 
-### Category Specific Patterns 
+### Value Reporting Analysis
 
- Looking at categories with minimal framework usage (less than 10%), we found consistent patterns in duration and value. Eye care products showed only 1.3% multiple supplier usage but maintained longer contract durations of 30.8 months. Medical consumables followed a similar pattern with 3.6% multiple supplier usage and 31.9 month durations. The values in these categories were notably lower, with eye care at $183.9 million and medical devices at $3.5 billion. 
-### Duration Trends 
+Understanding healthcare procurement values requires careful consideration of reporting limitations. Many major healthcare markets, including Japan, South Korea, and much of the United States private sector, operate under reporting regimes that don't require public value disclosure. Consequently, published values likely represent only a fraction of global healthcare procurement spending.
 
- Contract duration analysis revealed some clear patterns. Cadaver equipment and supplies showed consistently increasing contract lengths, moving from 31 months in 2022 to 40.2 months in 2024. Clinical forensics maintained relatively stable durations around 32-36 months. These longer durations occurred despite relatively low framework usage, suggesting buyers in these categories prefer longer-term single supplier relationships. 
-### Market Impact 
+The completeness of value reporting varies significantly by category and region. Whilst basic medical supplies show relatively consistent value reporting, more complex categories like specialist medical devices or pharmaceutical frameworks often have less complete value data. This variation reflects both technical challenges in value estimation and different interpretations of reporting requirements across markets.
 
- These patterns suggest buyers are using frameworks differently now compared to 2022. The shorter duration but higher value of framework contracts might indicate that buyers want more flexibility while still achieving economies of scale. Medical consumables provide an interesting exception to these patterns. Despite low multiple supplier usage (3.5%), these contracts run longer at 31.9 months, suggesting different procurement approaches for different product types. 
-### Understanding Buyer Behaviour 
+<D3Chart
+  id="health-category-value-changes"
+  height={500}
+  caption="Core Category Performance"
+/>
 
- The data suggests buyers might be moving away from frameworks in some categories while increasing their use in others. The dental sector’s shift towards more framework usage (34% in 2024) while maintaining high contract values suggests possible market consolidation in this area. However, the movement away from frameworks in categories like laboratory glassware and baby care products might indicate a preference for dedicated supply arrangements in these areas. 
-### Value Distribution and Framework Usage 
+<script src="/scripts/health-category-value-changes-chart.js"></script>
 
- The relationship between framework usage and contract value shows interesting patterns across categories. Products with low framework usage often show more modest contract values – baby care products had just $91.2 million in contract value with 4.9% framework usage. In contrast, recording systems, with similarly low framework usage at 3.3%, showed higher values at $473.5 million, suggesting that framework usage alone does not determine contract value. 
-### Using This Information 
+### Core Category Performance
 
- For healthcare device companies, these changes in buying patterns matter. Framework participation requires different resources and approaches compared to single supplier contracts. The dental sector data suggests frameworks remain a key route to market, while other categories might need more focus on direct supply relationships. The shorter duration of framework contracts means more frequent rebidding, but the higher values suggest greater revenue potential for successful suppliers. 
-## 9. Global Medical Supply Chain Outlook 
-#### Charts show on larger screens 
-### Category Volume Patterns 
+Our data shows significant value changes across major healthcare categories between 2022 and 2024. Medical consumables and medicinal products consistently dominated the market, together accounting for nearly 60% of all spending in 2022 and 2023.
 
- Medical consumables demonstrate the most stable and predictable pattern in the data. Given the consistent growth from 2022 to 2024, even through market fluctuations, we can expect this category to maintain its dominant position in terms of opportunity volumes. The data shows growth from 128,533 to 135,642 opportunities between 2023 and 2024, suggesting this upward trend is likely to continue. 
-### Contract Structuring 
+### Medical consumables: increased spending
 
- The data shows a clear move away from multiple-supplier arrangements in most categories. Medical consumables saw framework agreements decline from 19% to 4% between 2022 and 2024. This consistent downward trend suggests a continued move toward single-supplier contracts over the next three years, though this may vary by region. 
-### Duration Trends 
+Medical consumables spending grew markedly from $15.52 billion in 2022 to $19.05 billion in 2023, a 22.8% increase. However, 2024 saw values decline to $14.40 billion. This mirrors activity in medicinal products, where values rose from $15.55 billion in 2022 to $19.36 billion in 2023, a 24.5% increase, before falling to $12.13 billion in 2024.
 
- Contract durations show enough consistency to suggest future patterns: Medical consumables and functional support consistently average around 28 months, with relatively minor fluctuations. This stability suggests these categories will likely maintain similar duration patterns, as they represent essential, ongoing requirements. 
+Looking at quarterly patterns, we see that consumables spending typically peaks in the second quarter of each year. For instance, Q2 2023 saw values 15% higher than the quarterly average for that year. This pattern suggests many healthcare organisations align major consumables purchasing with their financial year end.
 
- Various medicinal products show more volatility in duration (ranging from 19 to 30 months), making future patterns less predictable. However, the trend toward longer durations in 2024 (30 months) might indicate a move toward longer-term commitments in this category. 
-### Geographic Patterns 
+### Medicinal products: aggregating demand
 
- European markets, with their 163,807 published opportunities, will likely continue to provide the most visible procurement data due to consistent reporting requirements. The strong showing of South American markets (76,576 opportunities) suggests continued growth in procurement visibility from this region. 
-### Value Considerations 
+The medicinal products category shows less seasonal variation, though we note that the largest contracts, those over $100 million, are more common in the third quarter. Based on the tender descriptions, these often relate to annual framework agreements for hospital pharmacy supplies.
 
- Medical consumables demonstrate the most consistent value patterns, suggesting more predictable future spending in this category. However, the significant fluctuations seen in various medicinal products (from $21.09 billion in 2023 to $10.76 billion in 2024) make future values in this category harder to predict with confidence. 
-## 10. Conclusion: Evolution 
+In both categories, the average contract value has increased. For medical consumables, the mean contract value rose from $2.8 million in 2022 to $3.4 million in 2024. Similarly, medicinal products contracts grew from an average of $3.1 million to $3.8 million. This suggests buyers are consolidating their purchasing into larger contracts.
 
- The healthcare procurement landscape reveals distinct patterns of evolution through 2022-2024, though these patterns must be viewed through the lens of varying publishing requirements across markets. Medical consumables emerge as the most significant and stable category, showing consistent growth to 135,642 opportunities in early 2024, despite broader market fluctuations. This resilience suggests the category’s fundamental importance in healthcare delivery. 
+### Changes in Specialist Categories
 
- 
+Some smaller categories showed different patterns from the core medical consumables and medicines markets. Functional support spending grew steadily from $2.67 billion in 2022 to $3.72 billion in 2023, maintaining that level through 2024. The average contract value in this category increased more sharply than in other areas, rising from $1.2 million in 2022 to $2.1 million in 2024. The tender descriptions suggest this reflects a move towards more comprehensive support contracts covering multiple services.
 
- Healthcare procurement c ontract structures show clear evolution, with a marked shift away from framework agreements in most categories. The decline in multiple-supplier arrangements, particularly visible in medical consumables where usage fell from 19% to 4%, suggests a broader reconsideration of healthcare procurement strategies. However, this trend varies significantly by region and category, reflecting different approaches to market engagement. 
+### Imaging equipment centralisation
 
- Value patterns reveal interesting relationships with contract duration. Higher-value periods often coincide with shorter contract durations, particularly visible in various medicinal products where peak spending of $21.09 billion in 2023 aligned with the shortest average duration of 19 months. This suggests sophisticated responses to market conditions, though interpretation must consider reporting variations. 
+In contrast, imaging equipment spending fell each year, from $2.79 billion in 2022 to $2.26 billion in 2023, and further to $2.04 billion in 2024. However, while total spending decreased, the number of high-value contracts (over $10 million) increased from 12 in 2022 to 18 in 2024. This suggests a trend towards centralised purchasing of imaging equipment, particularly in teaching hospitals and regional health authorities.
 
- Geographic patterns remain dominated by European markets, with 163,807 opportunities reflecting standardised publishing requirements rather than necessarily indicating market size. The strong showing of South American markets, with 76,576 opportunities, demonstrates the impact of evolving procurement transparency requirements. 
+### Dental: significant growth
 
- Looking forward, global medical trends suggest continued evolution in procurement approaches, with likely emphasis on single-supplier arrangements and variable contract durations based on category-specific conditions. However, these visible trends should be understood within the context of publishing requirements, which significantly influence our view of the market. 
+Other specialist categories show varied patterns. Dental and subspecialty instruments saw significant growth, with values rising from $1.8 billion in 2022 to $4.2 billion in 2024. Meanwhile, laboratory equipment and supplies remained relatively stable around $1.5 billion annually, though with notable quarterly fluctuations.
 
- The overall picture is one of a procurement landscape adapting to changing conditions, with clear trends in volume, value, and contract structuring, though always shaped by the varying visibility of procurement activity across different markets and regions. [ Try for free [ Book a demo ] 
-#### Explore AI Summary [ [ [ [ [ 
-## Global research [ Defence and security Digital and technology Healthcare & pharma All country guides Win contracts in the USA Win contracts in France Win contracts in Germany Coverage Intent search Release notes Using AI for bidding Strategic and tactical sales Help documents Blog The challenge Open data principles Our team Contact us Legals
+### Longer term partnerships
+
+Looking at contract durations in specialist categories, we see a trend towards longer terms. The average duration for imaging equipment contracts lengthened from 22.9 months in 2022 to 25.5 months in 2024. Similarly, functional support contracts extended from 26.6 months to 29.4 months. This suggests buyers are seeking longer-term partnerships in these technical areas, possibly to ensure consistency of service and support.
+
+### Market Access Considerations
+
+The differences we see in spending patterns likely stem from variations in how different countries publish tender information rather than reflecting actual market sizes. Many healthcare providers are not required to publish opportunity details, while others must publish all purchasing intentions regardless of value.
+
+### Strategic Implications for Suppliers
+
+Based on the changes we have seen in spending patterns, we think buyers may be moving towards longer-term, higher-value contracts, particularly for everyday items like consumables and medicines. This could create both opportunities and challenges for medical device suppliers, depending on their size and ability to fulfil larger contracts.
+
+For companies planning their business development activities, understanding these spending patterns could help target resources more effectively. The increasing contract values suggest a need for robust medical supply chain capabilities and potentially new partnership approaches for smaller suppliers.
+
+
+## Contract durations
+
+<D3Chart
+  id="health-contract-durations"
+  height={500}
+  caption="Overview"
+/>
+
+<script src="/scripts/health-contract-durations-chart.js"></script>
+
+### Overview
+
+Our analysis of healthcare procurement data from 2022 to 2024 shows notable changes in how long contracts last across different product categories. These changes provide insights into how governments and healthcare organisations are approaching their purchasing strategies.
+
+<D3Chart
+  id="health-duration-changes"
+  height={500}
+  caption="Trends in Specialist Equipment"
+/>
+
+<script src="/scripts/health-duration-changes-chart.js"></script>
+
+### Trends in Specialist Equipment
+
+The length of contracts varies significantly between different types of medical products and equipment. For example, contracts for cadaver transport and storage equipment have grown steadily longer, increasing from 31 months in 2022 to 38 months in 2023, and reaching 40.2 months in 2024. This suggests buyers may be seeking longer-term stability in this specialist area.
+
+### Changes in Essential Supplies
+
+In contrast, some categories show sharp changes in contract duration. Baby care products contracts halved in length from 48 months in 2023 to 24 months in 2024, after previously running at 40.8 months in 2022. This volatility might indicate changing market conditions or shifting procurement strategies for these essential supplies.
+
+### Dramatic Shifts in Critical Care Equipment
+
+One of the most dramatic changes appears in anaesthesia and resuscitation equipment contracts. The average duration dropped from 34.3 months in 2022 to just 9 months in 2023, and remained short at 8.8 months in 2024. This substantial reduction in contract length might suggest buyers want more flexibility in this category, though we would need more data to understand the full reasons for this change.
+
+### Core Medical Categories
+
+For core medical categories, the patterns are mixed. Medical consumables contracts have fluctuated, moving from 29.4 months in 2022 to 23.3 months in 2023, before lengthening to 31.9 months in 2024. Various medicinal products show a similar pattern, with contract durations falling from 23.4 months to 18.8 months between 2022 and 2023, before increasing to 29.5 months in 2024.
+
+### Stability in Specialist Areas
+
+Some specialist categories maintain more stable contract durations. Clinical forensics equipment contracts showed only a modest change from 36 months in 2022 to 32.8 months in 2024. However, recording systems and exploration devices show a consistent downward trend in contract length, declining from 24.8 months in 2022 to 19.9 months in 2023, and further reducing to 16.1 months in 2024.
+
+### Business Implications
+
+For healthcare solutions providers looking to enter or expand in these markets, these duration patterns offer practical insights for business planning. The variation between categories suggests that different product areas may require different approaches to tender preparation and resource allocation. Companies might need to adapt their strategies based on whether they are operating in categories with lengthening contract durations, like cadaver transport equipment, or those showing shorter terms, like anaesthesia equipment.
+
+
+## Healthcare Technology Market Patterns
+
+<D3Chart
+  id="health-market-patterns"
+  height={600}
+  caption="Using the data we have gathered"
+/>
+
+<script src="/scripts/health-market-patterns-chart.js"></script>
+
+Using the data we have gathered we have identified several changes in the healthcare procurement market between 2022 and 2024. By examining the relationships between tender volumes, contract values, and contract durations we can see how buying behaviour has changed.
+
+### Medical Consumables: Growing Demand and Longer Contracts
+
+The data shows that medical consumables buying has grown substantially. The number of tenders increased from 89,567 in 2022 to 137,759 in 2024. During this period, we also saw contract values rise from $15.52 billion in 2022 to $19.05 billion in 2023. Contract durations lengthened from 23.3 months to 31.9 months. This combination of more tenders, higher spending, and longer contracts suggests that buyers might be trying to secure their supply chains for the future.
+
+### Various Medicinal Products: Fewer, Bigger, Longer Contracts
+
+The medicinal products sector shows an interesting pattern. While the number of tenders stayed almost the same (48,047 in 2022 to 48,518 in 2024), the total value of these contracts fell from $19.36 billion in 2023 to $12.13 billion in 2024. At the same time, contract lengths grew from 18.8 months to 29.5 months. These changes suggest that buyers are combining multiple smaller contracts into fewer, longer agreements. This might help them save money through bulk buying.
+
+### Imaging Equipment: A Shrinking Market
+
+The imaging equipment market has become smaller. Both the number of tenders and their value have fallen. Tender numbers dropped from 11,522 in 2022 to 9,883 in 2024, while values decreased from $2.79 billion to $2.04 billion. Unlike other sectors where we see changes in buying methods, this appears to be a straightforward reduction in demand.
+
+### Functional Support: Higher Values, Shorter Terms
+
+The functional support sector shows yet another pattern. While tender numbers fell from 11,679 in 2023 to 10,363 in 2024, the total value stayed steady at around $3.72 billion. Contract lengths shortened slightly from 27.8 months to 26.6 months. This means each tender is worth more money but runs for less time, which might indicate rising prices or larger individual purchases.
+
+### Miscellaneous Medical Devices: Changing Contract Patterns
+
+The data shows that miscellaneous medical devices have gone through significant changes. While tender numbers in 2024 (28,177) are similar to 2022 (28,977), the value of these contracts has changed dramatically. The total value fell from $6.07 billion in 2023 to $3.49 billion in 2024, even as contract lengths grew from 25.7 months to 28.9 months. This suggests buyers are seeking longer-term commitments but at lower prices.
+
+### Anti-infectives and Vaccines: Changes in Buying Strategy
+
+The market for anti-infectives and vaccines has changed notably. Tender numbers fell from 11,598 in 2022 to 9,708 in 2024, while total spending decreased from $3.96 billion to $3.29 billion. At the same time, contract lengths grew from 20.6 months to 27.7 months. This mix of fewer tenders but longer contracts suggests that there is a post-pandemic consolidation with buyers seeking long term, consistent supply.
+
+### Baby Care Products: Big Changes in Contract Length
+
+One of the most striking changes we found was in baby care products. The typical contract length halved from 48 months in 2023 to 24 months in 2024. This is the largest change in contract length we found in our analysis. This suggests buyers have fundamentally changed how they buy these products, perhaps in response to increased commodification of supplies in this market.
+
+### Operating Techniques: Steady Decline
+
+The operating techniques sector shows a different pattern. Unlike other areas which show sharp changes, this sector has declined steadily. Tender numbers fell from 11,820 in 2022 to 11,060 in 2024. This steady decline, rather than sharp changes, might suggest a long-term change in how these products are bought or used.
+
+### Nervous System Medicines: Sharp Value Changes
+
+The data shows that medicines for the nervous system and sensory organs have seen dramatic value changes. The total value of contracts fell from $1.26 billion in 2023 to $566 million in 2024, more than halving in a single year. This significant change in spending might suggest changes in how these medicines are being bought or prescribed.
+
+<D3Chart
+  id="health-radiotherapy-trends"
+  height={500}
+  caption="Radiotherapy and Physical Therapy: Gradual Market Softening"
+/>
+
+<script src="/scripts/health-radiotherapy-trends-chart.js"></script>
+
+### Radiotherapy and Physical Therapy: Gradual Market Softening
+
+The market for radiotherapy and physical therapy equipment shows a consistent downward trend. Tender numbers decreased from 5,271 in 2022 to 4,925 in 2024. This gradual decline in opportunities might indicate that hospitals are extending the life of existing equipment rather than replacing it.
+
+### Recording and Exploration Devices: Declining Investment
+
+The data shows a clear downward trend in recording and exploration devices. Tender numbers fell from 4,338 in 2022 to 3,628 in 2024, representing a steady decline in procurement activity. This might reflect a more cautious approach to investing in new monitoring and diagnostic equipment as budgets are squeezed and healthcare providers are expected to deliver continued services without investment in new diagnostic equipment.
+
+### Overall Market Picture
+
+When we look at total market values, we can see significant movement. The total value across all categories peaked at $60.99 billion in 2023, up from $52.97 billion in 2022, before falling to $46.74 billion in 2024. This pattern of rise and fall might suggest that healthcare systems made major investments in 2023 before reducing spending in 2024.
+
+### What This Means for Suppliers
+
+These changes could mean different things for different types of suppliers. For medical consumables, there might be more opportunities but suppliers will need to be able to handle longer contracts. In medicinal products, suppliers might need to be ready for larger, longer-term contracts. The imaging equipment market has become more competitive as it has shrunk. In functional support, suppliers might need to adjust their pricing strategies as buyers seem willing to spend more per contract.
+
+
+## Geographic analysis
+
+<D3Chart
+  id="health-geographic-distribution"
+  height={600}
+  caption="Market Size and Distribution"
+/>
+
+<script src="/scripts/health-geographic-distribution-chart.js"></script>
+
+### Market Size and Distribution
+
+The healthcare procurement market shows distinct regional patterns. European buyers account for the highest total value, with dental and subspecialty instruments reaching $26.1 billion in 2024. In comparison, Asian markets show lower total values but higher volumes of opportunities, particularly in medical consumables and anaesthesia equipment, with values around $116.5 million in these categories.
+
+### Healthcare Procurement Regional Patterns
+
+The data shows that European buyers tend to use longer contracts and framework agreements. These frameworks often run for four years or more. North American buyers focus on specific categories, particularly baby care products and medical consumables, with typical contract lengths between two and three years. Asian markets show more variation in how they buy, using shorter contracts but publishing more frequent opportunities.
+
+### Worldwide Opportunities
+
+Several major organisations buy healthcare products across multiple countries. The World Bank, UNDP, WHO, UNICEF and the International Red Cross create opportunities marked as 'worldwide' in our data. These worldwide opportunities often have higher values and longer contract periods than single-country purchases. NATO and EU institutions lead the multinational buying category, typically focusing on strategic products and emergency supplies.
+
+<D3Chart
+  id="health-regional-contract-values"
+  height={500}
+  caption="Market Access Considerations"
+/>
+
+<script src="/scripts/health-regional-contract-values-chart.js"></script>
+
+### Market Access Considerations
+
+Our analysis of the data suggests that the approach to market varies significantly by region. European buyers publish the most detailed tender information, including award notices which help us understand real costs. Asian markets publish high volumes of opportunities but less information about contract values. North American data focuses on specific product categories, suggesting that other purchasing channels may exist that our data does not capture.
+
+### Contract Duration Trends
+
+Looking at how long contracts run for, we see clear differences between regions. European contracts for medical supplies average 3.8 years when framework agreements are included. Asian market contract durations average 2.1 years, while North American contracts typically run for 2.7 years. These durations appear stable across the years we analysed, with only small changes between 2022 and 2024.
+
+### Value Patterns
+
+The value of opportunities varies notably between regions. European dental and medical device opportunities average $4.2 million per contract. Asian market opportunities show lower average values at $780,000, but higher volumes create significant total market value. North American opportunities average $2.1 million per contract, concentrated in specific product categories.
+
+### Supply Chain Patterns
+
+The data indicates different approaches to supply chain management across regions. European buyers often combine requirements into larger framework agreements, particularly for medical consumables and pharmaceuticals. In Asia, we see more frequent, smaller purchases suggesting a just-in-time approach. North American buyers appear to balance these approaches, using frameworks for standard items while maintaining flexibility for specialised purchases.
+
+### Category Specialisation
+
+Our analysis of product categories shows that certain regions focus on specific types of healthcare products. Dental and subspecialty instruments dominate European procurement, accounting for over 60% of published opportunities by value. Laboratory equipment represents the largest category in Asian markets, while medical consumables lead in North America.
+
+### Market Development Indicators
+
+Using contract values and durations as indicators of market maturity, we see varying levels of market development. European markets show characteristics of mature procurement systems, with structured framework agreements and detailed tender documentation. Asian markets demonstrate rapid development, with increasing contract values and growing use of framework agreements. North American patterns suggest a stable but more specialised public procurement market.
+
+### Transparency Variations
+
+The way procurement information is published varies significantly between regions. European buyers, bound by EU procurement regulations, provide comprehensive tender and award information. Asian markets generally publish basic tender details but fewer award notices. North American opportunities often include detailed specifications but less post-award information.
+
+### Global Medical Distribution Networks
+
+The data shows increasing cross-border procurement activity. International organisations like the World Bank and WHO managed procurement worth $8.2 billion in 2024, a 15% increase from 2022. These opportunities typically attract healthcare solutions providers from multiple regions and often involve longer implementation periods than domestic contracts.
+
+### Healthcare Supply Chain Framework Trends
+
+The use of framework agreements varies notably by region. In European markets, frameworks account for 72% of total procurement value. Asian buyers use frameworks for 28% of procurement value, while North American buyers use them for 45%. This pattern has remained stable across the three years we analysed.
+
+
+## Healthcare Supply Chain Management Patterns
+
+### Changes in Framework Usage
+
+The use of frameworks and multiple supplier contracts has changed between 2022 and 2024. In medical consumables, the percentage of contracts awarded to multiple suppliers dropped from 24% to 8%. Similar declines appeared in laboratory glassware (30% to 0%) and baby care products (25% to 5%). However, dental instruments saw an increase in multiple supplier usage from 10% to 34%.
+
+### Contract Duration and Value
+
+When examining how buyers structure their contracts, we found clear differences between single and multiple supplier approaches. Single supplier contracts typically run for 24.5 months, while framework contracts average 18.7 months. The value patterns show an inverse relationship – framework contracts have higher values despite shorter durations. For example, dental instruments, with 34% multiple supplier usage, showed a contract value of $107.4 billion in 2024. In contrast, various medicinal products, with 7% multiple supplier usage, had a value of $12.1 billion.
+
+### Market Impact
+
+These patterns suggest buyers are using frameworks differently now compared to 2022. The shorter duration but higher value of framework contracts might indicate that buyers want more flexibility while still achieving economies of scale. Medical consumables provide an interesting exception to these patterns. Despite low multiple supplier usage (3.5%), these contracts run longer at 31.9 months, suggesting different procurement approaches for different product types.
+
+### Understanding Buyer Behaviour
+
+The data suggests buyers might be moving away from frameworks in some categories while increasing their use in others. The dental sector's shift towards more framework usage (34% in 2024) while maintaining high contract values suggests possible market consolidation in this area. However, the movement away from frameworks in categories like laboratory glassware and baby care products might indicate a preference for dedicated supply arrangements in these areas.
+
+### Category Specific Patterns
+
+Looking at categories with minimal framework usage (less than 10%), we found consistent patterns in duration and value. Eye care products showed only 1.3% multiple supplier usage but maintained longer contract durations of 30.8 months. Medical consumables followed a similar pattern with 3.6% multiple supplier usage and 31.9 month durations. The values in these categories were notably lower, with eye care at $183.9 million and medical devices at $3.5 billion.
+
+### Duration Trends
+
+Contract duration analysis revealed some clear patterns. Cadaver equipment and supplies showed consistently increasing contract lengths, moving from 31 months in 2022 to 40.2 months in 2024. Clinical forensics maintained relatively stable durations around 32-36 months. These longer durations occurred despite relatively low framework usage, suggesting buyers in these categories prefer longer-term single supplier relationships.
+
+### Value Distribution and Framework Usage
+
+The relationship between framework usage and contract value shows interesting patterns across categories. Products with low framework usage often show more modest contract values – baby care products had just $91.2 million in contract value with 4.9% framework usage. In contrast, recording systems, with similarly low framework usage at 3.3%, showed higher values at $473.5 million, suggesting that framework usage alone does not determine contract value.
+
+### Using This Information
+
+For healthcare device companies, these changes in buying patterns matter. Framework participation requires different resources and approaches compared to single supplier contracts. The dental sector data suggests frameworks remain a key route to market, while other categories might need more focus on direct supply relationships. The shorter duration of framework contracts means more frequent rebidding, but the higher values suggest greater revenue potential for successful suppliers.
+
+
+## Global Medical Supply Chain Outlook
+
+<D3Chart
+  id="health-three-year-outlook"
+  height={600}
+  caption="Category Volume Patterns"
+/>
+
+<script src="/scripts/health-three-year-outlook-chart.js"></script>
+
+### Category Volume Patterns
+
+Medical consumables demonstrate the most stable and predictable pattern in the data. Given the consistent growth from 2022 to 2024, even through market fluctuations, we can expect this category to maintain its dominant position in terms of opportunity volumes. The data shows growth from 128,533 to 135,642 opportunities between 2023 and 2024, suggesting this upward trend is likely to continue.
+
+### Contract Structuring
+
+The data shows a clear move away from multiple-supplier arrangements in most categories. Medical consumables saw framework agreements decline from 19% to 4% between 2022 and 2024. This consistent downward trend suggests a continued move toward single-supplier contracts over the next three years, though this may vary by region.
+
+### Duration Trends
+
+Contract durations show enough consistency to suggest future patterns: Medical consumables and functional support consistently average around 28 months, with relatively minor fluctuations. This stability suggests these categories will likely maintain similar duration patterns, as they represent essential, ongoing requirements.
+
+Various medicinal products show more volatility in duration (ranging from 19 to 30 months), making future patterns less predictable. However, the trend toward longer durations in 2024 (30 months) might indicate a move toward longer-term commitments in this category.
+
+### Geographic Patterns
+
+European markets, with their 163,807 published opportunities, will likely continue to provide the most visible procurement data due to consistent reporting requirements. The strong showing of South American markets (76,576 opportunities) suggests continued growth in procurement visibility from this region.
+
+### Value Considerations
+
+Medical consumables demonstrate the most consistent value patterns, suggesting more predictable future spending in this category. However, the significant fluctuations seen in various medicinal products (from $21.09 billion in 2023 to $10.76 billion in 2024) make future values in this category harder to predict with confidence.
+
+
+## Conclusion: Evolution
+
+The healthcare procurement landscape reveals distinct patterns of evolution through 2022-2024, though these patterns must be viewed through the lens of varying publishing requirements across markets. Medical consumables emerge as the most significant and stable category, showing consistent growth to 135,642 opportunities in early 2024, despite broader market fluctuations. This resilience suggests the category's fundamental importance in healthcare delivery.
+
+Healthcare procurement contract structures show clear evolution, with a marked shift away from framework agreements in most categories. The decline in multiple-supplier arrangements, particularly visible in medical consumables where usage fell from 19% to 4%, suggests a broader reconsideration of healthcare procurement strategies. However, this trend varies significantly by region and category, reflecting different approaches to market engagement.
+
+Value patterns reveal interesting relationships with contract duration. Higher-value periods often coincide with shorter contract durations, particularly visible in various medicinal products where peak spending of $21.09 billion in 2023 aligned with the shortest average duration of 19 months. This suggests sophisticated responses to market conditions, though interpretation must consider reporting variations.
+
+Geographic patterns remain dominated by European markets, with 163,807 opportunities reflecting standardised publishing requirements rather than necessarily indicating market size. The strong showing of South American markets, with 76,576 opportunities, demonstrates the impact of evolving procurement transparency requirements.
+
+Looking forward, global medical trends suggest continued evolution in procurement approaches, with likely emphasis on single-supplier arrangements and variable contract durations based on category-specific conditions. However, these visible trends should be understood within the context of publishing requirements, which significantly influence our view of the market.
+
+The overall picture is one of a procurement landscape adapting to changing conditions, with clear trends in volume, value, and contract structuring, though always shaped by the varying visibility of procurement activity across different markets and regions.
 

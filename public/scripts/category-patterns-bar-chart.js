@@ -88,24 +88,28 @@
     }
   ];
 
-  const margin = {top: 50, right: 50, bottom: 100, left: 150};
   const container = document.getElementById('horizontal-grouped-bar-chart');
   if (!container) return;
 
-  let width = container.offsetWidth - margin.left - margin.right;
-  let height = Math.min(500, data.length * 100);
+  const width = container.offsetWidth;
+  const height = container.offsetHeight || 500;
+  const margin = {top: 50, right: 20, bottom: 60, left: 90};
+  const innerWidth = width - margin.left - margin.right;
+  const innerHeight = height - margin.top - margin.bottom;
 
   const svg = d3.select("#horizontal-grouped-bar-chart")
     .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("preserveAspectRatio", "xMidYMid meet")
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
   const categories = data.map(d => d.category);
   const groupScale = d3.scaleBand()
     .domain(categories)
-    .range([0, height])
+    .range([0, innerHeight])
     .padding(0.4);
 
   const metricScale = d3.scaleBand()
@@ -115,7 +119,7 @@
 
   const xScale = d3.scaleLinear()
     .domain([-100, 100])
-    .range([0, width]);
+    .range([0, innerWidth]);
 
   const colorScale = d3.scaleOrdinal()
     .domain(["Opportunities", "Value", "Duration"])
@@ -129,7 +133,7 @@
 
   svg.append("g")
     .attr("class", "axis")
-    .attr("transform", `translate(0,${height})`)
+    .attr("transform", `translate(0,${innerHeight})`)
     .call(d3.axisBottom(xScale)
       .tickFormat(d => d + "%")
       .ticks(10))
@@ -166,14 +170,14 @@
 
   svg.append("text")
     .attr("class", "title")
-    .attr("x", width / 2)
+    .attr("x", innerWidth / 2)
     .attr("y", -20)
     .attr("text-anchor", "middle")
     .text("Software Categories: Changes 2022-2024 by Category and Metric");
 
   const legend = svg.append("g")
     .attr("class", "legend")
-    .attr("transform", `translate(0,${height + 40})`);
+    .attr("transform", `translate(0,${innerHeight + 40})`);
 
   const legendItems = legend.selectAll(".legend-item")
     .data(["Opportunities", "Value", "Duration"])
@@ -195,8 +199,8 @@
   svg.append("text")
     .attr("class", "axis-label")
     .attr("text-anchor", "middle")
-    .attr("x", width / 2)
-    .attr("y", height + 80)
+    .attr("x", innerWidth / 2)
+    .attr("y", innerHeight + 80)
     .text("Percent Change");
 
   function handleResize() {

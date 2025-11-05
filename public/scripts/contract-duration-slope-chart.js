@@ -23,9 +23,9 @@
   const container = document.getElementById('contract-duration-slope-categories-2022-2024');
   if (!container) return;
 
-  const width = Math.max(container.offsetWidth, 800);
-  const height = 700;
-  const margin = { top: 40, right: 200, bottom: 40, left: 200 };
+  const width = container.offsetWidth;
+  const height = container.offsetHeight || 500;
+  const margin = { top: 50, right: 100, bottom: 60, left: 100 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
@@ -33,8 +33,10 @@
 
   const svg = d3.select(container)
     .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
 
   const g = svg.append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);

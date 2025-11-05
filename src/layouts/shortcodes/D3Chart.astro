@@ -11,7 +11,8 @@ const { id, height = 500, caption } = Astro.props;
 <figure class="my-8">
   <div
     id={id}
-    style={`width: 100%; height: ${height}px; margin: 0;`}
+    class="d3-chart-container"
+    style={`width: 100%; height: ${height}px;`}
   ></div>
 
   {caption && (
@@ -22,6 +23,20 @@ const { id, height = 500, caption } = Astro.props;
 </figure>
 
 <style is:global>
+  /* D3 Chart Container Styles */
+  .d3-chart-container {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .d3-chart-container svg {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+
   /* Bar Chart Styles */
   .bar { transition: opacity 0.2s; fill: #034737; }
   .bar.europe { fill: #034737; }

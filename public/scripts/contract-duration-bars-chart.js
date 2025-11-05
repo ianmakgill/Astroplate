@@ -25,8 +25,8 @@
   const containerWidth = container.offsetWidth;
 
   const width = containerWidth;
-  const height = Math.min(600, containerWidth * 0.6);
-  const margin = { top: 20, right: 60, bottom: 100, left: 200 };
+  const height = container.offsetHeight || 500;
+  const margin = { top: 50, right: 20, bottom: 60, left: 90 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
@@ -34,8 +34,8 @@
 
   const svg = d3.select(container)
     .append("svg")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", "100%")
+    .attr("height", "100%")
     .attr("viewBox", `0 0 ${width} ${height}`)
     .attr("preserveAspectRatio", "xMidYMid meet");
 

@@ -22,14 +22,16 @@
 
   const width = container.offsetWidth;
   const height = container.offsetHeight || 500;
-  const margin = { top: 50, right: 50, bottom: 70, left: 50 };
+  const margin = { top: 50, right: 20, bottom: 60, left: 20 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
   const svg = d3.select('#digital-tech-demand-patterns')
     .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
 
   const g = svg.append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);

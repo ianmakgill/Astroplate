@@ -24,15 +24,17 @@
   if (!container) return;
 
   const width = container.offsetWidth;
-  const height = 700;
-  const margin = { top: 50, right: 120, bottom: 60, left: 160 };
+  const height = container.offsetHeight || 500;
+  const margin = { top: 50, right: 20, bottom: 60, left: 90 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
   const svg = d3.select('#average-contract-values-chart')
     .append('svg')
-    .attr('width', width)
-    .attr('height', height);
+    .attr('width', '100%')
+    .attr('height', '100%')
+    .attr('viewBox', `0 0 ${width} ${height}`)
+    .attr('preserveAspectRatio', 'xMidYMid meet');
 
   svg.append('text')
     .attr('x', margin.left + innerWidth/2)
