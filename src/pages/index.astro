@@ -1,5 +1,6 @@
 ---
 import ImageMod from "@/components/ImageMod.astro";
+import ThemeImage from "@/components/ThemeImage.astro";
 import Base from "@/layouts/Base.astro";
 import { getListPage } from "@/lib/contentParser.astro";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -71,14 +72,26 @@ const { banner, features } = homepage.data;
                 flex items-center justify-center transition-opacity duration-300
                 ${feature.image_side === "right" && "md:order-2"}`}
             >
-              <ImageMod
-                src={feature.image}
-                height={1500}
-                width={1600}
-                alt={feature.title}
-                class="w-full h-auto object-contain"
-                format="webp"
-              />
+              {feature.image_dark ? (
+                <ThemeImage
+                  lightSrc={feature.image}
+                  darkSrc={feature.image_dark}
+                  height={1500}
+                  width={1600}
+                  alt={feature.title}
+                  class="w-full h-auto object-contain"
+                  format="webp"
+                />
+              ) : (
+                <ImageMod
+                  src={feature.image}
+                  height={1500}
+                  width={1600}
+                  alt={feature.title}
+                  class="w-full h-auto object-contain"
+                  format="webp"
+                />
+              )}
             </div>
             <div class={`md:col-5 lg:col-6 ${index % 2 !== 0 && "md:order-1"}`}>
               <div class="feature-text-container">

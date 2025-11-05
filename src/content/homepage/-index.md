@@ -10,7 +10,8 @@ banner:
     subtitle: No credit card required
 features:
   - title: Instantly search across 800+ sources every day.
-    image: /images/front_page_portal_maze.png
+    image: /images/front_page_portal_maze_light.png
+    image_dark: /images/front_page_portal_maze.png
     image_side: right
     content: >-
       With opportunities spread across hundreds of sites, you need a single,
@@ -26,7 +27,8 @@ features:
       label: Get Started Now
       link: '#'
   - title: Use keywords to find the right opportunities
-    image: /images/front_page_keyword.png
+    image: /images/front_page_keyword_light.png
+    image_dark: /images/front_page_keyword.png
     image_side: right
     content: The fastest route from A to Bid, guaranteed.
     bulletpoints:
@@ -39,7 +41,8 @@ features:
       label: ''
       link: ''
   - title: Narrow your search to your location
-    image: /images/front_page_countries.png
+    image: /images/front_page_countries_light.png
+    image_dark: /images/front_page_countries.png
     image_side: right
     content: >-
       Search by continent, country or groups of country to search your specific
@@ -53,7 +56,8 @@ features:
       label: Get Started Now
       link: https://github.com/zeon-studio/astroplate
   - title: Download attachments
-    image: /images/front_page_attachments2.png
+    image: /images/front_page_attachments2_light.png
+    image_dark: /images/front_page_attachments2.png
     image_side: right
     content: >-
       You can download specifications directly inside Open Opportunities, giving
@@ -70,7 +74,8 @@ features:
       label: Try for free
       link: ''
   - title: Never miss an opportunity
-    image: /images/front_page_email_alert.png
+    image: /images/front_page_email_alert_light.png
+    image_dark: /images/front_page_email_alert.png
     image_side: right
     content: >-
       Get intelligent alerts directly to your inbox so that you always know
@@ -87,6 +92,7 @@ features:
       link: ''
   - title: We've categorized every document for you
     image: /images/front_page_categories_light.png
+    image_dark: /images/front_page_categories.png
     image_side: right
     content: >-
       Sometimes keywords aren't enough, combining keywords and category filters

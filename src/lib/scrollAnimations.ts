@@ -1,8 +1,5 @@
 export function initFeatureScrollAnimations() {
-  console.log('[SCROLL DEBUG] Initializing...');
   const featureSections = document.querySelectorAll('.feature-scroll-section');
-
-  console.log('[SCROLL DEBUG] Found sections:', featureSections.length);
 
   if (featureSections.length === 0) {
     return;
@@ -11,32 +8,24 @@ export function initFeatureScrollAnimations() {
   // Check if mobile - skip animations on mobile devices
   const isMobile = () => window.innerWidth <= 768;
 
-  console.log('[SCROLL DEBUG] Is mobile?', isMobile(), 'Width:', window.innerWidth);
-
-  featureSections.forEach((section, idx) => {
+  featureSections.forEach((section) => {
     const image = section.querySelector('.feature-image') as HTMLElement;
     const textWrapper = section.querySelector('.feature-text-wrapper') as HTMLElement;
 
     if (!image || !textWrapper) {
-      console.log(`[SCROLL DEBUG] Section ${idx} missing elements`);
       return;
     }
-
-    const classes = textWrapper.className;
-    console.log(`[SCROLL DEBUG] Section ${idx} text classes:`, classes);
 
     // On mobile, keep everything visible - no animations
     if (isMobile()) {
       image.style.opacity = '1';
       textWrapper.style.opacity = '1';
-      console.log(`[SCROLL DEBUG] Section ${idx} set to mobile (visible)`);
       return;
     }
 
     // Set initial states for desktop
     image.style.opacity = '0';
     textWrapper.style.opacity = '0';
-    console.log(`[SCROLL DEBUG] Section ${idx} initialized with opacity 0`);
   });
 
   function updateAnimations() {
@@ -78,31 +67,26 @@ export function initFeatureScrollAnimations() {
       }
 
       // Text fades in (0.35 to 0.42)
-      // Text stays visible (0.42 to 0.48)
-      // Text fades out (0.48 to 0.55) - must be invisible before sticky runs out of space
+      // Text stays visible (0.42 to 0.58) - extended duration
+      // Text fades out (0.58 to 0.65) - delayed to keep text visible longer
       let textOpacity = 0;
       if (clampedProgress < 0.35) {
         textOpacity = 0;
       } else if (clampedProgress >= 0.35 && clampedProgress < 0.42) {
         // Fade in - starts later to avoid overlap with previous section
         textOpacity = (clampedProgress - 0.35) / 0.07;
-      } else if (clampedProgress >= 0.42 && clampedProgress < 0.48) {
-        // Fully visible
+      } else if (clampedProgress >= 0.42 && clampedProgress < 0.58) {
+        // Fully visible - extended range so text stays longer
         textOpacity = 1;
-      } else if (clampedProgress >= 0.48 && clampedProgress < 0.55) {
-        // Fade out - invisible before container forces upward movement
-        textOpacity = 1 - ((clampedProgress - 0.48) / 0.07);
+      } else if (clampedProgress >= 0.58 && clampedProgress < 0.65) {
+        // Fade out - delayed so text fades out later in the scroll
+        textOpacity = 1 - ((clampedProgress - 0.58) / 0.07);
       } else {
         textOpacity = 0;
       }
 
       image.style.opacity = imageOpacity.toString();
       textWrapper.style.opacity = textOpacity.toString();
-
-      // Debug: Log when text is visible
-      if (textOpacity > 0 || imageOpacity > 0) {
-        console.log(`[SCROLL DEBUG] Section visible - Image: ${imageOpacity.toFixed(2)}, Text: ${textOpacity.toFixed(2)}, Progress: ${clampedProgress.toFixed(2)}`);
-      }
     });
   }
 

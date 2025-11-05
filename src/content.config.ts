@@ -89,6 +89,7 @@ const homepageCollection = defineCollection({
       z.object({
         title: z.string(),
         image: z.string(),
+        image_dark: z.string().optional(),
         image_side: z.enum(["left", "right"]).default("right"),
         content: z.string(),
         bulletpoints: z.array(z.string()),
