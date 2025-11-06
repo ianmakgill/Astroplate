@@ -1,0 +1,40 @@
+---
+import { markdownify } from "@/lib/utils/textConverter";
+
+interface Props {
+  leftContent: string;
+  rightContent: string;
+  className?: string;
+  boxed?: boolean;
+}
+
+const {
+  leftContent,
+  rightContent,
+  className = "",
+  boxed = true,
+} = Astro.props;
+---
+
+<div class:list={["container", className]}>
+  <div class="row">
+    <div class="md:col-6">
+      <div
+        set:html={markdownify(leftContent)}
+        class:list={[
+          "prose max-w-none",
+          { "rounded-lg border border-border bg-light p-8 dark:border-darkmode-border dark:bg-darkmode-light": boxed }
+        ]}
+      />
+    </div>
+    <div class="md:col-6">
+      <div
+        set:html={markdownify(rightContent)}
+        class:list={[
+          "prose max-w-none",
+          { "rounded-lg border border-border bg-light p-8 dark:border-darkmode-border dark:bg-darkmode-light": boxed }
+        ]}
+      />
+    </div>
+  </div>
+</div>

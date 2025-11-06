@@ -14,9 +14,6 @@ const { footer }: { footer: { name: string; links: { name: string; url: string }
     <div class="row py-10">
       <div class="mb-8 lg:col-3 lg:mb-0">
         <Logo />
-        <div class="mt-4">
-          <Social source={social.main} className="social-icons" />
-        </div>
       </div>
       <div class="lg:col-9">
         <div class="row">
@@ -36,6 +33,11 @@ const { footer }: { footer: { name: string; links: { name: string; url: string }
                     </li>
                   ))}
                 </ul>
+                {section.name === "Company" && (
+                  <div class="mt-4">
+                    <Social source={social.main} className="social-icons" />
+                  </div>
+                )}
               </div>
             ))
           }
