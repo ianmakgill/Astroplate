@@ -7,6 +7,24 @@ import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
 import { plainify } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
+import FeaturePanelWithChart from "@/layouts/shortcodes/FeaturePanelWithChart.astro";
+import D3Chart from "@/layouts/shortcodes/D3Chart.astro";
+
+// Map research items to their corresponding charts
+const chartMapping: Record<string, { chartId: string; scriptSrc: string }> = {
+  "global-medical-healthcare-supply-chain-analysis-2025": {
+    chartId: "health-market-value-trends",
+    scriptSrc: "/scripts/health-market-value-trends-chart.js",
+  },
+  "defence-and-security-procurement-trends-global-analysis-2025": {
+    chartId: "defence-market-value-volume-annualy-2022-2024",
+    scriptSrc: "/scripts/defence-market-value-trends-chart.js",
+  },
+  "digital-tech-procurement-trends-global-analysis-2025": {
+    chartId: "heatmap-software-categories",
+    scriptSrc: "/scripts/software-demand-heatmap-chart.js",
+  },
+};
 
 const COLLECTION_FOLDER = "research";
 const { summary_length }: { summary_length: number } = config.settings;
@@ -32,30 +50,29 @@ const currentItems = sortedItems.slice(0, config.settings.pagination);
     currentItems.map((item, index) => {
       const { title, image, description } = item.data;
       const imageSide = index % 2 === 0 ? "right" : "left";
+      const chart = chartMapping[item.id];
 
       return (
         <section class="section">
           <div class="container">
             <div class="row items-center justify-between">
-              {image && (
+              {chart && (
                 <div
                   class:list={[
                     "mb-6 md:col-6 lg:col-5 md:mb-0",
                     { "md:order-2": imageSide === "right" },
                   ]}
                 >
-                  <ImageMod
-                    src={image}
+                  <D3Chart
+                    id={chart.chartId}
                     height={480}
-                    width={520}
-                    alt={title}
-                    format="webp"
                   />
+                  <script is:inline src={chart.scriptSrc}></script>
                 </div>
               )}
               <div
                 class:list={[
-                  image ? "md:col-6 lg:col-5" : "md:col-12",
+                  chart ? "md:col-6 lg:col-5" : "md:col-12",
                   { "md:order-1": imageSide === "right" },
                 ]}
               >
@@ -65,9 +82,6 @@ const currentItems = sortedItems.slice(0, config.settings.pagination);
                 {description && (
                   <p class="mb-6 text-lg">{description}</p>
                 )}
-                <p class="mb-6">
-                  {plainify(item.body?.slice(0, Number(summary_length)))}
-                </p>
                 <a
                   class="btn btn-outline-primary"
                   href={`/${COLLECTION_FOLDER}/${item.id}`}

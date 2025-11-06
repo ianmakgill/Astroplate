@@ -5,6 +5,8 @@ description: "Open Opportunities: your partner for strategic and tactical sales"
 draft: false
 ---
 
+import FeaturePanelWithChart from "@/layouts/shortcodes/FeaturePanelWithChart.astro";
+
 # Open Opportunities: Your Partner for Strategic and Tactical Sales
 
 We publish over 3 million contracting opportunities every year, but publishing data isn't our job. Our real job is to help our customers find and win the right opportunities for their business. After 20 years of working on contracting opportunities, we've found that firms that use our data to build a sales strategy and repeatable process to support that strategy win more contracts than those who just use our data as a tactical, reactive tool.
@@ -63,7 +65,20 @@ The first step to winning more contracts is understanding where they come from. 
 
 That's not all. With our data downloads and reporting tools it is possible to understand global and regional procurement patterns: Are there more opportunities? Are the average value of contracts falling or growing? Are contracts longer or shorter? With real-time searching, your team can know more than ever before about each individual market, or the global market, giving the ability to set out a compelling sales strategy.
 
-**Chart:** Average contract length by healthcare category (data visualization showing contract durations ranging from 9 months for Clinical forensics equipment to 33 months for Anaesthesia and resuscitation, including categories like Medical consumables, Eye care products, Various medicinal products, and more).
+<FeaturePanelWithChart
+  title="Understanding Contract Patterns"
+  content="This chart shows the average contract length across different healthcare categories, revealing key insights into procurement cycles and buyer commitment levels. Understanding these patterns helps you plan your approach and allocate resources effectively."
+  chartId="health-contract-durations"
+  scriptSrc="/scripts/health-contract-durations-chart.js"
+  chartHeight="500px"
+  imageSide="left"
+  bulletpoints={[
+    "Visual analysis of contract durations by category",
+    "Identify categories with longer-term commitments",
+    "Plan your bidding strategy based on renewal cycles",
+    "Understand market dynamics across product types"
+  ]}
+/>
 
 ### Building Your Target List
 

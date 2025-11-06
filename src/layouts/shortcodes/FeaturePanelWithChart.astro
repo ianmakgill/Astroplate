@@ -1,0 +1,76 @@
+---
+import D3Chart from "@/layouts/shortcodes/D3Chart.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { FaCheck } from "react-icons/fa";
+
+interface Props {
+  title: string;
+  content: string;
+  chartId: string;
+  scriptSrc: string;
+  chartHeight?: string;
+  imageSide?: "left" | "right";
+  bulletpoints?: string[];
+  buttonLabel?: string;
+  buttonLink?: string;
+}
+
+const {
+  title,
+  content,
+  chartId,
+  scriptSrc,
+  chartHeight = "480px",
+  imageSide = "right",
+  bulletpoints = [],
+  buttonLabel,
+  buttonLink,
+} = Astro.props;
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row items-center justify-between">
+      <div
+        class:list={[
+          "mb-6 md:col-6 lg:col-5 md:mb-0",
+          { "md:order-2": imageSide === "right" },
+        ]}
+      >
+        <D3Chart
+          chartId={chartId}
+          scriptSrc={scriptSrc}
+          height={chartHeight}
+        />
+      </div>
+      <div
+        class:list={[
+          "md:col-6 lg:col-5",
+          { "md:order-1": imageSide === "right" },
+        ]}
+      >
+        <h2 set:html={markdownify(title)} class="mb-4" />
+        <p set:html={markdownify(content)} class="mb-8 text-lg" />
+        {
+          bulletpoints.length > 0 && (
+            <ul class="space-y-3">
+              {bulletpoints.map((bullet: string) => (
+                <li class="flex items-start">
+                  <FaCheck className="mr-3 mt-1 text-primary dark:text-darkmode-primary flex-shrink-0" />
+                  <span set:html={markdownify(bullet)} />
+                </li>
+              ))}
+            </ul>
+          )
+        }
+        {
+          buttonLabel && buttonLink && (
+            <a href={buttonLink} class="btn btn-primary mt-6">
+              {buttonLabel}
+            </a>
+          )
+        }
+      </div>
+    </div>
+  </div>
+</section>
