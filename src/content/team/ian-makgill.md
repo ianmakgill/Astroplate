@@ -7,7 +7,7 @@ description: >-
 draft: false
 job_title: Founder
 linkedin_url: https://www.linkedin.com/in/ianmakgill/
-image: media/public/images/Ian_photo.jpg
+image: /images/Ian_photo.jpg
 ---
 what happens when I type in here:
 

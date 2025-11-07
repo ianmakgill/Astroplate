@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { data } = Astro.props;
-const { title, image, job_title, linkedin_url } = data;
+const { title, image, job_title, linkedin_url, description } = data;
 ---
 
 <div class="team-member-profile">
@@ -41,7 +41,7 @@ const { title, image, job_title, linkedin_url } = data;
               )}
 
               {linkedin_url && (
-                <div class="flex justify-center md:justify-start">
+                <div class="mb-6 flex justify-center md:justify-start">
                   <a
                     href={linkedin_url}
                     target="_blank"
@@ -53,12 +53,18 @@ const { title, image, job_title, linkedin_url } = data;
                   </a>
                 </div>
               )}
+
+              {description && (
+                <p class="mb-6 text-lg text-text dark:text-darkmode-text">
+                  {description}
+                </p>
+              )}
+
+              <article class="content prose prose-lg max-w-none dark:prose-invert">
+                <slot />
+              </article>
             </div>
           </div>
-
-          <article class="content prose prose-lg max-w-none dark:prose-invert">
-            <slot />
-          </article>
         </div>
       </div>
     </div>
