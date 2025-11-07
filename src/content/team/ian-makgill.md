@@ -7,5 +7,23 @@ description: >-
 draft: false
 job_title: Founder
 linkedin_url: https://www.linkedin.com/in/ianmakgill/
-image: /images/Ian_photo.jpg
+image: media/public/images/Ian_photo.jpg
 ---
+what happens when I type in here:
+
+### Color Palette
+
+* Skin Tones: In B\&W, skin becomes just texture and tone. In color, you’ll want natural but slightly desaturated skin so it feels editorial, not glossy beauty. 
+* Background: Keep the neutral grey backdrop, but with a cool or slightly desaturated hue (steel grey, muted charcoal). This prevents color clash and keeps focus on the face. 
+* Wardrobe: Since the shirt is dark, it should remain almost-black but with a subtle tint (navy, deep charcoal, or near-black green). 
+
+***
+
+### 3. Contrast & Saturation
+
+* Contrast: Lower it a notch compared to B\&W, so you preserve color detail in shadows and highlights. 
+* Saturation: Avoid high saturation. Use a muted palette (like fashion/editorial photography). Think subtle, cinematic tones rather than vibrant. 
+
+***
+
+### 4. Lighting Adjustments
