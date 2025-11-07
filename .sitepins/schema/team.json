@@ -26,6 +26,27 @@
       "defaultValue": ""
     },
     {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "job_title",
+      "label": "Job Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "linkedin_url",
+      "label": "LinkedIn URL",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
       "name": "draft",
       "label": "Draft",
       "type": "boolean",
