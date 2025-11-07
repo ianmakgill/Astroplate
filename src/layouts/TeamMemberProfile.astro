@@ -1,0 +1,66 @@
+---
+import ImageMod from "@/layouts/components/ImageMod.astro";
+import { FaLinkedin } from "react-icons/fa";
+
+interface Props {
+  data: any;
+}
+
+const { data } = Astro.props;
+const { title, image, job_title, linkedin_url } = data;
+---
+
+<div class="team-member-profile">
+  <section class="section-sm pt-14">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="mb-8 flex flex-col md:flex-row gap-8 items-center md:items-start">
+            {image && (
+              <div class="flex-shrink-0">
+                <div class="w-64 h-64 overflow-hidden rounded-lg">
+                  <ImageMod
+                    class="w-full h-full object-cover"
+                    src={image}
+                    alt={title}
+                    width={256}
+                    height={256}
+                    format="webp"
+                  />
+                </div>
+              </div>
+            )}
+
+            <div class="flex-1 text-center md:text-left">
+              <h1 class="mb-3">{title}</h1>
+
+              {job_title && (
+                <p class="mb-4 text-2xl font-semibold text-primary dark:text-darkmode-primary">
+                  {job_title}
+                </p>
+              )}
+
+              {linkedin_url && (
+                <div class="flex justify-center md:justify-start">
+                  <a
+                    href={linkedin_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-primary text-white hover:bg-primary/90 dark:bg-darkmode-primary"
+                  >
+                    <FaLinkedin className="h-5 w-5" />
+                    <span>Connect on LinkedIn</span>
+                  </a>
+                </div>
+              )}
+            </div>
+          </div>
+
+          <article class="content prose prose-lg max-w-none dark:prose-invert">
+            <slot />
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

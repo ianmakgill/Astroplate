@@ -1,5 +1,5 @@
 ---
-import ContentCard from "@/layouts/components/ContentCard.astro";
+import TeamCard from "@/layouts/components/TeamCard.astro";
 import Pagination from "@/components/Pagination.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
@@ -28,11 +28,11 @@ const currentItems = sortedItems.slice(0, config.settings.pagination);
   <PageHeader title={collectionIndex?.data.title} />
   <section class="section">
     <div class="container">
-      <div class="row">
+      <div class="row justify-center">
         {
           currentItems.map((item) => (
             <div class="mb-14 md:col-6 lg:col-4">
-              <ContentCard data={item} collection={COLLECTION_FOLDER} />
+              <TeamCard data={item} collection={COLLECTION_FOLDER} />
             </div>
           ))
         }

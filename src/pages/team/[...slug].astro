@@ -1,6 +1,6 @@
 ---
 import Base from "@/layouts/Base.astro";
-import LandingPage from "@/layouts/LandingPage.astro";
+import TeamMemberProfile from "@/layouts/TeamMemberProfile.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { render } from "astro:content";
 
@@ -30,7 +30,7 @@ const { Content } = await render(page);
   description={description}
   image={image}
 >
-  <LandingPage data={page.data}>
+  <TeamMemberProfile data={page.data}>
     <Content />
-  </LandingPage>
+  </TeamMemberProfile>
 </Base>
