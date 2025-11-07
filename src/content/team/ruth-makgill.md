@@ -7,4 +7,8 @@ job_title: Chief Executive Officer
 linkedin_url: https://www.linkedin.com/in/ruth-makgill
 draft: false
 ---
-Ruth is ace
+Ruth is a very special lady.
+
+She is a lady with a special place in my heart.
+
+She is lady.
