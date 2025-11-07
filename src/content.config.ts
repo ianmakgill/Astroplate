@@ -215,6 +215,8 @@ const teamCollection = defineCollection({
     meta_title: z.string().optional(),
     description: z.string().optional(),
     image: z.string().optional(),
+    job_title: z.string().optional(),
+    linkedin_url: z.string().optional(),
     draft: z.boolean().optional(),
   }),
 });
